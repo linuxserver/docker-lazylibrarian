@@ -1,4 +1,4 @@
 #!/usr/bin/with-contenv bash
 
 exec \
-	s6-setuidgid abc python /app/lazylibrarian/LazyLibrarian.py -d \
+	s6-setuidgid abc python /app/lazylibrarian/LazyLibrarian.py --datadir \config --nolaunch \
