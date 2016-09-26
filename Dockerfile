@@ -6,4 +6,4 @@ COPY root/ /
 
 # ports and volumes
 VOLUME /config /logs
-EXPOSE 5259
+EXPOSE 5299
