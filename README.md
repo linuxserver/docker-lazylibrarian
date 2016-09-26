@@ -25,13 +25,13 @@ docker create \
   -v <path to data>:/config \
   -e PGID=<gid> -e PUID=<uid>  \
   -e TZ=<timezone> \
-  -p 5259:5259 \
+  -p 5299:5299 \
   linuxserver/lazylibrarian
 ```
 
 **Parameters**
 
-* `-p 5259` - Port for webui
+* `-p 5299` - Port for webui
 * `-v /config` Containers lazylibrarian config and database
 * `-e PGID` for GroupID - see below for explanation
 * `-e PUID` for UserID - see below for explanation
