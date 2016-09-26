@@ -37,7 +37,7 @@ docker create \
 * `-e PUID` for UserID - see below for explanation
 * `-e TZ` for setting timezone information, eg Europe/London
 
-It is based on alpine linux with s6 overlay, for shell access whilst the container is running do `docker exec -it plexpy /bin/bash`.
+It is based on alpine linux with s6 overlay, for shell access whilst the container is running do `docker exec -it lazylibrarian /bin/bash`.
 
 ### User / Group Identifiers
 
@@ -51,7 +51,7 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
 ```
 
 ## Setting up the application
-Access the webui at `<your-ip>:5259/home`, for more information check out [LazyLibrarian](https://github.com/DobyTang/LazyLibrarian)..
+Access the webui at `<your-ip>:5299/home`, for more information check out [LazyLibrarian](https://github.com/DobyTang/LazyLibrarian)..
 
 ## Info
 
