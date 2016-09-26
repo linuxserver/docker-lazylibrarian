@@ -12,13 +12,10 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 # linuxserver/lazylibrarian
 
-[![](https://images.microbadger.com/badges/image/linuxserver/plexpy.svg)](http://microbadger.com/images/linuxserver/plexpy "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/plexpy.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/linuxserver/plexpy.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io/linuxserver-plexpy)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io/job/linuxserver-plexpy/)
-[hub]: https://hub.docker.com/r/linuxserver/plexpy/
+[hub]: https://hub.docker.com/r/linuxserver/lazylibrarian/
 
 [LazyLibrarian](https://github.com/DobyTang/LazyLibrarian) LazyLibrarian is a program to follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads Librarything and optionally GoogleBooks as sources for author info and book info.
 
-[![plexpy](https://15254b2dcaab7f5478ab-24461f391e20b7336331d5789078af53.ssl.cf1.rackcdn.com/plex.vanillacommunity.com/editor/nt/f3vfwj7miknj.png)][plexpyurl]
-[lazylibrarian]: https://github.com/DobyTang/LazyLibrarian/
 
 ## Usage
 
