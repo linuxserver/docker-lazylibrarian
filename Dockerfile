@@ -5,5 +5,5 @@ MAINTAINER chbmb
 COPY root/ /
 
 # ports and volumes
-VOLUME /config
 EXPOSE 5299
+VOLUME /config
