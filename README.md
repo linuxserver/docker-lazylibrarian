@@ -12,6 +12,8 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 # linuxserver/lazylibrarian
 
+![https://github.com/DobyTang/LazyLibrarian](docker-templates/linuxserver.io/img/lazylibrarian-icon.png)
+
 [hub]: https://hub.docker.com/r/linuxserver/lazylibrarian/
 
 [LazyLibrarian](https://github.com/DobyTang/LazyLibrarian) LazyLibrarian is a program to follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads Librarything and optionally GoogleBooks as sources for author info and book info.
