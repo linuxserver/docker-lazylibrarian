@@ -11,20 +11,20 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 * [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 # linuxserver/lazylibrarian
-
-[![lazylibrarian](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lazylibrarian-icon.png)][lazylibrarianurl]
-[lazylibrarianurl]: https://github.com/DobyTang/LazyLibrarian
-
+[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/lazylibrarian.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/linuxserver/lazylibrarian.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io/linuxserver-lazylibrarian)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io/job/linuxserver-lazylibrarian/)
 [hub]: https://hub.docker.com/r/linuxserver/lazylibrarian/
 
-LazyLibrarian is a program to follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads Librarything and optionally GoogleBooks as sources for author info and book info.
 
+[LazyLibrarian][lazyurl] is a program to follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads Librarything and optionally GoogleBooks as sources for author info and book info.
+
+[![lazylibrarian](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lazylibrarian-icon.png)][lazyurl]
+[lazyurl]: https://github.com/DobyTang/LazyLibrarian
 
 ## Usage
 
 ```
 docker create \
-  --name=lazylibrarian \
+  --name=plexpy \
   -v <path to data>:/config \
   -e PGID=<gid> -e PUID=<uid>  \
   -e TZ=<timezone> \
@@ -54,7 +54,7 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
 ```
 
 ## Setting up the application
-Access the webui at `<your-ip>:5299/home`, for more information check out [LazyLibrarian](https://github.com/DobyTang/LazyLibrarian)..
+Access the webui at `<your-ip>:5299/home`, for more information check out [LazyLibrarian][lazyurl]..
 
 ## Info
 
@@ -62,4 +62,4 @@ Access the webui at `<your-ip>:5299/home`, for more information check out [LazyL
 
 ## Versions
 
-+ **16.09.26:** Inital Release.
++ **28.09.16:** Inital Release.
