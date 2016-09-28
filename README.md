@@ -24,7 +24,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 ```
 docker create \
-  --name=plexpy \
+  --name=lazylibrarian \
   -v <path to data>:/config \
   -e PGID=<gid> -e PUID=<uid>  \
   -e TZ=<timezone> \
