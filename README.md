@@ -13,7 +13,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 # linuxserver/lazylibrarian
 
 [![lazylibrarian](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lazylibrarian-icon.png)][lazylibrarianurl]
-[lazylibrarianurl]: http://blog.slucas.fr/en/oss/calibre-opds-php-server
+[lazylibrarianurl]: https://github.com/DobyTang/LazyLibrarian
 
 [hub]: https://hub.docker.com/r/linuxserver/lazylibrarian/
 
