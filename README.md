@@ -26,6 +26,8 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 docker create \
   --name=lazylibrarian \
   -v <path to data>:/config \
+  -v <path to data>:/downloads \
+  -v <path to data>:/books \
   -e PGID=<gid> -e PUID=<uid>  \
   -e TZ=<timezone> \
   -p 5299:5299 \
@@ -36,6 +38,8 @@ docker create \
 
 * `-p 5299` - Port for webui
 * `-v /config` Containers lazylibrarian config and database
+* `-v /downloads` lazylibrarian download folder
+* `-v /books` location of ebook library
 * `-e PGID` for GroupID - see below for explanation
 * `-e PUID` for UserID - see below for explanation
 * `-e TZ` for setting timezone information, eg Europe/London
