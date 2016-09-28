@@ -12,7 +12,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 # linuxserver/lazylibrarian
 
-![https://github.com/DobyTang/LazyLibrarian](docker-templates/linuxserver.io/img/lazylibrarian-icon.png)
+![https://github.com/DobyTang/LazyLibrarian](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lazylibrarian-icon.png)
 
 [hub]: https://hub.docker.com/r/linuxserver/lazylibrarian/
 
