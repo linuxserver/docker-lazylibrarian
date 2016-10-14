@@ -11,7 +11,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 * [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 # linuxserver/lazylibrarian
-[![](https://images.microbadger.com/badges/image/linuxserver/lazylibrarian.svg)](https://microbadger.com/images/linuxserver/lazylibrarian "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/lazylibrarian.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/linuxserver/lazylibrarian.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io/linuxserver-lazylibrarian)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io/job/linuxserver-lazylibrarian/)
+[![](https://images.microbadger.com/badges/version/linuxserver/lazylibrarian.svg)](https://microbadger.com/images/linuxserver/lazylibrarian "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/linuxserver/lazylibrarian.svg)](https://microbadger.com/images/linuxserver/lazylibrarian "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/lazylibrarian.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/linuxserver/lazylibrarian.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io/linuxserver-lazylibrarian)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io/job/linuxserver-lazylibrarian/)
 [hub]: https://hub.docker.com/r/linuxserver/lazylibrarian/
 
 
@@ -64,7 +64,16 @@ Access the webui at `<your-ip>:5299/home`, for more information check out [LazyL
 
 * To monitor the logs of the container in realtime `docker logs -f lazylibrarian`.
 
+* container version number 
+
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' lazylibrarian`
+
+* image version number
+
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' linuxserver/lazylibrarian`
+
 ## Versions
 
++ **14-10-16:** Add version layer information.
 + **03.10.16:** Fix non-persistent settings and make log folder.
 + **28.09.16:** Inital Release.
