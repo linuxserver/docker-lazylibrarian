@@ -80,6 +80,7 @@ Access the webui at `<your-ip>:5299/home`, for more information check out [LazyL
 
 ## Versions
 
++ **11.01.17:** Add ImageMagick and wand packages, allow covers to be converted etc.
 + **14.10.16:** Add version layer information.
 + **03.10.16:** Fix non-persistent settings and make log folder.
 + **28.09.16:** Inital Release.
