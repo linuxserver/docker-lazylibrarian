@@ -9,13 +9,7 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 # install packages
 RUN \
  apk add --no-cache \
-	imagemagick && \
- pip install -U \
-	wand && \
-
-# cleanup
- rm -rf \
-	/root/.cache
+	ghostscript
 
 # add local files
 COPY root/ /
