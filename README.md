@@ -80,6 +80,7 @@ Access the webui at `<your-ip>:5299/home`, for more information check out [LazyL
 
 ## Versions
 
++ **30.01.17:** Compile libunrar.so to allow reading of .cbr format files.
 + **12.01.17:** Add ghostscript package, allows magazine covers to be created etc.
 + **14.10.16:** Add version layer information.
 + **03.10.16:** Fix non-persistent settings and make log folder.
