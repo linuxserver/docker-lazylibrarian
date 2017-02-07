@@ -1,4 +1,4 @@
-FROM lsiobase/alpine.python
+FROM lsiobase/alpine.python:3.5
 MAINTAINER chbmb
 
 # set version label
