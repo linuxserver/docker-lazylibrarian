@@ -80,6 +80,7 @@ Access the webui at `<your-ip>:5299/home`, for more information check out [LazyL
 
 ## Versions
 
++ **25.05.17:** Rebase to alpine 3.6.
 + **07.02.17:** Rebase to alpine 3.5.
 + **30.01.17:** Compile libunrar.so to allow reading of .cbr format files.
 + **12.01.17:** Add ghostscript package, allows magazine covers to be created etc.
