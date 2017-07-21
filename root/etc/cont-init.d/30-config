@@ -9,7 +9,6 @@ mkdir -p \
 	cp /defaults/config.ini /config/config.ini
 
 # permissions
-chown abc:abc \
-	/config/config.ini
 chown abc:abc -R \
-	/config/log
+	/config \
+	/app

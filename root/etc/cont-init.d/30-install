@@ -1,9 +1,0 @@
-#!/usr/bin/with-contenv bash
-
-# install app
-	[[ ! -d /app/lazylibrarian/.git ]] && \
-		git clone https://github.com/dobytang/lazylibrarian.git /app/lazylibrarian
-
-# permissions
-chown -R abc:abc \
-	/app/lazylibrarian
