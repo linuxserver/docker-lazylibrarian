@@ -79,6 +79,7 @@ Access the webui at `<your-ip>:5299/home`, for more information check out [LazyL
 
 ## Versions
 
++ **21.07.17:** Internal git pull instead of at runtime.
 + **25.05.17:** Rebase to alpine 3.6.
 + **07.02.17:** Rebase to alpine 3.5.
 + **30.01.17:** Compile libunrar.so to allow reading of .cbr format files.
