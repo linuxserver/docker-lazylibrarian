@@ -26,21 +26,8 @@ RUN \
  /tmp/unrar-src.tar.gz -C \
 	/tmp/unrar --strip-components=1 && \
  cd /tmp/unrar && \
- echo "**** attempt to set number of cores available for make to use ****" && \
- set -ex && \
- CPU_CORES=$( < /proc/cpuinfo grep -c processor ) || echo "failed cpu look up" && \
- if echo $CPU_CORES | grep -E  -q '^[0-9]+$'; then \
-	: ;\
- if [ "$CPU_CORES" -gt 7 ]; then \
-	CPU_CORES=$(( CPU_CORES  - 3 )); \
- elif [ "$CPU_CORES" -gt 5 ]; then \
-	CPU_CORES=$(( CPU_CORES  - 2 )); \
- elif [ "$CPU_CORES" -gt 3 ]; then \
-	CPU_CORES=$(( CPU_CORES  - 1 )); fi \
- else CPU_CORES="1"; fi && \
- make -j $CPU_CORES lib && \
- make -j $CPU_CORES install-lib && \
- set +ex && \
+ make lib && \
+ make install-lib && \
  echo "**** install app ****" && \
  git clone --depth 1 https://github.com/dobytang/lazylibrarian.git /app/lazylibrarian && \
  echo "**** cleanup ****" && \
