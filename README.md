@@ -79,6 +79,7 @@ Access the webui at `<your-ip>:5299/home`, for more information check out [LazyL
 
 ## Versions
 
++ **16.08.18:** Rebase to alpine 3.8.
 + **05.01.18:** Deprecate cpu_core routine lack of scaling.
 + **12.12.17:** Rebase to alpine 3.7.
 + **21.07.17:** Internal git pull instead of at runtime.
