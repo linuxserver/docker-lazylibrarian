@@ -34,11 +34,12 @@ RUN \
 	/app/lazylibrarian && \
  if [ -z ${LAZYLIBRARIAN_RELEASE+x} ]; then \
  	LAZYLIBRARIAN_RELEASE=$(curl -sX GET "https://gitlab.com/api/v4/projects/9317860/repository/tags" \
-        | jq -r '.[0] | .name') \
+    	| awk '/name/{print $4;exit}' FS='[""]'); \
  fi && \
+ echo ${LAZYLIBRARIAN_RELEASE} && \
  curl -o \
  /tmp/lazylibrarian.tar.gz -L \
-	"https://gitlab.com/LazyLibrarian/LazyLibrarian/repository/archive.tar.gz?ref=v${$LAZYLIBRARIAN_RELEASE}" && \
+	"https://gitlab.com/LazyLibrarian/LazyLibrarian/repository/archive.tar.gz?ref={$LAZYLIBRARIAN_RELEASE}" && \
  tar xf \
  /tmp/lazylibrarian.tar.gz -C \
 	/app/lazylibrarian --strip-components=1 && \
