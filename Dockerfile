@@ -3,6 +3,7 @@ FROM lsiobase/alpine.python:3.8
 # set version label
 ARG BUILD_DATE
 ARG VERSION
+ARG LAZYLIBRARIAN_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="chbmb"
 
@@ -29,7 +30,18 @@ RUN \
  make lib && \
  make install-lib && \
  echo "**** install app ****" && \
- git clone --depth 1 https://github.com/dobytang/lazylibrarian.git /app/lazylibrarian && \
+ mkdir -p \
+	/app/lazylibrarian && \
+ if [ -z ${LAZYLIBRARIAN_RELEASE+x} ]; then \
+ 	LAZYLIBRARIAN_RELEASE=$(curl -sX GET "https://gitlab.com/api/v4/projects/9317860/repository/tags" \
+        | jq -r '.[0] | .name' \
+ fi && \
+ curl -o \
+ /tmp/lazylibrarian.tar.gz -L \
+	"https://gitlab.com/LazyLibrarian/LazyLibrarian/repository/archive.tar.gz?ref=v${$LAZYLIBRARIAN_RELEASE}" && \
+ tar xf \
+ /tmp/lazylibrarian.tar.gz -C \
+	/app/lazylibrarian --strip-components=1 && \
  echo "**** cleanup ****" && \
  apk del --purge \
 	build-dependencies && \
