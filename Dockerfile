@@ -34,7 +34,7 @@ RUN \
 	/app/lazylibrarian && \
  if [ -z ${LAZYLIBRARIAN_RELEASE+x} ]; then \
  	LAZYLIBRARIAN_RELEASE=$(curl -sX GET "https://gitlab.com/api/v4/projects/9317860/repository/tags" \
-        | jq -r '.[0] | .name' \
+        | jq -r '.[0] | .name') \
  fi && \
  curl -o \
  /tmp/lazylibrarian.tar.gz -L \
