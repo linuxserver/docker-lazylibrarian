@@ -29,7 +29,7 @@ RUN \
  make lib && \
  make install-lib && \
  echo "**** install app ****" && \
- git clone --depth 1 https://github.com/dobytang/lazylibrarian.git /app/lazylibrarian && \
+ git clone --depth 1 https://gitlab.com/LazyLibrarian/LazyLibrarian.git /app/lazylibrarian && \
  echo "**** cleanup ****" && \
  apk del --purge \
 	build-dependencies && \
