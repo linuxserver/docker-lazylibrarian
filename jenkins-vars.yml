@@ -1,0 +1,29 @@
+---
+ # jenkins variables
+project_name: docker-lazylibrarian
+external_type: gitlab_commit
+release_type: stable
+release_tag: latest
+ls_branch: master
+repo_vars:
+  - EXT_GIT_BRANCH = 'master'
+  - EXT_GITLAB_USER = 'LazyLibrarian'
+  - EXT_GITLAB_ID = '9317860'
+  - EXT_GITLAB_PROJ = 'LazyLibrarian'
+  - BUILD_VERSION_ARG = 'LAZYLIBRARIAN_COMMIT'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-lazylibrarian'
+  - CONTAINER_NAME='lazylibrarian'
+  - DOCKERHUB_IMAGE = 'linuxserver/lazylibrarian'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/lazylibrarian'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/lazylibrarian'
+  - DIST_IMAGE = 'alpine'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='true'
+  - CI_PORT='5299'
+  - CI_SSL='false'
+  - CI_DELAY='120'
+  - CI_DOCKERENV='TZ=US/Pacific'
+  - CI_AUTH='user:password'
+  - CI_WEBPATH=''
