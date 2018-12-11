@@ -37,6 +37,7 @@ RUN \
     	| awk '/id/{print $4;exit}' FS='[""]'); \
  fi && \
  echo "Building from commit ${LAZYLIBRARIAN_COMMIT}" && \
+ echo "${LAZYLIBRARIAN_COMMIT}" > /defaults/version.txt && \
  curl -o \
  /tmp/lazylibrarian.tar.gz -L \
 	"https://gitlab.com/LazyLibrarian/LazyLibrarian/repository/archive.tar.gz?sha={$LAZYLIBRARIAN_COMMIT}" && \
