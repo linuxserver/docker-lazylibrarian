@@ -35,7 +35,7 @@ docker create \
 
 ## Parameters
 
-`The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side. 
+`The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side.
 For example with a port -p external:internal - what this shows is the port mapping from internal to external of the container.
 So -p 8080:80 would expose port 80 from inside the container to be accessible from the host's IP on port 8080
 http://192.168.x.x:8080 would show you what's running INSIDE the container on port 80.`
@@ -69,7 +69,7 @@ Access the webui at `<your-ip>:5299/home`, for more information check out [LazyL
 
 * To monitor the logs of the container in realtime `docker logs -f lazylibrarian`.
 
-* container version number 
+* container version number
 
 `docker inspect -f '{{ index .Config.Labels "build_version" }}' lazylibrarian`
 
@@ -79,6 +79,7 @@ Access the webui at `<your-ip>:5299/home`, for more information check out [LazyL
 
 ## Versions
 
++ **10.12.18:** Moved to Pipeline Building
 + **16.08.18:** Rebase to alpine 3.8.
 + **05.01.18:** Deprecate cpu_core routine lack of scaling.
 + **12.12.17:** Rebase to alpine 3.7.
