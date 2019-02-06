@@ -75,4 +75,4 @@ gnutls gnutls-3.6.2-r0
 cups-libs cups-libs-2.2.10-r0
 fontconfig fontconfig-2.12.6-r1
 jbig2dec jbig2dec-0.14-r0
-ghostscript ghostscript-9.26-r0
+ghostscript ghostscript-9.26-r1
