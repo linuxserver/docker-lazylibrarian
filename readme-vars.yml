@@ -32,6 +32,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "22.02.19:", desc: "Rebasing to alpine 3.9." }
   - { date: "10.12.18:", desc: "Moved to Pipeline Building" }
   - { date: "16.08.18:", desc: "Rebase to alpine 3.8" }
   - { date: "05.01.18:", desc: "Deprecate cpu_core routine lack of scaling" }
