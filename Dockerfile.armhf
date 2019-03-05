@@ -17,7 +17,7 @@ RUN \
 	gcc \
 	make && \
  echo "**** install runtime packages ****" && \
- apk add --no-cache \
+ apk add --no-cache --upgrade \
 	ghostscript && \
  echo "***** build unrarlib ****" && \
  rar_ver=$(apk info unrar | grep unrar- | cut -d "-" -f2 | head -1) && \
@@ -32,6 +32,9 @@ RUN \
  cd /tmp/unrar && \
  make lib && \
  make install-lib && \
+ echo "**** install pip packages ****" && \
+ pip install --no-cache-dir -U \
+ 	apprise && \
  echo "**** install app ****" && \
  mkdir -p \
 	/app/lazylibrarian && \
