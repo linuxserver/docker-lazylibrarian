@@ -164,6 +164,7 @@ Below are the instructions for updating containers:
 
 ## Versions
 
+* **05.03.19:** - Added apprise python package.
 * **22.02.19:** - Rebasing to alpine 3.9.
 * **10.12.18:** - Moved to Pipeline Building
 * **16.08.18:** - Rebase to alpine 3.8
