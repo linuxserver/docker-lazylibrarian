@@ -14,7 +14,7 @@ expat-2.2.6-r0
 fontconfig-2.13.1-r0
 freetype-2.9.1-r2
 gdbm-1.13-r1
-ghostscript-9.26-r1
+ghostscript-9.26-r2
 git-2.20.1-r0
 gmp-6.1.2-r1
 gnutls-3.6.4-r0
