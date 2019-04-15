@@ -17,7 +17,7 @@ gdbm-1.13-r1
 ghostscript-9.26-r2
 git-2.20.1-r0
 gmp-6.1.2-r1
-gnutls-3.6.4-r0
+gnutls-3.6.7-r0
 jbig2dec-0.15-r0
 lcms2-2.9-r1
 libacl-2.2.52-r5
@@ -27,7 +27,7 @@ libc-utils-0.7.1-r0
 libcrypto1.1-1.1.1b-r1
 libcurl-7.64.0-r1
 libffi-3.2.1-r6
-libgcc-8.2.0-r2
+libgcc-8.3.0-r0
 libgcrypt-1.8.4-r0
 libgd-2.2.5-r3
 libgpg-error-1.33-r0
