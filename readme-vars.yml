@@ -37,7 +37,9 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "23.06.19:", desc: "Rebase to Ubuntu Bionic, enables Calibre docker mod." }
+
+  - { date: "09.07.19:", desc: "Rebase to Ubuntu Bionic, enables Calibre docker mod." }
+  - { date: "28.06.19:", desc: "Rebasing to alpine 3.10." }
   - { date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
   - { date: "05.03.19:", desc: "Added apprise python package." }
   - { date: "22.02.19:", desc: "Rebasing to alpine 3.9." }

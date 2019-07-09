@@ -167,6 +167,9 @@ Below are the instructions for updating containers:
   containrrr/watchtower \
   --run-once lazylibrarian
   ```
+
+**Note:** We do not endorse the use of Watchtower as a solution to automated updates of existing Docker containers. In fact we generally discourage automated updates. However, this is a useful tool for one-time manual updates of containers where you have forgotten the original parameters. In the long term, we highly recommend using Docker Compose.
+
 * You can also remove the old dangling images: `docker image prune`
 
 ## Building locally
@@ -190,7 +193,8 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **23.06.19:** - Rebase to Ubuntu Bionic, enables Calibre docker mod.
+* **09.07.19:** - Rebase to Ubuntu Bionic, enables Calibre docker mod.
+* **28.06.19:** - Rebasing to alpine 3.10.
 * **23.03.19:** - Switching to new Base images, shift to arm32v7 tag.
 * **05.03.19:** - Added apprise python package.
 * **22.02.19:** - Rebasing to alpine 3.9.
