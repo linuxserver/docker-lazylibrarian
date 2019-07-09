@@ -1,4 +1,4 @@
-FROM lsiobase/python:3.9
+FROM lsiobase/ubuntu:bionic
 
 # set version label
 ARG BUILD_DATE
@@ -9,29 +9,15 @@ LABEL maintainer="chbmb"
 
 RUN \
  echo "**** install build packages ****" && \
- apk add --no-cache --virtual=build-dependencies \
-	g++ \
-	gcc \
-	make && \
+ apt-get update && \
+ apt-get install -y \
+	git \
+	python3-pip && \
  echo "**** install runtime packages ****" && \
- apk add --no-cache --upgrade \
-	ghostscript && \
- echo "***** build unrarlib ****" && \
- rar_ver=$(apk info unrar | grep unrar- | cut -d "-" -f2 | head -1) && \
- mkdir -p \
-	/tmp/unrar && \
- curl -o \
- /tmp/unrar-src.tar.gz -L \
-	"http://www.rarlab.com/rar/unrarsrc-${rar_ver}.tar.gz" && \
- tar xf \
- /tmp/unrar-src.tar.gz -C \
-	/tmp/unrar --strip-components=1 && \
- cd /tmp/unrar && \
- make lib && \
- make install-lib && \
- echo "**** install pip packages ****" && \
- pip install --no-cache-dir -U \
- 	apprise && \
+ apt-get install -y \
+	ghostscript \
+	python3-minimal \
+	unrar && \
  echo "**** install app ****" && \
  mkdir -p \
 	/app/lazylibrarian && \
@@ -47,15 +33,22 @@ RUN \
  tar xf \
  /tmp/lazylibrarian.tar.gz -C \
 	/app/lazylibrarian --strip-components=1 && \
+ cd /app/lazylibrarian && \
+ pip3 install --no-cache-dir -U \
+	apprise && \
  echo "**** cleanup ****" && \
- apk del --purge \
-	build-dependencies && \
+ apt-get -y purge \
+	git \
+	python3-pip && \
+ apt-get -y autoremove && \
  rm -rf \
-	/tmp/*
-
+	/tmp/* \
+	/var/lib/apt/lists/* \
+	/var/tmp/*
+    
 # add local files
 COPY root/ /
 
 # ports and volumes
-EXPOSE 5299
-VOLUME /config /books /downloads
+EXPOSE 8083
+VOLUME /books /config

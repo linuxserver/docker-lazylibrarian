@@ -23,6 +23,7 @@ param_ports:
   - { external_port: "5299", internal_port: "5299", port_desc: "The port for the LazyLibrarian webinterface" }
 param_usage_include_env: true
 param_env_vars:
+  - { env_var: "DOCKER_MODS", env_value: "linuxserver/calibre-web:calibre #*optional* & **x86-64 only**", desc: "#optional & **x86-64 only** Adds the ability to enable the Calibredb import program"}
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use e.g. Europe/London" }
 
 # application setup block
@@ -30,8 +31,13 @@ app_setup_block_enabled: true
 app_setup_block: |
   Access the webui at `http://<your-ip>:5299/home`, for more information check out [{{ project_name|capitalize }}]({{ project_url }}).
 
+  **x86-64 only** We have implemented the optional ability to pull in the dependencies to enable the Calibredb import program:, this means if you don't require this feature the container isn't uneccessarily bloated but should you require it, it is easily available.
+  This optional layer will be rebuilt automatically on our CI pipeline upon new Calibre releases so you can stay up to date.
+  To use this option add the optional environmental variable as detailed above to pull an addition docker layer to enable ebook conversion and then in the LazyLibrarian config page (Processing:Calibredb import program:) set the path to converter tool to `/usr/bin/calibredb`
+
 # changelog
 changelogs:
+  - { date: "23.06.19:", desc: "Rebase to Ubuntu Bionic, enables Calibre docker mod." }
   - { date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
   - { date: "05.03.19:", desc: "Added apprise python package." }
   - { date: "22.02.19:", desc: "Rebasing to alpine 3.9." }

@@ -21,7 +21,7 @@ pipeline {
     DOCKERHUB_IMAGE = 'linuxserver/lazylibrarian'
     DEV_DOCKERHUB_IMAGE = 'lsiodev/lazylibrarian'
     PR_DOCKERHUB_IMAGE = 'lspipepr/lazylibrarian'
-    DIST_IMAGE = 'alpine'
+    DIST_IMAGE = 'ubuntu'
     MULTIARCH='true'
     CI='true'
     CI_WEB='true'
