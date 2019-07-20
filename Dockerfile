@@ -50,5 +50,5 @@ RUN \
 COPY root/ /
 
 # ports and volumes
-EXPOSE 8083
+EXPOSE 5299
 VOLUME /books /config
