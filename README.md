@@ -193,7 +193,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **31.07.19:** - Add pyopenssl.
+* **31.07.19:** - Add pyopenssl, remove git dependency during build time.
 * **09.07.19:** - Rebase to Ubuntu Bionic, enables Calibre docker mod.
 * **28.06.19:** - Rebasing to alpine 3.10.
 * **23.03.19:** - Switching to new Base images, shift to arm32v7 tag.
