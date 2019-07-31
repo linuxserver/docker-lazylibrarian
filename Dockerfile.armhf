@@ -11,12 +11,12 @@ RUN \
  echo "**** install build packages ****" && \
  apt-get update && \
  apt-get install -y \
-	git \
 	python3-pip && \
  echo "**** install runtime packages ****" && \
  apt-get install -y \
 	ghostscript \
 	python3-minimal \
+	python3-openssl \
 	unrar && \
  echo "**** install app ****" && \
  mkdir -p \
@@ -25,7 +25,7 @@ RUN \
  	LAZYLIBRARIAN_COMMIT=$(curl -sX GET "https://gitlab.com/api/v4/projects/9317860/repository/commits/master" \
     	| awk '/id/{print $4;exit}' FS='[""]'); \
  fi && \
- echo "Building from commit ${LAZYLIBRARIAN_COMMIT}" && \
+ echo "Installing from commit ${LAZYLIBRARIAN_COMMIT}" && \
  echo "${LAZYLIBRARIAN_COMMIT}" > /defaults/version.txt && \
  curl -o \
  /tmp/lazylibrarian.tar.gz -L \
@@ -38,7 +38,6 @@ RUN \
 	apprise && \
  echo "**** cleanup ****" && \
  apt-get -y purge \
-	git \
 	python3-pip && \
  apt-get -y autoremove && \
  rm -rf \
