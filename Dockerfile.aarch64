@@ -17,6 +17,7 @@ RUN \
  apt-get install -y \
 	ghostscript \
 	python3-minimal \
+	python3-openssl \
 	unrar && \
  echo "**** install app ****" && \
  mkdir -p \

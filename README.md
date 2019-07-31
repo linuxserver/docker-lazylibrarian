@@ -53,8 +53,8 @@ docker create \
   --name=lazylibrarian \
   -e PUID=1000 \
   -e PGID=1000 \
-  -e DOCKER_MODS=linuxserver/calibre-web:calibre #*optional* & **x86-64 only** \
   -e TZ=Europe/London \
+  -e DOCKER_MODS=linuxserver/calibre-web:calibre `#optional` \
   -p 5299:5299 \
   -v <path to data>:/config \
   -v <path to downloads>:/downloads \
@@ -78,8 +78,8 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - DOCKER_MODS=linuxserver/calibre-web:calibre #*optional* & **x86-64 only**
       - TZ=Europe/London
+      - DOCKER_MODS=linuxserver/calibre-web:calibre #optional
     volumes:
       - <path to data>:/config
       - <path to downloads>:/downloads
@@ -98,8 +98,8 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-p 5299` | The port for the LazyLibrarian webinterface |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
-| `-e DOCKER_MODS=linuxserver/calibre-web:calibre #*optional* & **x86-64 only**` | #optional & **x86-64 only** Adds the ability to enable the Calibredb import program |
 | `-e TZ=Europe/London` | Specify a timezone to use e.g. Europe/London |
+| `-e DOCKER_MODS=linuxserver/calibre-web:calibre` | #optional & **x86-64 only** Adds the ability to enable the Calibredb import program |
 | `-v /config` | LazyLibrarian config |
 | `-v /downloads` | Download location |
 | `-v /books` | Books location |
@@ -193,6 +193,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **31.07.19:** - Add pyopenssl.
 * **09.07.19:** - Rebase to Ubuntu Bionic, enables Calibre docker mod.
 * **28.06.19:** - Rebasing to alpine 3.10.
 * **23.03.19:** - Switching to new Base images, shift to arm32v7 tag.
