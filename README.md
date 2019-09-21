@@ -32,10 +32,10 @@ Find us at:
 [![Build Status](https://ci.linuxserver.io/view/all/job/Docker-Pipeline-Builders/job/docker-lazylibrarian/job/master/badge/icon?style=flat-square)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-lazylibrarian/job/master/)
 [![](https://lsio-ci.ams3.digitaloceanspaces.com/linuxserver/lazylibrarian/latest/badge.svg)](https://lsio-ci.ams3.digitaloceanspaces.com/linuxserver/lazylibrarian/latest/index.html)
 
-[Lazylibrarian](https://github.com/DobyTang/LazyLibrarian) is a program to follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads Librarything and optionally GoogleBooks as sources for author info and book info.  This container is based on the DobyTang fork.
+[Lazylibrarian](https://lazylibrarian.gitlab.io/) is a program to follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads Librarything and optionally GoogleBooks as sources for author info and book info.  This container is based on the DobyTang fork.
 
 
-[![lazylibrarian](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lazylibrarian-icon.png)](https://github.com/DobyTang/LazyLibrarian)
+[![lazylibrarian](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lazylibrarian-icon.png)](https://lazylibrarian.gitlab.io/)
 
 ## Supported Architectures
 
@@ -131,7 +131,7 @@ In this instance `PUID=1000` and `PGID=1000`, to find yours use `id user` as bel
 &nbsp;
 ## Application Setup
 
-Access the webui at `http://<your-ip>:5299/home`, for more information check out [Lazylibrarian](https://github.com/DobyTang/LazyLibrarian).
+Access the webui at `http://<your-ip>:5299/home`, for more information check out [Lazylibrarian](https://lazylibrarian.gitlab.io/).
 
 **x86-64 only** We have implemented the optional ability to pull in the dependencies to enable the Calibredb import program:, this means if you don't require this feature the container isn't uneccessarily bloated but should you require it, it is easily available.
 This optional layer will be rebuilt automatically on our CI pipeline upon new Calibre releases so you can stay up to date.
