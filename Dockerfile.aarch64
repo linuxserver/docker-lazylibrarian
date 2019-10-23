@@ -11,13 +11,17 @@ RUN \
  echo "**** install build packages ****" && \
  apt-get update && \
  apt-get install -y \
-	python3-pip && \
+	libjpeg-turbo8-dev \
+	python3-pip \
+	zlib1g-dev && \
  echo "**** install runtime packages ****" && \
  apt-get install -y \
 	ghostscript \
+	libjpeg-turbo8 \
 	python3-minimal \
 	python3-openssl \
-	unrar && \
+	unrar \
+	zlib1g && \
  echo "**** install app ****" && \
  mkdir -p \
 	/app/lazylibrarian && \
