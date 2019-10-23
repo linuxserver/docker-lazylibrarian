@@ -35,7 +35,8 @@ RUN \
 	/app/lazylibrarian --strip-components=1 && \
  cd /app/lazylibrarian && \
  pip3 install --no-cache-dir -U \
-	apprise && \
+	apprise \
+	Pillow && \
  echo "**** cleanup ****" && \
  apt-get -y purge \
 	python3-pip && \
