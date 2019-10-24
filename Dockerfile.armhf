@@ -43,7 +43,9 @@ RUN \
 	Pillow && \
  echo "**** cleanup ****" && \
  apt-get -y purge \
-	python3-pip && \
+	libjpeg-turbo8-dev \
+	python3-pip \
+	zlib1g-dev && \
  apt-get -y autoremove && \
  rm -rf \
 	/tmp/* \
