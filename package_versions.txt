@@ -65,7 +65,7 @@ libfreetype62.8.1-2ubuntu2
 libgcc11:8.3.0-6ubuntu1~18.04.1
 libgcrypt201.8.1-4ubuntu1.1
 libgmp102:6.1.2+dfsg-2
-libgnutls303.5.18-1ubuntu1.1
+libgnutls303.5.18-1ubuntu1.2
 libgpg-error01.27-6
 libgs99.26~dfsg+0-0ubuntu0.18.04.12
 libgs9-common9.26~dfsg+0-0ubuntu0.18.04.12
