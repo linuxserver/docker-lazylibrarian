@@ -160,7 +160,7 @@ python3.63.6.9-1~18.04ubuntu1.3
 python3.6-minimal3.6.9-1~18.04ubuntu1.3
 python3-asn1crypto0.24.0-1
 python3-cffi-backend1.11.5-1
-python3-cryptography2.1.4-1ubuntu1.3
+python3-cryptography2.1.4-1ubuntu1.4
 python3-idna2.6-1
 python3-minimal3.6.7-1~18.04
 python3-openssl17.5.0-1ubuntu1
