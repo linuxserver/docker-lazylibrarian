@@ -57,4 +57,4 @@ COPY root/ /
 
 # ports and volumes
 EXPOSE 5299
-VOLUME /books /config
+VOLUME /config
