@@ -17,30 +17,8 @@ jobs:
             exit 0
           fi
           echo "External trigger running off of master branch. To disable this trigger, set a Github secret named \"PAUSE_EXTERNAL_TRIGGER_LAZYLIBRARIAN_MASTER\"."
-          echo "Setting env vars"
-          EXT_GIT_BRANCH='master'
-          EXT_GITLAB_USER='LazyLibrarian'
-          EXT_GITLAB_ID='9317860'
-          EXT_GITLAB_PROJ='LazyLibrarian'
-          BUILD_VERSION_ARG='LAZYLIBRARIAN_COMMIT'
-          LS_USER='linuxserver'
-          LS_REPO='docker-lazylibrarian'
-          CONTAINER_NAME='lazylibrarian'
-          DOCKERHUB_IMAGE='linuxserver/lazylibrarian'
-          DEV_DOCKERHUB_IMAGE='lsiodev/lazylibrarian'
-          PR_DOCKERHUB_IMAGE='lspipepr/lazylibrarian'
-          DIST_IMAGE='ubuntu'
-          MULTIARCH='true'
-          CI='true'
-          CI_WEB='true'
-          CI_PORT='5299'
-          CI_SSL='false'
-          CI_DELAY='120'
-          CI_DOCKERENV='TZ=US/Pacific'
-          CI_AUTH='user:password'
-          CI_WEBPATH=''
           echo "Retrieving external version"
-          EXT_RELEASE=$(curl -s "https://gitlab.com/api/v4/projects/${EXT_GITLAB_ID}/repository/commits/${EXT_GIT_BRANCH}" | jq -r '. | .id' | cut -c1-8)
+          EXT_RELEASE=$(curl -s "https://gitlab.com/api/v4/projects/9317860/repository/commits/master" | jq -r '. | .id' | cut -c1-8)
           if [ -z "${EXT_RELEASE}" ]; then
             echo "Can't retrieve external version, exiting"
             FAILURE_REASON="Can't retrieve external version for lazylibrarian branch master"
@@ -51,19 +29,24 @@ jobs:
           fi
           echo "External version: ${EXT_RELEASE}"
           echo "Retrieving last pushed version"
-          image="${LS_USER}/lazylibrarian"
+          image="linuxserver/lazylibrarian"
           tag="latest"
-          token=$(curl -s \
-            "https://auth.docker.io/token?scope=repository:${image}:pull&service=registry.docker.io" \
+          token=$(curl -sX GET \
+            "https://ghcr.io/token?scope=repository%3Alinuxserver%2Flazylibrarian%3Apull" \
             | jq -r '.token')
-          digest=$(curl -s \
-            --header "Accept: application/vnd.docker.distribution.manifest.v2+json" \
-            --header "Authorization: Bearer ${token}" \
-            "https://registry-1.docker.io/v2/${image}/manifests/${tag}" \
-            | jq -r '.config.digest')
+            multidigest=$(curl -s \
+              --header "Accept: application/vnd.docker.distribution.manifest.v2+json" \
+              --header "Authorization: Bearer ${token}" \
+              "https://ghcr.io/v2/${image}/manifests/${tag}" \
+              | jq -r 'first(.manifests[].digest)')
+            digest=$(curl -s \
+              --header "Accept: application/vnd.docker.distribution.manifest.v2+json" \
+              --header "Authorization: Bearer ${token}" \
+              "https://ghcr.io/v2/${image}/manifests/${multidigest}" \
+              | jq -r '.config.digest')
           image_info=$(curl -sL \
             --header "Authorization: Bearer ${token}" \
-            "https://registry-1.docker.io/v2/${image}/blobs/${digest}" \
+            "https://ghcr.io/v2/${image}/blobs/${digest}" \
             | jq -r '.container_config')
           IMAGE_RELEASE=$(echo ${image_info} | jq -r '.Labels.build_version' | awk '{print $3}')
           IMAGE_VERSION=$(echo ${IMAGE_RELEASE} | awk -F'-ls' '{print $1}')
