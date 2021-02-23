@@ -39,6 +39,8 @@ RUN \
 	/app/lazylibrarian --strip-components=1 && \
  cd /app/lazylibrarian && \
  pip3 install --no-cache-dir -U \
+	pip && \
+ pip install --no-cache-dir -U \
 	apprise \
 	Pillow && \
  echo "**** cleanup ****" && \
@@ -50,7 +52,8 @@ RUN \
  rm -rf \
 	/tmp/* \
 	/var/lib/apt/lists/* \
-	/var/tmp/*
+	/var/tmp/* \
+	/root/.cache
     
 # add local files
 COPY root/ /

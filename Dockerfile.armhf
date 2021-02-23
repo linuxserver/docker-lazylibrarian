@@ -13,6 +13,7 @@ RUN \
  apt-get install -y \
 	libjpeg-turbo8-dev \
 	python3-pip \
+	rustc \
 	zlib1g-dev && \
  echo "**** install runtime packages ****" && \
  apt-get install -y \
@@ -39,18 +40,23 @@ RUN \
 	/app/lazylibrarian --strip-components=1 && \
  cd /app/lazylibrarian && \
  pip3 install --no-cache-dir -U \
+	pip && \
+ pip install --no-cache-dir -U \
 	apprise \
 	Pillow && \
  echo "**** cleanup ****" && \
  apt-get -y purge \
 	libjpeg-turbo8-dev \
 	python3-pip \
+	rustc \
 	zlib1g-dev && \
  apt-get -y autoremove && \
  rm -rf \
 	/tmp/* \
 	/var/lib/apt/lists/* \
-	/var/tmp/*
+	/var/tmp/* \
+	/root/.cache \
+	/root/.cargo
     
 # add local files
 COPY root/ /
