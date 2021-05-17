@@ -2,17 +2,17 @@
 
 # make folders
 mkdir -p \
-	/config/log \
-	/config/cache
+    /config/log \
+    /config/cache
 
 # copy config
 [[ ! -e /config/config.ini ]] && \
-	cp /defaults/config.ini /config/config.ini
+    cp /defaults/config.ini /config/config.ini
 
 # update version.txt
 cp /defaults/version.txt /config/cache/version.txt
 
 # permissions
 chown abc:abc -R \
-	/config \
-	/app
+    /config \
+    /app
