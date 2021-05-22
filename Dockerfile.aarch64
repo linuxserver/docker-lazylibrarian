@@ -54,10 +54,10 @@ RUN \
     /var/lib/apt/lists/* \
     /var/tmp/* \
     /root/.cache
-    
+
 # add local files
 COPY root/ /
 
 # ports and volumes
 EXPOSE 5299
-VOLUME /books /config
+VOLUME /config
