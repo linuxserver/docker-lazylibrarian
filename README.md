@@ -79,7 +79,7 @@ We have set `/books` as ***optional path***, this is because it is the easiest w
 
 Use the optional path if you dont understand, or dont want hardlinks/atomic moves.
 
-The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/Docker_Guide#Consistent_and_well_planned_paths) on how to get started with this.
+The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/docker-guide#consistent-and-well-planned-paths) on how to get started with this.
 
 ## Usage
 
