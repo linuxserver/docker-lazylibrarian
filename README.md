@@ -73,6 +73,14 @@ By adding `linuxserver/mods:lazylibrarian-ffmpeg` to your `DOCKER_MODS` environm
 This allows you to use the audiobook conversion features of LazyLibrarian.
 You can enable it in the Web UI under Settings > Processing > External Programs by setting the ffmpeg path to `ffmpeg`.
 
+### Media folders
+
+We have set `/books` as ***optional path***, this is because it is the easiest way to get started. While easy to use, it has some drawbacks. Mainly losing the ability to hardlink (TL;DR a way for a file to exist in multiple places on the same file system while only consuming one file worth of space), or atomic move (TL;DR instant file moves, rather than copy+delete) files while processing content.
+
+Use the optional path if you dont understand, or dont want hardlinks/atomic moves.
+
+The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/docker-guide#consistent-and-well-planned-paths) on how to get started with this.
+
 ## Usage
 
 Here are some example snippets to help you get started creating a container.
@@ -96,7 +104,7 @@ services:
     volumes:
       - /path/to/data:/config
       - /path/to/downloads/:/downloads
-      - /path/to/data/:/books
+      - /path/to/data/:/books #optional
     ports:
       - 5299:5299
     restart: unless-stopped
@@ -114,7 +122,7 @@ docker run -d \
   -p 5299:5299 \
   -v /path/to/data:/config \
   -v /path/to/downloads/:/downloads \
-  -v /path/to/data/:/books \
+  -v /path/to/data/:/books `#optional` \
   --restart unless-stopped \
   ghcr.io/linuxserver/lazylibrarian
 ```
@@ -243,6 +251,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **22.05.21:** - Make the paths clearer to the user, remove optional volume.
 * **17.05.21:** - Add linuxserver wheel index.
 * **23.10.19:** - Changed gitlab download link.
 * **23.10.19:** - Add python module Pillow.

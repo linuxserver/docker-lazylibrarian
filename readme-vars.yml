@@ -17,6 +17,9 @@ param_usage_include_vols: true
 param_volumes:
   - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "LazyLibrarian config" }
   - { vol_path: "/downloads", vol_host_path: "/path/to/downloads/", desc: "Download location" }
+
+opt_param_usage_include_vols: true
+opt_param_volumes:
   - { vol_path: "/books", vol_host_path: "/path/to/data/", desc: "Books location" }
 param_usage_include_ports: true
 param_ports:
@@ -47,8 +50,17 @@ app_setup_block: |
   This allows you to use the audiobook conversion features of LazyLibrarian.
   You can enable it in the Web UI under Settings > Processing > External Programs by setting the ffmpeg path to `ffmpeg`.
 
+  ### Media folders
+
+  We have set `/books` as ***optional path***, this is because it is the easiest way to get started. While easy to use, it has some drawbacks. Mainly losing the ability to hardlink (TL;DR a way for a file to exist in multiple places on the same file system while only consuming one file worth of space), or atomic move (TL;DR instant file moves, rather than copy+delete) files while processing content.
+  
+  Use the optional path if you dont understand, or dont want hardlinks/atomic moves.
+  
+  The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/docker-guide#consistent-and-well-planned-paths) on how to get started with this.
+
 # changelog
 changelogs:
+  - { date: "22.05.21:", desc: "Make the paths clearer to the user, remove optional volume." }
   - { date: "17.05.21:", desc: "Add linuxserver wheel index." }
   - { date: "23.10.19:", desc: "Changed gitlab download link." }
   - { date: "23.10.19:", desc: "Add python module Pillow." }
