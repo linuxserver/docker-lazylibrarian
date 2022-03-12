@@ -56,7 +56,7 @@ libcurl47.58.0-2ubuntu3.16
 libdb5.35.3.28-13.1ubuntu1.1
 libdbus-1-31.12.2-1ubuntu1.2
 libdebconfclient00.213ubuntu1
-libexpat12.2.5-3ubuntu0.4
+libexpat12.2.5-3ubuntu0.7
 libext2fs21.44.1-1ubuntu1.3
 libfdisk12.31.1-0.4ubuntu3.7
 libffi63.2.1-8
@@ -140,7 +140,7 @@ libunistring20.9.9-0ubuntu2
 libuuid12.31.1-0.4ubuntu3.7
 libwind0-heimdal7.5.0+dfsg-1
 libzstd11.3.3+dfsg-2ubuntu1.2
-locales2.27-3ubuntu1.4
+locales2.27-3ubuntu1.5
 login1:4.5-1ubuntu2.2
 lsb-base9.20170808ubuntu1
 mawk1.3.3-17ubuntu3
