@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-ubuntu:bionic
+FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy
 
 # set version label
 ARG BUILD_DATE
@@ -6,6 +6,8 @@ ARG VERSION
 ARG LAZYLIBRARIAN_COMMIT
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="chbmb"
+
+ENV DEBIAN_FRONTEND="noninteractive"
 
 RUN \
   echo "**** install build packages ****" && \
@@ -42,7 +44,8 @@ RUN \
     pip && \
   pip install --no-cache-dir --find-links https://wheel-index.linuxserver.io/ubuntu/ -U \
     apprise \
-    Pillow && \
+    Pillow \
+    python-Levenshtein && \
   echo "**** cleanup ****" && \
   apt-get -y purge \
     libjpeg-turbo8-dev \
