@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-ubuntu:bionic
+FROM ghcr.io/linuxserver/baseimage-ubuntu:focal
 
 # set version label
 ARG BUILD_DATE
@@ -42,7 +42,8 @@ RUN \
     pip && \
   pip install --no-cache-dir --find-links https://wheel-index.linuxserver.io/ubuntu/ -U \
     apprise \
-    Pillow && \
+    Pillow \
+    python-Levenshtein && \
   echo "**** cleanup ****" && \
   apt-get -y purge \
     libjpeg-turbo8-dev \
