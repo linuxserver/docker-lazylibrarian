@@ -250,7 +250,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **27.09.22:** - Pin Levenshtein on arm32v7 to 0.20.3 until upstream issue is resolved.
+* **27.09.22:** - Switch to `Levenshtein`, add cmake as build dep on armhf.
 * **07.05.22:** - Rebase to Ubuntu Focal.
 * **22.05.21:** - Make the paths clearer to the user, remove optional volume.
 * **17.05.21:** - Add linuxserver wheel index.
