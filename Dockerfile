@@ -39,11 +39,12 @@ RUN \
     /app/lazylibrarian --strip-components=1 && \
   cd /app/lazylibrarian && \
   pip3 install --no-cache-dir -U \
-    pip && \
+    pip \
+    wheel && \
   pip install --no-cache-dir --find-links https://wheel-index.linuxserver.io/ubuntu/ -U \
     apprise \
-    Pillow \
-    python-Levenshtein && \
+    Levenshtein \
+    Pillow && \
   echo "**** cleanup ****" && \
   apt-get -y purge \
     libjpeg-turbo8-dev \
