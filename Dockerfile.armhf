@@ -11,6 +11,7 @@ RUN \
   echo "**** install build packages ****" && \
   apt-get update && \
   apt-get install -y \
+    cmake \
     libjpeg-turbo8-dev \
     python3-pip \
     rustc \
@@ -48,6 +49,7 @@ RUN \
     Pillow && \
   echo "**** cleanup ****" && \
   apt-get -y purge \
+    cmake \
     libjpeg-turbo8-dev \
     python3-pip \
     rustc \
