@@ -60,6 +60,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "27.09.22:", desc: "Pin Levenshtein on arm32v7 to 0.20.3 until upstream issue is resolved." }
   - { date: "07.05.22:", desc: "Rebase to Ubuntu Focal." }
   - { date: "22.05.21:", desc: "Make the paths clearer to the user, remove optional volume." }
   - { date: "17.05.21:", desc: "Add linuxserver wheel index." }
