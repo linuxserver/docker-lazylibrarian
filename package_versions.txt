@@ -167,7 +167,7 @@ ncurses-base6.2-0ubuntu2
 ncurses-bin6.2-0ubuntu2
 openssl1.1.1f-1ubuntu2.16
 passwd1:4.8.1-1ubuntu5.20.04.1
-perl-base5.30.0-9ubuntu0.2
+perl-base5.30.0-9ubuntu0.3
 pinentry-curses1.1.0-3build1
 poppler-data0.4.9-2
 procps2:3.3.16-1ubuntu2.3
