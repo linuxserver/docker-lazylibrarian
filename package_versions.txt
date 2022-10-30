@@ -10,7 +10,7 @@ ca-certificates20211016~20.04.1
 coreutils8.30-3ubuntu2
 curl7.68.0-1ubuntu2.13
 dash0.5.10.2-6
-dbus1.12.16-2ubuntu2.2
+dbus1.12.16-2ubuntu2.3
 debconf1.5.73
 debianutils4.9.1
 diffutils1:3.7-3
@@ -64,7 +64,7 @@ libcrypt11:4.4.10-10ubuntu4
 libcups22.3.1-9ubuntu1.2
 libcurl47.68.0-1ubuntu2.13
 libdb5.35.3.28+dfsg1-0.6ubuntu2
-libdbus-1-31.12.16-2ubuntu2.2
+libdbus-1-31.12.16-2ubuntu2.3
 libdebconfclient00.251ubuntu1
 libexpat12.2.9-1ubuntu0.4
 libext2fs21.45.5-2ubuntu1
