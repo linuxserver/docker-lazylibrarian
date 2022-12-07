@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-ubuntu:arm32v7-focal
+FROM ghcr.io/linuxserver/baseimage-ubuntu:arm32v7-jammy
 
 # set version label
 ARG BUILD_DATE
