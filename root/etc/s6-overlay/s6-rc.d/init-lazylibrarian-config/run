@@ -3,7 +3,9 @@
 # make folders
 mkdir -p \
     /config/log \
-    /config/cache
+    /config/cache \
+    /downloads \
+    /books
 
 # copy config
 if [[ ! -e /config/config.ini ]]; then
@@ -16,3 +18,7 @@ cp /defaults/version.txt /config/cache/version.txt
 # permissions
 lsiown abc:abc -R \
     /config
+
+lsiown abc:abc \
+    /downloads \
+    /books
