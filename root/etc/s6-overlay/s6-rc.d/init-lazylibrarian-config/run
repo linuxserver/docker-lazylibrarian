@@ -3,16 +3,22 @@
 # make folders
 mkdir -p \
     /config/log \
-    /config/cache
+    /config/cache \
+    /downloads \
+    /books
 
 # copy config
-[[ ! -e /config/config.ini ]] && \
+if [[ ! -e /config/config.ini ]]; then
     cp /defaults/config.ini /config/config.ini
+fi
 
 # update version.txt
 cp /defaults/version.txt /config/cache/version.txt
 
 # permissions
-chown abc:abc -R \
-    /config \
-    /app
+lsiown abc:abc -R \
+    /config
+
+lsiown abc:abc \
+    /downloads \
+    /books

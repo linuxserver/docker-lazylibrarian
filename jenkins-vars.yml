@@ -1,5 +1,5 @@
 ---
- # jenkins variables
+# jenkins variables
 project_name: docker-lazylibrarian
 external_type: gitlab_commit
 release_type: stable
