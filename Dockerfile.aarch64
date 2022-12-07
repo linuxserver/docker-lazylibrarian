@@ -1,3 +1,5 @@
+# syntax=docker/dockerfile:1
+
 FROM ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-focal
 
 # set version label
@@ -6,6 +8,8 @@ ARG VERSION
 ARG LAZYLIBRARIAN_COMMIT
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="chbmb"
+
+ARG UNRAR_VERSION=6.1.7
 
 RUN \
   echo "**** install build packages ****" && \
@@ -18,10 +22,21 @@ RUN \
   apt-get install -y \
     ghostscript \
     libjpeg-turbo8 \
+    libmagic1 \
     python3-minimal \
     python3-openssl \
-    unrar \
     zlib1g && \
+  echo "**** install unrar from source ****" && \
+  mkdir /tmp/unrar && \
+  curl -o \
+    /tmp/unrar.tar.gz -L \
+    "https://www.rarlab.com/rar/unrarsrc-${UNRAR_VERSION}.tar.gz" && \
+  tar xf \
+    /tmp/unrar.tar.gz -C \
+    /tmp/unrar --strip-components=1 && \
+  cd /tmp/unrar && \
+  make && \
+  install -v -m755 unrar /usr/bin && \
   echo "**** install app ****" && \
   mkdir -p \
     /app/lazylibrarian && \
@@ -38,13 +53,10 @@ RUN \
     /tmp/lazylibrarian.tar.gz -C \
     /app/lazylibrarian --strip-components=1 && \
   cd /app/lazylibrarian && \
-  pip3 install --no-cache-dir -U \
+  pip3 install -U --no-cache-dir \
     pip \
     wheel && \
-  pip install --no-cache-dir --find-links https://wheel-index.linuxserver.io/ubuntu/ -U \
-    apprise \
-    Levenshtein \
-    Pillow && \
+  pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/ubuntu/ . && \
   echo "**** cleanup ****" && \
   apt-get -y purge \
     libjpeg-turbo8-dev \

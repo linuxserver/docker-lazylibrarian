@@ -6,13 +6,13 @@ mkdir -p \
     /config/cache
 
 # copy config
-[[ ! -e /config/config.ini ]] && \
+if [[ ! -e /config/config.ini ]]; then
     cp /defaults/config.ini /config/config.ini
+fi
 
 # update version.txt
 cp /defaults/version.txt /config/cache/version.txt
 
 # permissions
-chown abc:abc -R \
-    /config \
-    /app
+lsiown abc:abc -R \
+    /config
