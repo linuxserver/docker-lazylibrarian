@@ -64,9 +64,9 @@ Access the webui at `http://<your-ip>:5299/home`, for more information check out
 
 ### Calibredb import
 
-**x86-64 only** We have implemented the optional ability to pull in the dependencies to enable the Calibredb import program:, this means if you don't require this feature the container isn't uneccessarily bloated but should you require it, it is easily available.
+**64bit only** We have implemented the optional ability to pull in the dependencies to enable the Calibredb import program:, this means if you don't require this feature the container isn't uneccessarily bloated but should you require it, it is easily available.
 This optional layer will be rebuilt automatically on our CI pipeline upon new Calibre releases so you can stay up to date.
-To use this option add the optional environmental variable as detailed above to pull an addition docker layer to enable ebook conversion and then in the LazyLibrarian config page (Processing:Calibredb import program:) set the path to converter tool to `/usr/bin/calibredb`
+To use this option add the optional environmental variable as detailed in the docker-mods section to pull an addition docker layer to enable ebook conversion and then in the LazyLibrarian config page (Processing:Calibredb import program:) set the path to converter tool to `/usr/bin/calibredb`
 
 ### ffmpeg
 
