@@ -74,7 +74,7 @@ jaraco.text            3.11.1                                   python
 javascript-common      11+nmu1                                  deb     
 jq                     1.6-2.1ubuntu3                           deb     
 libacl1                2.3.1-1                                  deb     
-libapparmor1           3.0.4-2ubuntu2.1                         deb     
+libapparmor1           3.0.4-2ubuntu2.2                         deb     
 libapt-pkg6.0          2.4.8                                    deb     
 libassuan0             2.5.5-1build1                            deb     
 libattr1               1:2.5.1-1build1                          deb     
@@ -248,6 +248,6 @@ urllib3                1.26.15                                  python
 usrmerge               25ubuntu2                                deb     
 util-linux             2.37.2-4ubuntu3                          deb     
 webencodings           0.5.1                                    python  
-wheel                  0.38.4                                   python  
+wheel                  0.40.0                                   python  
 zc.lockfile            3.0.post1                                python  
 zlib1g                 1:1.2.11.dfsg-2ubuntu9.2                 deb     
