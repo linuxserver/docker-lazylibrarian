@@ -66,8 +66,7 @@ httplib2               0.22.0                                   python
 idna                   3.4                                      python  
 inflect                6.0.2                                    python  
 init-system-helpers    1.62                                     deb     
-jaraco.classes         3.2.3                                    python  
-jaraco.collections     3.9.0                                    python  
+jaraco.collections     4.0.0                                    python  
 jaraco.context         4.3.0                                    python  
 jaraco.functools       3.6.0                                    python  
 jaraco.text            3.11.1                                   python  
@@ -226,7 +225,7 @@ python3-openssl        21.0.0-1                                 deb
 python3-six            1.16.0-3ubuntu1                          deb     
 python3.10             3.10.6-1~22.04.2ubuntu1                  deb     
 python3.10-minimal     3.10.6-1~22.04.2ubuntu1                  deb     
-pytz                   2023.2                                   python  
+pytz                   2023.3                                   python  
 rapidfuzz              2.13.7                                   python  
 readline-common        8.1.2-1                                  deb     
 requests               2.28.2                                   python  
