@@ -16,7 +16,7 @@ autocommand            2.2.2                                    python
 base-files             12ubuntu4.3                              deb     
 base-passwd            3.5.52build1                             deb     
 bash                   5.1-6ubuntu1                             deb     
-beautifulsoup4         4.12.0                                   python  
+beautifulsoup4         4.12.2                                   python  
 bs4                    0.0.1                                    python  
 bsdutils               1:2.37.2-4ubuntu3                        deb     
 ca-certificates        20211016ubuntu0.22.04.1                  deb     
@@ -64,9 +64,9 @@ html5lib               1.1                                      python
 httpagentparser        1.9.5                                    python  
 httplib2               0.22.0                                   python  
 idna                   3.4                                      python  
-inflect                6.0.2                                    python  
+inflect                6.0.4                                    python  
 init-system-helpers    1.62                                     deb     
-jaraco.collections     4.0.0                                    python  
+jaraco.collections     4.1.0                                    python  
 jaraco.context         4.3.0                                    python  
 jaraco.functools       3.6.0                                    python  
 jaraco.text            3.11.1                                   python  
