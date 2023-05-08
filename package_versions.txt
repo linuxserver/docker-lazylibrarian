@@ -20,7 +20,7 @@ beautifulsoup4         4.12.2                                   python
 bs4                    0.0.1                                    python  
 bsdutils               1:2.37.2-4ubuntu3                        deb     
 ca-certificates        20211016ubuntu0.22.04.1                  deb     
-certifi                2022.12.7                                python  
+certifi                2023.5.7                                 python  
 chardet                5.1.0                                    python  
 charset-normalizer     3.1.0                                    python  
 cheroot                9.0.0                                    python  
