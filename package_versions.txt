@@ -4,7 +4,7 @@ LazyLibrarian          2022.12.5                                python
 Levenshtein            0.21.0                                   python  
 Mako                   1.2.4                                    python  
 Markdown               3.4.3                                    python  
-MarkupSafe             2.1.2                                    python  
+MarkupSafe             2.1.3                                    python  
 Pillow                 9.5.0                                    python  
 PyPDF3                 1.0.6                                    python  
 PyYAML                 6.0                                      python  
@@ -19,7 +19,7 @@ bash                   5.1-6ubuntu1                             deb
 beautifulsoup4         4.12.2                                   python  
 bs4                    0.0.1                                    python  
 bsdutils               1:2.37.2-4ubuntu3                        deb     
-ca-certificates        20211016ubuntu0.22.04.1                  deb     
+ca-certificates        20230311ubuntu0.22.04.1                  deb     
 certifi                2023.5.7                                 python  
 chardet                5.1.0                                    python  
 charset-normalizer     3.1.0                                    python  
@@ -66,9 +66,9 @@ httplib2               0.22.0                                   python
 idna                   3.4                                      python  
 inflect                6.0.4                                    python  
 init-system-helpers    1.62                                     deb     
-jaraco.collections     4.1.0                                    python  
+jaraco.collections     4.2.0                                    python  
 jaraco.context         4.3.0                                    python  
-jaraco.functools       3.6.0                                    python  
+jaraco.functools       3.7.0                                    python  
 jaraco.text            3.11.1                                   python  
 javascript-common      11+nmu1                                  deb     
 jq                     1.6-2.1ubuntu3                           deb     
@@ -79,9 +79,9 @@ libassuan0             2.5.5-1build1                            deb
 libattr1               1:2.5.1-1build1                          deb     
 libaudit-common        1:3.0.7-1build1                          deb     
 libaudit1              1:3.0.7-1build1                          deb     
-libavahi-client3       0.8-5ubuntu5                             deb     
-libavahi-common-data   0.8-5ubuntu5                             deb     
-libavahi-common3       0.8-5ubuntu5                             deb     
+libavahi-client3       0.8-5ubuntu5.1                           deb     
+libavahi-common-data   0.8-5ubuntu5.1                           deb     
+libavahi-common3       0.8-5ubuntu5.1                           deb     
 libblkid1              2.37.2-4ubuntu3                          deb     
 libbrotli1             1.0.9-2build6                            deb     
 libbsd0                0.11.5-1                                 deb     
@@ -92,7 +92,7 @@ libcap-ng0             0.7.9-2.2build3                          deb
 libcap2                1:2.44-1build3                           deb     
 libcom-err2            1.46.5-2ubuntu1.1                        deb     
 libcrypt1              1:4.4.27-1                               deb     
-libcups2               2.4.1op1-1ubuntu4.1                      deb     
+libcups2               2.4.1op1-1ubuntu4.2                      deb     
 libcurl4               7.81.0-1ubuntu1.10                       deb     
 libdb5.3               5.3.28+dfsg1-0.8ubuntu3                  deb     
 libdbus-1-3            1.12.20-2ubuntu4.1                       deb     
@@ -201,7 +201,7 @@ netbase                6.3                                      deb
 netcat                 1.218-4ubuntu1                           deb     
 netcat-openbsd         1.218-4ubuntu1                           deb     
 oauthlib               3.2.2                                    python  
-openssl                3.0.2-0ubuntu1.9                         deb     
+openssl                3.0.2-0ubuntu1.10                        deb     
 passwd                 1:4.8.1-2ubuntu2.1                       deb     
 perl                   5.34.0-3ubuntu1.1                        deb     
 perl-base              5.34.0-3ubuntu1.1                        deb     
@@ -226,7 +226,7 @@ python3-six            1.16.0-3ubuntu1                          deb
 python3.10             3.10.6-1~22.04.2ubuntu1                  deb     
 python3.10-minimal     3.10.6-1~22.04.2ubuntu1                  deb     
 pytz                   2023.3                                   python  
-rapidfuzz              3.0.0                                    python  
+rapidfuzz              3.1.0                                    python  
 readline-common        8.1.2-1                                  deb     
 requests               2.31.0                                   python  
 requests-oauthlib      1.3.1                                    python  
@@ -239,7 +239,7 @@ tar                    1.34+dfsg-1ubuntu0.1.22.04.1             deb
 tempora                5.2.2                                    python  
 thefuzz                0.19.0                                   python  
 tqdm                   4.65.0                                   python  
-typing_extensions      4.6.2                                    python  
+typing_extensions      4.6.3                                    python  
 tzdata                 2023c-0ubuntu0.22.04.1                   deb     
 ubuntu-keyring         2021.03.26                               deb     
 ucf                    3.0043                                   deb     
