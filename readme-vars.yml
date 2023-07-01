@@ -4,40 +4,34 @@ project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/ma
 project_blurb: |
   [{{ project_name|capitalize }}]({{ project_url }}) is a program to follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads Librarything and optionally GoogleBooks as sources for author info and book info.  This container is based on the DobyTang fork.
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
-
 # supported architectures
 available_architectures:
-  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
-  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
-  - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
-
+  - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - {arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
 # container parameters
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "LazyLibrarian config" }
-  - { vol_path: "/downloads", vol_host_path: "/path/to/downloads/", desc: "Download location" }
-
+  - {vol_path: "/config", vol_host_path: "/path/to/data", desc: "LazyLibrarian config"}
+  - {vol_path: "/downloads", vol_host_path: "/path/to/downloads/", desc: "Download location"}
 opt_param_usage_include_vols: true
 opt_param_volumes:
-  - { vol_path: "/books", vol_host_path: "/path/to/data/", desc: "Books location" }
+  - {vol_path: "/books", vol_host_path: "/path/to/data/", desc: "Books location"}
 param_usage_include_ports: true
 param_ports:
-  - { external_port: "5299", internal_port: "5299", port_desc: "The port for the LazyLibrarian webinterface" }
+  - {external_port: "5299", internal_port: "5299", port_desc: "The port for the LazyLibrarian webinterface"}
 param_usage_include_env: true
 param_env_vars:
-  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use e.g. Europe/London" }
-
+  - {env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use e.g. Europe/London"}
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
-  - { env_var: "DOCKER_MODS", env_value: "linuxserver/calibre-web:calibre|linuxserver/mods:lazylibrarian-ffmpeg", desc: "Allows additional functionality to be added, e.g. the Calibredb import program (optional, more info below)"}
-
+  - {env_var: "DOCKER_MODS", env_value: "linuxserver/calibre-web:calibre|linuxserver/mods:lazylibrarian-ffmpeg", desc: "Allows additional functionality to be added, e.g. the Calibredb import program (optional, more info below)"}
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
   Access the webui at `http://<your-ip>:5299/home`, for more information check out [{{ project_name|capitalize }}]({{ project_url }}).
-  
+
   ### Calibredb import
 
   **64bit only** We have implemented the optional ability to pull in the dependencies to enable the Calibredb import program:, this means if you don't require this feature the container isn't uneccessarily bloated but should you require it, it is easily available.
@@ -53,35 +47,35 @@ app_setup_block: |
   ### Media folders
 
   We have set `/books` as ***optional path***, this is because it is the easiest way to get started. While easy to use, it has some drawbacks. Mainly losing the ability to hardlink (TL;DR a way for a file to exist in multiple places on the same file system while only consuming one file worth of space), or atomic move (TL;DR instant file moves, rather than copy+delete) files while processing content.
-  
-  Use the optional path if you dont understand, or dont want hardlinks/atomic moves.
-  
-  The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/docker-guide#consistent-and-well-planned-paths) on how to get started with this.
 
+  Use the optional path if you dont understand, or dont want hardlinks/atomic moves.
+
+  The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/docker-guide#consistent-and-well-planned-paths) on how to get started with this.
 # changelog
 changelogs:
-  - { date: "07.12.22:", desc: "Rebase to Ubuntu Jammy, migrate to s6v3. Use pyproject.toml for deps. Build unrar from source." }
-  - { date: "27.09.22:", desc: "Switch to `Levenshtein`, add cmake as build dep on armhf." }
-  - { date: "07.05.22:", desc: "Rebase to Ubuntu Focal." }
-  - { date: "22.05.21:", desc: "Make the paths clearer to the user, remove optional volume." }
-  - { date: "17.05.21:", desc: "Add linuxserver wheel index." }
-  - { date: "23.10.19:", desc: "Changed gitlab download link." }
-  - { date: "23.10.19:", desc: "Add python module Pillow." }
-  - { date: "31.07.19:", desc: "Add pyopenssl, remove git dependency during build time." }
-  - { date: "09.07.19:", desc: "Rebase to Ubuntu Bionic, enables Calibre docker mod." }
-  - { date: "28.06.19:", desc: "Rebasing to alpine 3.10." }
-  - { date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
-  - { date: "05.03.19:", desc: "Added apprise python package." }
-  - { date: "22.02.19:", desc: "Rebasing to alpine 3.9." }
-  - { date: "10.12.18:", desc: "Moved to Pipeline Building" }
-  - { date: "16.08.18:", desc: "Rebase to alpine 3.8" }
-  - { date: "05.01.18:", desc: "Deprecate cpu_core routine lack of scaling" }
-  - { date: "12.12.17:", desc: "Rebase to alpine 3.7" }
-  - { date: "21.07.17:", desc: "Internal git pull instead of at runtime" }
-  - { date: "25.05.17:", desc: "Rebase to alpine 3.6" }
-  - { date: "07.02.17:", desc: "Rebase to alpine 3.5" }
-  - { date: "30.01.17:", desc: "Compile libunrar.so to allow reading of .cbr format files" }
-  - { date: "12.01.17:", desc: "Add ghostscript package, allows magazine covers to be created etc" }
-  - { date: "14.10.16:", desc: "Add version layer information" }
-  - { date: "03.10.16:", desc: "Fix non-persistent settings and make log folder" }
-  - { date: "28.09.16:", desc: "Inital Release" }
+  - {date: "01.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
+  - {date: "07.12.22:", desc: "Rebase to Ubuntu Jammy, migrate to s6v3. Use pyproject.toml for deps. Build unrar from source."}
+  - {date: "27.09.22:", desc: "Switch to `Levenshtein`, add cmake as build dep on armhf."}
+  - {date: "07.05.22:", desc: "Rebase to Ubuntu Focal."}
+  - {date: "22.05.21:", desc: "Make the paths clearer to the user, remove optional volume."}
+  - {date: "17.05.21:", desc: "Add linuxserver wheel index."}
+  - {date: "23.10.19:", desc: "Changed gitlab download link."}
+  - {date: "23.10.19:", desc: "Add python module Pillow."}
+  - {date: "31.07.19:", desc: "Add pyopenssl, remove git dependency during build time."}
+  - {date: "09.07.19:", desc: "Rebase to Ubuntu Bionic, enables Calibre docker mod."}
+  - {date: "28.06.19:", desc: "Rebasing to alpine 3.10."}
+  - {date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag."}
+  - {date: "05.03.19:", desc: "Added apprise python package."}
+  - {date: "22.02.19:", desc: "Rebasing to alpine 3.9."}
+  - {date: "10.12.18:", desc: "Moved to Pipeline Building"}
+  - {date: "16.08.18:", desc: "Rebase to alpine 3.8"}
+  - {date: "05.01.18:", desc: "Deprecate cpu_core routine lack of scaling"}
+  - {date: "12.12.17:", desc: "Rebase to alpine 3.7"}
+  - {date: "21.07.17:", desc: "Internal git pull instead of at runtime"}
+  - {date: "25.05.17:", desc: "Rebase to alpine 3.6"}
+  - {date: "07.02.17:", desc: "Rebase to alpine 3.5"}
+  - {date: "30.01.17:", desc: "Compile libunrar.so to allow reading of .cbr format files"}
+  - {date: "12.01.17:", desc: "Add ghostscript package, allows magazine covers to be created etc"}
+  - {date: "14.10.16:", desc: "Add version layer information"}
+  - {date: "03.10.16:", desc: "Fix non-persistent settings and make log folder"}
+  - {date: "28.09.16:", desc: "Inital Release"}
