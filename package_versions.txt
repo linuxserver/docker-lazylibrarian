@@ -26,7 +26,7 @@ chardet                5.1.0                                    python
 charset-normalizer     3.2.0                                    python  
 cheroot                10.0.0                                   python  
 cherrypy-cors          1.6                                      python  
-click                  8.1.4                                    python  
+click                  8.1.5                                    python  
 coreutils              8.32-4.1ubuntu1                          deb     
 cryptography           3.4.8                                    python  
 curl                   7.81.0-1ubuntu1.10                       deb     
@@ -207,14 +207,14 @@ passwd                 1:4.8.1-2ubuntu2.1                       deb
 perl                   5.34.0-3ubuntu1.2                        deb     
 perl-base              5.34.0-3ubuntu1.2                        deb     
 pinentry-curses        1.1.1-1build2                            deb     
-pip                    23.1.2                                   python  
+pip                    23.2                                     python  
 poppler-data           0.4.11-1                                 deb     
 portend                3.2.0                                    python  
 procps                 2:3.3.17-6ubuntu2                        deb     
 publicsuffix           20211207.1025-1                          deb     
 pyOpenSSL              21.0.0                                   python  
-pydantic               2.0.2                                    python  
-pydantic_core          2.1.2                                    python  
+pydantic               2.0.3                                    python  
+pydantic_core          2.3.0                                    python  
 pyparsing              3.1.0                                    python  
 python                 3.10.6                                   binary  
 python-Levenshtein     0.21.1                                   python  
