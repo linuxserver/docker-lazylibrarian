@@ -53,6 +53,7 @@ app_setup_block: |
   The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/docker-guide#consistent-and-well-planned-paths) on how to get started with this.
 # changelog
 changelogs:
+  - {date: "10.08.23:", desc: "Bump unrar to 6.2.10."}
   - {date: "01.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
   - {date: "07.12.22:", desc: "Rebase to Ubuntu Jammy, migrate to s6v3. Use pyproject.toml for deps. Build unrar from source."}
   - {date: "27.09.22:", desc: "Switch to `Levenshtein`, add cmake as build dep on armhf."}

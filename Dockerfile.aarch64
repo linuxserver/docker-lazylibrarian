@@ -9,7 +9,7 @@ ARG LAZYLIBRARIAN_COMMIT
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="chbmb"
 
-ARG UNRAR_VERSION=6.1.7
+ARG UNRAR_VERSION=6.2.10
 
 RUN \
   echo "**** install build packages ****" && \
