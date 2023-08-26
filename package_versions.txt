@@ -18,6 +18,7 @@ autocommand                 2.2.2                                    python
 base-files                  12ubuntu4.3                              deb     
 base-passwd                 3.5.52build1                             deb     
 bash                        5.1-6ubuntu1                             deb     
+bash                        5.1.16                                   binary  
 beautifulsoup4              4.12.2                                   python  
 bs4                         0.0.1                                    python  
 bsdutils                    1:2.37.2-4ubuntu3                        deb     
@@ -70,7 +71,7 @@ inflect                     7.0.0                                    python
 init-system-helpers         1.62                                     deb     
 jaraco.collections          4.3.0                                    python  
 jaraco.context              4.3.0                                    python  
-jaraco.functools            3.8.1                                    python  
+jaraco.functools            3.9.0                                    python  
 jaraco.text                 3.11.1                                   python  
 javascript-common           11+nmu1                                  deb     
 jq                          1.6-2.1ubuntu3                           deb     
@@ -214,8 +215,8 @@ portend                     3.2.0                                    python
 procps                      2:3.3.17-6ubuntu2                        deb     
 publicsuffix                20211207.1025-1                          deb     
 pyOpenSSL                   21.0.0                                   python  
-pydantic                    2.2.1                                    python  
-pydantic_core               2.6.1                                    python  
+pydantic                    2.3.0                                    python  
+pydantic_core               2.6.3                                    python  
 pyparsing                   3.1.1                                    python  
 python-magic                0.4.27                                   python  
 python3                     3.10.6-1~22.04                           deb     
@@ -248,6 +249,6 @@ urllib3                     2.0.4                                    python
 usrmerge                    25ubuntu2                                deb     
 util-linux                  2.37.2-4ubuntu3                          deb     
 webencodings                0.5.1                                    python  
-wheel                       0.41.1                                   python  
+wheel                       0.41.2                                   python  
 zc.lockfile                 3.0.post1                                python  
 zlib1g                      1:1.2.11.dfsg-2ubuntu9.2                 deb     
