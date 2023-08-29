@@ -11,7 +11,7 @@ RAR decompression library   3.93.0                                   dotnet
 Simple Launcher Executable  1.1.0.14                                 dotnet  
 adduser                     3.118ubuntu5                             deb     
 annotated-types             0.5.0                                    python  
-apprise                     1.4.5                                    python  
+apprise                     1.5.0                                    python  
 apt                         2.4.10                                   deb     
 apt-utils                   2.4.10                                   deb     
 autocommand                 2.2.2                                    python  
@@ -27,7 +27,7 @@ certifi                     2023.7.22                                python
 chardet                     5.2.0                                    python  
 charset-normalizer          3.2.0                                    python  
 cheroot                     10.0.0                                   python  
-cherrypy-cors               1.6                                      python  
+cherrypy-cors               1.7.0                                    python  
 click                       8.1.7                                    python  
 coreutils                   8.32-4.1ubuntu1                          deb     
 cryptography                3.4.8                                    python  
