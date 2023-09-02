@@ -235,7 +235,7 @@ requests-oauthlib           1.3.1                                    python
 sed                         4.8-1ubuntu2                             deb     
 sensible-utils              0.0.17                                   deb     
 six                         1.16.0                                   python  
-soupsieve                   2.4.1                                    python  
+soupsieve                   2.5                                      python  
 sysvinit-utils              3.01-1ubuntu1                            deb     
 tar                         1.34+dfsg-1ubuntu0.1.22.04.1             deb     
 tempora                     5.5.0                                    python  
