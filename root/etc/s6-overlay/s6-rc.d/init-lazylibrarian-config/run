@@ -16,7 +16,7 @@ fi
 cp /defaults/version.txt /config/cache/version.txt
 
 # permissions
-lsiown abc:abc -R \
+lsiown -R abc:abc \
     /config
 
 lsiown abc:abc \
