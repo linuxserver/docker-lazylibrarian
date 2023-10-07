@@ -2,7 +2,7 @@ NAME                        VERSION                                  TYPE
 CherryPy                    18.8.0                                   python  
 LazyLibrarian               2022.12.5                                python  
 Mako                        1.2.4                                    python  
-Markdown                    3.4.4                                    python  
+Markdown                    3.5                                      python  
 MarkupSafe                  2.1.3                                    python  
 Pillow                      10.0.1                                   python  
 PyPDF3                      1.0.6                                    python  
@@ -10,7 +10,7 @@ PyYAML                      6.0.1                                    python
 RAR decompression library   3.93.0                                   dotnet  
 Simple Launcher Executable  1.1.0.14                                 dotnet  
 adduser                     3.118ubuntu5                             deb     
-annotated-types             0.5.0                                    python  
+annotated-types             0.6.0                                    python  
 apprise                     1.5.0                                    python  
 apt                         2.4.10                                   deb     
 apt-utils                   2.4.10                                   deb     
@@ -190,7 +190,7 @@ libuuid1                    2.37.2-4ubuntu3                          deb
 libwebp7                    1.2.2-2ubuntu0.22.04.2                   deb     
 libxxhash0                  0.8.1-1                                  deb     
 libzstd1                    1.4.8+dfsg-3build1                       deb     
-locales                     2.35-0ubuntu3.3                          deb     
+locales                     2.35-0ubuntu3.4                          deb     
 login                       1:4.8.1-2ubuntu2.1                       deb     
 logsave                     1.46.5-2ubuntu1.1                        deb     
 lsb-base                    11.1.0ubuntu4                            deb     
