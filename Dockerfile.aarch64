@@ -1,5 +1,7 @@
 # syntax=docker/dockerfile:1
 
+FROM ghcr.io/linuxserver/unrar:arm64v8-latest as unrar
+
 FROM ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-jammy
 
 # set version label
@@ -9,7 +11,6 @@ ARG LAZYLIBRARIAN_COMMIT
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="chbmb"
 
-ARG UNRAR_VERSION=6.2.10
 
 RUN \
   echo "**** install build packages ****" && \
@@ -71,6 +72,9 @@ RUN \
 
 # add local files
 COPY root/ /
+
+# add unrar
+COPY --from=unrar /usr/bin/unrar-ubuntu /usr/bin/unrar
 
 # ports and volumes
 EXPOSE 5299
