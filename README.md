@@ -316,6 +316,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **07.10.23:** - Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar). Switch to Python virtual environment. Add Levenshtein.
 * **10.08.23:** - Bump unrar to 6.2.10.
 * **01.07.23:** - Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)
 * **07.12.22:** - Rebase to Ubuntu Jammy, migrate to s6v3. Use pyproject.toml for deps. Build unrar from source.
