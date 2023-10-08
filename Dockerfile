@@ -11,21 +11,18 @@ ARG LAZYLIBRARIAN_COMMIT
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="chbmb"
 
-
 RUN \
   echo "**** install build packages ****" && \
   apt-get update && \
   apt-get install -y \
     libjpeg-turbo8-dev \
-    python3-pip \
     zlib1g-dev && \
   echo "**** install runtime packages ****" && \
   apt-get install -y \
     ghostscript \
     libjpeg-turbo8 \
     libmagic1 \
-    python3-minimal \
-    python3-openssl \
+    python3-venv \
     zlib1g && \
   echo "**** install app ****" && \
   mkdir -p \
@@ -43,14 +40,15 @@ RUN \
     /tmp/lazylibrarian.tar.gz -C \
     /app/lazylibrarian --strip-components=1 && \
   cd /app/lazylibrarian && \
-  pip3 install -U --no-cache-dir \
+  python3 -m venv /lsiopy && \
+  pip install -U --no-cache-dir \
     pip \
     wheel && \
-  pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/ubuntu/ . && \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/ubuntu/ . && \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/ubuntu/ Levenshtein && \
   echo "**** cleanup ****" && \
   apt-get -y purge \
     libjpeg-turbo8-dev \
-    python3-pip \
     zlib1g-dev && \
   apt-get -y autoremove && \
   rm -rf \
