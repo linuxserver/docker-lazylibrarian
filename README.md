@@ -98,7 +98,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
-      - DOCKER_MODS=linuxserver/calibre-web:calibre|linuxserver/mods:lazylibrarian-ffmpeg #optional
+      - DOCKER_MODS=linuxserver/mods:universal-calibre|linuxserver/mods:lazylibrarian-ffmpeg #optional
     volumes:
       - /path/to/data:/config
       - /path/to/downloads/:/downloads
@@ -116,7 +116,7 @@ docker run -d \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
-  -e DOCKER_MODS=linuxserver/calibre-web:calibre|linuxserver/mods:lazylibrarian-ffmpeg `#optional` \
+  -e DOCKER_MODS=linuxserver/mods:universal-calibre|linuxserver/mods:lazylibrarian-ffmpeg `#optional` \
   -p 5299:5299 \
   -v /path/to/data:/config \
   -v /path/to/downloads/:/downloads \
@@ -135,7 +135,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
-| `-e DOCKER_MODS=linuxserver/calibre-web:calibre|linuxserver/mods:lazylibrarian-ffmpeg` | Allows additional functionality to be added, e.g. the Calibredb import program (optional, more info below) |
+| `-e DOCKER_MODS=linuxserver/mods:universal-calibre|linuxserver/mods:lazylibrarian-ffmpeg` | Allows additional functionality to be added, e.g. the Calibredb import program (optional, more info below) |
 | `-v /config` | LazyLibrarian config |
 | `-v /downloads` | Download location |
 | `-v /books` | Books location |
