@@ -26,7 +26,7 @@ param_env_vars:
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
-  - {env_var: "DOCKER_MODS", env_value: "linuxserver/calibre-web:calibre|linuxserver/mods:lazylibrarian-ffmpeg", desc: "Allows additional functionality to be added, e.g. the Calibredb import program (optional, more info below)"}
+  - {env_var: "DOCKER_MODS", env_value: "linuxserver/mods:universal-calibre|linuxserver/mods:lazylibrarian-ffmpeg", desc: "Allows additional functionality to be added, e.g. the Calibredb import program (optional, more info below)"}
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
