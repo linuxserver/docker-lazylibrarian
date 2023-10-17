@@ -22,6 +22,7 @@ RUN \
     ghostscript \
     libjpeg-turbo8 \
     libmagic1 \
+    libnss3-dev \
     python3-venv \
     zlib1g && \
   echo "**** install app ****" && \
