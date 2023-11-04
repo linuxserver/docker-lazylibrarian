@@ -3,7 +3,7 @@ CherryPy                    18.8.0                                   python
 LazyLibrarian               2022.12.5                                python  
 Levenshtein                 0.23.0                                   python  
 Mako                        1.2.4                                    python  
-Markdown                    3.5                                      python  
+Markdown                    3.5.1                                    python  
 MarkupSafe                  2.1.3                                    python  
 Pillow                      10.1.0                                   python  
 PyPDF3                      1.0.6                                    python  
@@ -27,11 +27,12 @@ ca-certificates             20230311ubuntu0.22.04.1                  deb
 certifi                     2023.7.22                                python  
 cffi                        1.16.0                                   python  
 chardet                     5.2.0                                    python  
-charset-normalizer          3.3.1                                    python  
+charset-normalizer          3.3.2                                    python  
 cheroot                     10.0.0                                   python  
 cherrypy-cors               1.7.0                                    python  
 click                       8.1.7                                    python  
 coreutils                   8.32-4.1ubuntu1                          deb     
+cron                        3.0pl1-137ubuntu3                        deb     
 cryptography                41.0.5                                   python  
 curl                        7.81.0-1ubuntu1.14                       deb     
 dash                        0.5.11+git20210903+057cd650a4ed-3build1  deb     
@@ -72,7 +73,7 @@ inflect                     7.0.0                                    python
 init-system-helpers         1.62                                     deb     
 jaraco.collections          4.3.0                                    python  
 jaraco.context              4.3.0                                    python  
-jaraco.functools            3.9.0                                    python  
+jaraco.functools            4.0.0                                    python  
 jaraco.text                 3.11.1                                   python  
 jq                          1.6-2.1ubuntu3                           deb     
 libacl1                     2.3.1-1                                  deb     
@@ -227,7 +228,7 @@ python3.10                  3.10.12-1~22.04.2                        deb
 python3.10-minimal          3.10.12-1~22.04.2                        deb     
 python3.10-venv             3.10.12-1~22.04.2                        deb     
 pytz                        2023.3.post1                             python  
-rapidfuzz                   3.4.0                                    python  
+rapidfuzz                   3.5.2                                    python  
 readline-common             8.1.2-1                                  deb     
 requests                    2.31.0                                   python  
 requests-oauthlib           1.3.1                                    python  
@@ -249,6 +250,6 @@ urllib3                     2.0.7                                    python
 usrmerge                    25ubuntu2                                deb     
 util-linux                  2.37.2-4ubuntu3                          deb     
 webencodings                0.5.1                                    python  
-wheel                       0.41.2                                   python  
+wheel                       0.41.3                                   python  
 zc.lockfile                 3.0.post1                                python  
 zlib1g                      1:1.2.11.dfsg-2ubuntu9.2                 deb     
