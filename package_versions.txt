@@ -213,15 +213,15 @@ procps                    2:3.3.17-6ubuntu2                        deb
 publicsuffix              20211207.1025-1                          deb     
 pyOpenSSL                 23.3.0                                   python  
 pycparser                 2.21                                     python  
-pydantic                  2.4.2                                    python  
-pydantic_core             2.10.1                                   python  
+pydantic                  2.5.1                                    python  
+pydantic_core             2.14.3                                   python  
 pyparsing                 3.1.1                                    python  
 python-magic              0.4.27                                   python  
 python3                   3.10.6-1~22.04                           deb     
 python3-distutils         3.10.8-1~22.04                           deb     
 python3-lib2to3           3.10.8-1~22.04                           deb     
 python3-minimal           3.10.6-1~22.04                           deb     
-python3-pip-whl           22.0.2+dfsg-1ubuntu0.3                   deb     
+python3-pip-whl           22.0.2+dfsg-1ubuntu0.4                   deb     
 python3-setuptools-whl    59.6.0-1.2ubuntu0.22.04.1                deb     
 python3-venv              3.10.6-1~22.04                           deb     
 python3.10                3.10.12-1~22.04.2                        deb     
@@ -246,7 +246,7 @@ typing_extensions         4.8.0                                    python
 tzdata                    2023c-0ubuntu0.22.04.2                   deb     
 ubuntu-keyring            2021.03.26                               deb     
 ucf                       3.0043                                   deb     
-urllib3                   2.0.7                                    python  
+urllib3                   2.1.0                                    python  
 usrmerge                  25ubuntu2                                deb     
 util-linux                2.37.2-4ubuntu3                          deb     
 webencodings              0.5.1                                    python  
