@@ -24,7 +24,7 @@ beautifulsoup4            4.12.2                                   python
 bs4                       0.0.1                                    python  
 bsdutils                  1:2.37.2-4ubuntu3                        deb     
 ca-certificates           20230311ubuntu0.22.04.1                  deb     
-certifi                   2023.7.22                                python  
+certifi                   2023.11.17                               python  
 cffi                      1.16.0                                   python  
 chardet                   5.2.0                                    python  
 charset-normalizer        3.3.2                                    python  
