@@ -71,7 +71,7 @@ httplib2                  0.22.0                                   python
 idna                      3.6                                      python  
 inflect                   7.0.0                                    python  
 init-system-helpers       1.62                                     deb     
-jaraco.collections        4.3.0                                    python  
+jaraco.collections        5.0.0                                    python  
 jaraco.context            4.3.0                                    python  
 jaraco.functools          4.0.0                                    python  
 jaraco.text               3.12.0                                   python  
