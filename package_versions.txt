@@ -19,8 +19,8 @@ base-files                 12ubuntu4.3                              deb
 base-passwd                3.5.52build1                             deb     
 bash                       5.1-6ubuntu1                             deb     
 bash                       5.1.16                                   binary  
-beautifulsoup4             4.12.2                                   python  
-bs4                        0.0.1                                    python  
+beautifulsoup4             4.12.3                                   python  
+bs4                        0.0.2                                    python  
 bsdutils                   1:2.37.2-4ubuntu3                        deb     
 ca-certificates            20230311ubuntu0.22.04.1                  deb     
 certifi                    2023.11.17                               python  
@@ -188,7 +188,7 @@ libuuid1                   2.37.2-4ubuntu3                          deb
 libwebp7                   1.2.2-2ubuntu0.22.04.2                   deb     
 libxxhash0                 0.8.1-1                                  deb     
 libzstd1                   1.4.8+dfsg-3build1                       deb     
-locales                    2.35-0ubuntu3.5                          deb     
+locales                    2.35-0ubuntu3.6                          deb     
 login                      1:4.8.1-2ubuntu2.1                       deb     
 logsave                    1.46.5-2ubuntu1.1                        deb     
 lsb-base                   11.1.0ubuntu4                            deb     
@@ -243,7 +243,7 @@ tempora                    5.5.0                                    python
 thefuzz                    0.20.0                                   python  
 tqdm                       4.66.1                                   python  
 typing_extensions          4.9.0                                    python  
-tzdata                     2023c-0ubuntu0.22.04.2                   deb     
+tzdata                     2023d-0ubuntu0.22.04                     deb     
 ubuntu-keyring             2021.03.26                               deb     
 ucf                        3.0043                                   deb     
 urllib3                    2.1.0                                    python  
