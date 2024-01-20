@@ -4,7 +4,7 @@ LazyLibrarian              2022.12.5                                python
 Levenshtein                0.23.0                                   python  
 Mako                       1.3.0                                    python  
 Markdown                   3.5.2                                    python  
-MarkupSafe                 2.1.3                                    python  
+MarkupSafe                 2.1.4                                    python  
 PyPDF3                     1.0.6                                    python  
 PyYAML                     6.0.1                                    python  
 RAR decompression library  3.93.0                                   dotnet  
@@ -240,7 +240,7 @@ soupsieve                  2.5                                      python
 sysvinit-utils             3.01-1ubuntu1                            deb     
 tar                        1.34+dfsg-1ubuntu0.1.22.04.1             deb     
 tempora                    5.5.0                                    python  
-thefuzz                    0.20.0                                   python  
+thefuzz                    0.22.1                                   python  
 tqdm                       4.66.1                                   python  
 typing_extensions          4.9.0                                    python  
 tzdata                     2023d-0ubuntu0.22.04                     deb     
