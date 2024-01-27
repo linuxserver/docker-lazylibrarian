@@ -32,7 +32,7 @@ cherrypy-cors              1.7.0                                    python
 click                      8.1.7                                    python  
 coreutils                  8.32-4.1ubuntu1                          deb     
 cron                       3.0pl1-137ubuntu3                        deb     
-cryptography               41.0.7                                   python  
+cryptography               42.0.1                                   python  
 curl                       7.81.0-1ubuntu1.15                       deb     
 dash                       0.5.11+git20210903+057cd650a4ed-3build1  deb     
 dbus                       1.12.20-2ubuntu4.1                       deb     
@@ -173,7 +173,7 @@ libsepol2                  3.3-1build1                              deb
 libsmartcols1              2.37.2-4ubuntu3                          deb     
 libsqlite3-0               3.37.2-2ubuntu0.3                        deb     
 libss2                     1.46.5-2ubuntu1.1                        deb     
-libssh-4                   0.9.6-2ubuntu0.22.04.2                   deb     
+libssh-4                   0.9.6-2ubuntu0.22.04.3                   deb     
 libssl3                    3.0.2-0ubuntu1.10                        deb     
 libstdc++6                 12.1.0-2ubuntu1~22.04                    deb     
 libsystemd0                249.11-0ubuntu3.9                        deb     
@@ -211,7 +211,7 @@ poppler-data               0.4.11-1                                 deb
 portend                    3.2.0                                    python  
 procps                     2:3.3.17-6ubuntu2                        deb     
 publicsuffix               20211207.1025-1                          deb     
-pyOpenSSL                  23.3.0                                   python  
+pyOpenSSL                  24.0.0                                   python  
 pycparser                  2.21                                     python  
 pydantic                   2.5.3                                    python  
 pydantic_core              2.14.6                                   python  
