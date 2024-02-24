@@ -32,7 +32,7 @@ cherrypy-cors              1.7.0                                    python
 click                      8.1.7                                    python  
 coreutils                  8.32-4.1ubuntu1                          deb     
 cron                       3.0pl1-137ubuntu3                        deb     
-cryptography               42.0.3                                   python  
+cryptography               42.0.5                                   python  
 curl                       7.81.0-1ubuntu1.15                       deb     
 dash                       0.5.11+git20210903+057cd650a4ed-3build1  deb     
 dbus                       1.12.20-2ubuntu4.1                       deb     
@@ -213,8 +213,8 @@ procps                     2:3.3.17-6ubuntu2                        deb
 publicsuffix               20211207.1025-1                          deb     
 pyOpenSSL                  24.0.0                                   python  
 pycparser                  2.21                                     python  
-pydantic                   2.6.1                                    python  
-pydantic_core              2.16.2                                   python  
+pydantic                   2.6.2                                    python  
+pydantic_core              2.16.3                                   python  
 pyparsing                  3.1.1                                    python  
 python-magic               0.4.27                                   python  
 python3                    3.10.6-1~22.04                           deb     
