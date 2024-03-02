@@ -1,6 +1,6 @@
 NAME                       VERSION                                  TYPE                    
 CherryPy                   18.9.0                                   python                   
-LazyLibrarian              2022.12.5                                python  (+1 duplicate)   
+LazyLibrarian              2024.3.1                                 python  (+1 duplicate)   
 Levenshtein                0.25.0                                   python                   
 Mako                       1.3.2                                    python                   
 Markdown                   3.5.2                                    python                   
@@ -70,9 +70,12 @@ httplib2                   0.22.0                                   python
 idna                       3.6                                      python                   
 inflect                    7.0.0                                    python                   
 init-system-helpers        1.62                                     deb                      
+irc                        20.3.1                                   python                   
 jaraco.collections         5.0.0                                    python                   
 jaraco.context             4.3.0                                    python                   
 jaraco.functools           4.0.0                                    python                   
+jaraco.logging             3.3.0                                    python                   
+jaraco.stream              3.0.3                                    python                   
 jaraco.text                3.12.0                                   python                   
 jq                         1.6-2.1ubuntu3                           deb                      
 libacl1                    2.3.1-1                                  deb                      
