@@ -11,7 +11,7 @@ RAR decompression library  3.93.0                                   dotnet  (+1 
 Simple Launcher            1.1.0.14                                 dotnet  (+5 duplicates)  
 adduser                    3.118ubuntu5                             deb                      
 annotated-types            0.6.0                                    python                   
-apprise                    1.7.2                                    python                   
+apprise                    1.7.3                                    python                   
 apt                        2.4.11                                   deb                      
 apt-utils                  2.4.11                                   deb                      
 autocommand                2.2.2                                    python                   
