@@ -11,7 +11,7 @@ RAR decompression library  3.93.0                                   dotnet  (+1 
 Simple Launcher            1.1.0.14                                 dotnet  (+5 duplicates)  
 adduser                    3.118ubuntu5                             deb                      
 annotated-types            0.6.0                                    python                   
-apprise                    1.7.3                                    python                   
+apprise                    1.7.4                                    python                   
 apt                        2.4.11                                   deb                      
 apt-utils                  2.4.11                                   deb                      
 autocommand                2.2.2                                    python                   
@@ -214,7 +214,7 @@ poppler-data               0.4.11-1                                 deb
 portend                    3.2.0                                    python                   
 procps                     2:3.3.17-6ubuntu2                        deb                      
 publicsuffix               20211207.1025-1                          deb                      
-pyOpenSSL                  24.0.0                                   python                   
+pyOpenSSL                  24.1.0                                   python                   
 pycparser                  2.21                                     python                   
 pydantic                   2.6.3                                    python                   
 pydantic_core              2.16.3                                   python                   
