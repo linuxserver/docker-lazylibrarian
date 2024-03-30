@@ -11,7 +11,7 @@ RAR decompression library  3.93.0                                   dotnet  (+1 
 Simple Launcher            1.1.0.14                                 dotnet  (+5 duplicates)  
 adduser                    3.118ubuntu5                             deb                      
 annotated-types            0.6.0                                    python                   
-apprise                    1.7.4                                    python                   
+apprise                    1.7.5                                    python                   
 apt                        2.4.11                                   deb                      
 apt-utils                  2.4.11                                   deb                      
 autocommand                2.2.2                                    python                   
@@ -70,7 +70,7 @@ httplib2                   0.22.0                                   python
 idna                       3.6                                      python                   
 inflect                    7.0.0                                    python                   
 init-system-helpers        1.62                                     deb                      
-irc                        20.3.1                                   python                   
+irc                        20.4.0                                   python                   
 jaraco.collections         5.0.0                                    python                   
 jaraco.context             4.3.0                                    python                   
 jaraco.functools           4.0.0                                    python                   
@@ -215,7 +215,7 @@ portend                    3.2.0                                    python
 procps                     2:3.3.17-6ubuntu2.1                      deb                      
 publicsuffix               20211207.1025-1                          deb                      
 pyOpenSSL                  24.1.0                                   python                   
-pycparser                  2.21                                     python                   
+pycparser                  2.22                                     python                   
 pydantic                   2.6.4                                    python                   
 pydantic_core              2.16.3                                   python                   
 pyparsing                  3.1.2                                    python                   
@@ -231,7 +231,7 @@ python3.10                 3.10.12-1~22.04.3                        deb
 python3.10-minimal         3.10.12-1~22.04.3                        deb                      
 python3.10-venv            3.10.12-1~22.04.3                        deb                      
 pytz                       2024.1                                   python                   
-rapidfuzz                  3.6.2                                    python                   
+rapidfuzz                  3.7.0                                    python                   
 readline-common            8.1.2-1                                  deb                      
 requests                   2.31.0                                   python                   
 requests-oauthlib          2.0.0                                    python                   
