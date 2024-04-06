@@ -10,18 +10,18 @@ PyYAML                     6.0.1                                    python
 RAR decompression library  3.93.0                                   dotnet  (+1 duplicate)   
 Simple Launcher            1.1.0.14                                 dotnet  (+5 duplicates)  
 adduser                    3.118ubuntu5                             deb                      
-annotated-types            0.6.0                                    python                   
 apprise                    1.7.5                                    python                   
-apt                        2.4.11                                   deb                      
-apt-utils                  2.4.11                                   deb                      
+apt                        2.4.12                                   deb                      
+apt-utils                  2.4.12                                   deb                      
 autocommand                2.2.2                                    python                   
+backports.tarfile          1.0.0                                    python                   
 base-files                 12ubuntu4.6                              deb                      
 base-passwd                3.5.52build1                             deb                      
 bash                       5.1-6ubuntu1.1                           deb                      
 bash                       5.1.16                                   binary                   
 beautifulsoup4             4.12.3                                   python                   
 bs4                        0.0.2                                    python                   
-bsdutils                   1:2.37.2-4ubuntu3                        deb                      
+bsdutils                   1:2.37.2-4ubuntu3.3                      deb                      
 ca-certificates            20230311ubuntu0.22.04.1                  deb                      
 certifi                    2024.2.2                                 python                   
 cffi                       1.16.0                                   python                   
@@ -30,10 +30,10 @@ charset-normalizer         3.3.2                                    python
 cheroot                    10.0.0                                   python                   
 cherrypy-cors              1.7.0                                    python                   
 click                      8.1.7                                    python                   
-coreutils                  8.32-4.1ubuntu1.1                        deb                      
+coreutils                  8.32-4.1ubuntu1.2                        deb                      
 cron                       3.0pl1-137ubuntu3                        deb                      
 cryptography               42.0.5                                   python                   
-curl                       7.81.0-1ubuntu1.15                       deb                      
+curl                       7.81.0-1ubuntu1.16                       deb                      
 dash                       0.5.11+git20210903+057cd650a4ed-3build1  deb                      
 dbus                       1.12.20-2ubuntu4.1                       deb                      
 debconf                    1.5.79ubuntu1                            deb                      
@@ -68,11 +68,11 @@ html5lib                   1.1                                      python
 httpagentparser            1.9.5                                    python                   
 httplib2                   0.22.0                                   python                   
 idna                       3.6                                      python                   
-inflect                    7.0.0                                    python                   
+inflect                    7.2.0                                    python                   
 init-system-helpers        1.62                                     deb                      
 irc                        20.4.0                                   python                   
 jaraco.collections         5.0.0                                    python                   
-jaraco.context             4.3.0                                    python                   
+jaraco.context             5.2.0                                    python                   
 jaraco.functools           4.0.0                                    python                   
 jaraco.logging             3.3.0                                    python                   
 jaraco.stream              3.0.3                                    python                   
@@ -80,7 +80,7 @@ jaraco.text                3.12.0                                   python
 jq                         1.6-2.1ubuntu3                           deb                      
 libacl1                    2.3.1-1                                  deb                      
 libapparmor1               3.0.4-2ubuntu2.3                         deb                      
-libapt-pkg6.0              2.4.11                                   deb                      
+libapt-pkg6.0              2.4.12                                   deb                      
 libassuan0                 2.5.5-1build1                            deb                      
 libattr1                   1:2.5.1-1build1                          deb                      
 libaudit-common            1:3.0.7-1build1                          deb                      
@@ -88,7 +88,7 @@ libaudit1                  1:3.0.7-1build1                          deb
 libavahi-client3           0.8-5ubuntu5.2                           deb                      
 libavahi-common-data       0.8-5ubuntu5.2                           deb                      
 libavahi-common3           0.8-5ubuntu5.2                           deb                      
-libblkid1                  2.37.2-4ubuntu3                          deb                      
+libblkid1                  2.37.2-4ubuntu3.3                        deb                      
 libbrotli1                 1.0.9-2build6                            deb                      
 libbsd0                    0.11.5-1                                 deb                      
 libbz2-1.0                 1.0.8-5build1                            deb                      
@@ -99,7 +99,7 @@ libcap2                    1:2.44-1ubuntu0.22.04.1                  deb
 libcom-err2                1.46.5-2ubuntu1.1                        deb                      
 libcrypt1                  1:4.4.27-1                               deb                      
 libcups2                   2.4.1op1-1ubuntu4.8                      deb                      
-libcurl4                   7.81.0-1ubuntu1.15                       deb                      
+libcurl4                   7.81.0-1ubuntu1.16                       deb                      
 libdb5.3                   5.3.28+dfsg1-0.8ubuntu3                  deb                      
 libdbus-1-3                1.12.20-2ubuntu4.1                       deb                      
 libdebconfclient0          0.261ubuntu1                             deb                      
@@ -138,7 +138,7 @@ liblzma5                   5.2.5-2ubuntu1                           deb
 libmagic-mgc               1:5.41-3ubuntu0.1                        deb                      
 libmagic1                  1:5.41-3ubuntu0.1                        deb                      
 libmd0                     1.0.4-1build1                            deb                      
-libmount1                  2.37.2-4ubuntu3                          deb                      
+libmount1                  2.37.2-4ubuntu3.3                        deb                      
 libmpdec3                  2.5.1-2build2                            deb                      
 libncurses6                6.3-2ubuntu0.1                           deb                      
 libncursesw6               6.3-2ubuntu0.1                           deb                      
@@ -173,7 +173,7 @@ libselinux1                3.3-1build2                              deb
 libsemanage-common         3.3-1build2                              deb                      
 libsemanage2               3.3-1build2                              deb                      
 libsepol2                  3.3-1build1                              deb                      
-libsmartcols1              2.37.2-4ubuntu3                          deb                      
+libsmartcols1              2.37.2-4ubuntu3.3                        deb                      
 libsqlite3-0               3.37.2-2ubuntu0.3                        deb                      
 libss2                     1.46.5-2ubuntu1.1                        deb                      
 libssh-4                   0.9.6-2ubuntu0.22.04.3                   deb                      
@@ -187,7 +187,7 @@ libtirpc-common            1.3.2-2ubuntu0.1                         deb
 libtirpc3                  1.3.2-2ubuntu0.1                         deb                      
 libudev1                   249.11-0ubuntu3.12                       deb                      
 libunistring2              1.0-1                                    deb                      
-libuuid1                   2.37.2-4ubuntu3                          deb                      
+libuuid1                   2.37.2-4ubuntu3.3                        deb                      
 libwebp7                   1.2.2-2ubuntu0.22.04.2                   deb                      
 libxxhash0                 0.8.1-1                                  deb                      
 libzstd1                   1.4.8+dfsg-3build1                       deb                      
@@ -198,7 +198,7 @@ lsb-base                   11.1.0ubuntu4                            deb
 mawk                       1.3.4.20200120-3                         deb                      
 media-types                7.0.0                                    deb                      
 more-itertools             10.2.0                                   python                   
-mount                      2.37.2-4ubuntu3                          deb                      
+mount                      2.37.2-4ubuntu3.3                        deb                      
 ncurses-base               6.3-2ubuntu0.1                           deb                      
 ncurses-bin                6.3-2ubuntu0.1                           deb                      
 netcat                     1.218-4ubuntu1                           deb                      
@@ -207,7 +207,7 @@ oauthlib                   3.2.2                                    python
 openssl                    3.0.2-0ubuntu1.15                        deb                      
 passwd                     1:4.8.1-2ubuntu2.2                       deb                      
 perl-base                  5.34.0-3ubuntu1.3                        deb                      
-pillow                     10.2.0                                   python                   
+pillow                     10.3.0                                   python                   
 pinentry-curses            1.1.1-1build2                            deb                      
 pip                        24.0                                     python                   
 poppler-data               0.4.11-1                                 deb                      
@@ -216,8 +216,6 @@ procps                     2:3.3.17-6ubuntu2.1                      deb
 publicsuffix               20211207.1025-1                          deb                      
 pyOpenSSL                  24.1.0                                   python                   
 pycparser                  2.22                                     python                   
-pydantic                   2.6.4                                    python                   
-pydantic_core              2.16.3                                   python                   
 pyparsing                  3.1.2                                    python                   
 python-magic               0.4.27                                   python                   
 python3                    3.10.6-1~22.04                           deb                      
@@ -231,7 +229,7 @@ python3.10                 3.10.12-1~22.04.3                        deb
 python3.10-minimal         3.10.12-1~22.04.3                        deb                      
 python3.10-venv            3.10.12-1~22.04.3                        deb                      
 pytz                       2024.1                                   python                   
-rapidfuzz                  3.7.0                                    python                   
+rapidfuzz                  3.8.0                                    python                   
 readline-common            8.1.2-1                                  deb                      
 requests                   2.31.0                                   python                   
 requests-oauthlib          2.0.0                                    python                   
@@ -245,13 +243,14 @@ tar                        1.34+dfsg-1ubuntu0.1.22.04.2             deb
 tempora                    5.5.1                                    python                   
 thefuzz                    0.22.1                                   python                   
 tqdm                       4.66.2                                   python                   
-typing_extensions          4.10.0                                   python                   
+typeguard                  4.2.1                                    python                   
+typing_extensions          4.11.0                                   python                   
 tzdata                     2024a-0ubuntu0.22.04                     deb                      
 ubuntu-keyring             2021.03.26                               deb                      
 ucf                        3.0043                                   deb                      
 urllib3                    2.2.1                                    python                   
 usrmerge                   25ubuntu2                                deb                      
-util-linux                 2.37.2-4ubuntu3                          deb                      
+util-linux                 2.37.2-4ubuntu3.3                        deb                      
 webencodings               0.5.1                                    python                   
 wheel                      0.43.0                                   python                   
 zc.lockfile                3.0.post1                                python                   
