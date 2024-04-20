@@ -73,7 +73,7 @@ init-system-helpers        1.62                                     deb
 irc                        20.4.0                                   python                   
 jaraco.collections         5.0.1                                    python                   
 jaraco.context             5.3.0                                    python                   
-jaraco.functools           4.0.0                                    python                   
+jaraco.functools           4.0.1                                    python                   
 jaraco.logging             3.3.0                                    python                   
 jaraco.stream              3.0.3                                    python                   
 jaraco.text                3.12.0                                   python                   
