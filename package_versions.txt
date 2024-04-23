@@ -14,7 +14,7 @@ apprise                    1.7.6                                    python
 apt                        2.4.12                                   deb                      
 apt-utils                  2.4.12                                   deb                      
 autocommand                2.2.2                                    python                   
-backports.tarfile          1.1.0                                    python                   
+backports.tarfile          1.1.1                                    python                   
 base-files                 12ubuntu4.6                              deb                      
 base-passwd                3.5.52build1                             deb                      
 bash                       5.1-6ubuntu1.1                           deb                      
@@ -27,7 +27,7 @@ certifi                    2024.2.2                                 python
 cffi                       1.16.0                                   python                   
 chardet                    5.2.0                                    python                   
 charset-normalizer         3.3.2                                    python                   
-cheroot                    10.0.0                                   python                   
+cheroot                    10.0.1                                   python                   
 cherrypy-cors              1.7.0                                    python                   
 click                      8.1.7                                    python                   
 coreutils                  8.32-4.1ubuntu1.2                        deb                      
