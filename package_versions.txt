@@ -32,7 +32,7 @@ cherrypy-cors              1.7.0                                    python
 click                      8.1.7                                    python                   
 coreutils                  8.32-4.1ubuntu1.2                        deb                      
 cron                       3.0pl1-137ubuntu3                        deb                      
-cryptography               42.0.5                                   python                   
+cryptography               42.0.6                                   python                   
 curl                       7.81.0-1ubuntu1.16                       deb                      
 dash                       0.5.11+git20210903+057cd650a4ed-3build1  deb                      
 dbus                       1.12.20-2ubuntu4.1                       deb                      
@@ -229,7 +229,7 @@ python3.10                 3.10.12-1~22.04.3                        deb
 python3.10-minimal         3.10.12-1~22.04.3                        deb                      
 python3.10-venv            3.10.12-1~22.04.3                        deb                      
 pytz                       2024.1                                   python                   
-rapidfuzz                  3.8.1                                    python                   
+rapidfuzz                  3.9.0                                    python                   
 readline-common            8.1.2-1                                  deb                      
 requests                   2.31.0                                   python                   
 requests-oauthlib          2.0.0                                    python                   
@@ -242,7 +242,7 @@ sysvinit-utils             3.01-1ubuntu1                            deb
 tar                        1.34+dfsg-1ubuntu0.1.22.04.2             deb                      
 tempora                    5.5.1                                    python                   
 thefuzz                    0.22.1                                   python                   
-tqdm                       4.66.2                                   python                   
+tqdm                       4.66.4                                   python                   
 typeguard                  4.2.1                                    python                   
 typing_extensions          4.11.0                                   python                   
 tzdata                     2024a-0ubuntu0.22.04                     deb                      
