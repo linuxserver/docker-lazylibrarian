@@ -18,11 +18,11 @@ backports.tarfile          1.1.1                                    python
 base-files                 12ubuntu4.6                              deb                      
 base-passwd                3.5.52build1                             deb                      
 bash                       5.1-6ubuntu1.1                           deb                      
-bash                       5.1.16                                   binary                   
 beautifulsoup4             4.12.3                                   python                   
 bs4                        0.0.2                                    python                   
 bsdutils                   1:2.37.2-4ubuntu3.4                      deb                      
 ca-certificates            20230311ubuntu0.22.04.1                  deb                      
+catatonit                  0.1.7-1                                  deb                      
 certifi                    2024.2.2                                 python                   
 cffi                       1.16.0                                   python                   
 chardet                    5.2.0                                    python                   
@@ -32,7 +32,7 @@ cherrypy-cors              1.7.0                                    python
 click                      8.1.7                                    python                   
 coreutils                  8.32-4.1ubuntu1.2                        deb                      
 cron                       3.0pl1-137ubuntu3                        deb                      
-cryptography               42.0.6                                   python                   
+cryptography               42.0.7                                   python                   
 curl                       7.81.0-1ubuntu1.16                       deb                      
 dash                       0.5.11+git20210903+057cd650a4ed-3build1  deb                      
 dbus                       1.12.20-2ubuntu4.1                       deb                      
