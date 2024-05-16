@@ -2,7 +2,7 @@ NAME                       VERSION                                  TYPE
 CherryPy                   18.9.0                                   python                   
 LazyLibrarian              2024.5.6                                 python  (+1 duplicate)   
 Levenshtein                0.25.1                                   python                   
-Mako                       1.3.3                                    python                   
+Mako                       1.3.5                                    python                   
 Markdown                   3.6                                      python                   
 MarkupSafe                 2.1.5                                    python                   
 PyPDF3                     1.0.6                                    python                   
@@ -10,7 +10,7 @@ PyYAML                     6.0.1                                    python
 RAR decompression library  3.93.0                                   dotnet  (+1 duplicate)   
 Simple Launcher            1.1.0.14                                 dotnet  (+5 duplicates)  
 adduser                    3.118ubuntu5                             deb                      
-apprise                    1.7.6                                    python                   
+apprise                    1.8.0                                    python                   
 apt                        2.4.12                                   deb                      
 apt-utils                  2.4.12                                   deb                      
 autocommand                2.2.2                                    python                   
