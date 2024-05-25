@@ -229,9 +229,9 @@ python3.10                 3.10.12-1~22.04.3                        deb
 python3.10-minimal         3.10.12-1~22.04.3                        deb                      
 python3.10-venv            3.10.12-1~22.04.3                        deb                      
 pytz                       2024.1                                   python                   
-rapidfuzz                  3.9.0                                    python                   
+rapidfuzz                  3.9.1                                    python                   
 readline-common            8.1.2-1                                  deb                      
-requests                   2.31.0                                   python                   
+requests                   2.32.2                                   python                   
 requests-oauthlib          2.0.0                                    python                   
 sed                        4.8-1ubuntu2                             deb                      
 sensible-utils             0.0.17                                   deb                      
@@ -244,7 +244,7 @@ tempora                    5.5.1                                    python
 thefuzz                    0.22.1                                   python                   
 tqdm                       4.66.4                                   python                   
 typeguard                  4.2.1                                    python                   
-typing_extensions          4.11.0                                   python                   
+typing_extensions          4.12.0                                   python                   
 tzdata                     2024a-0ubuntu0.22.04                     deb                      
 ubuntu-keyring             2021.03.26                               deb                      
 ucf                        3.0043                                   deb                      
