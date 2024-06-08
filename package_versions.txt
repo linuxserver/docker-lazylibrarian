@@ -244,7 +244,7 @@ tempora                    5.5.1                                    python
 thefuzz                    0.22.1                                   python                   
 tqdm                       4.66.4                                   python                   
 typeguard                  4.3.0                                    python                   
-typing_extensions          4.12.1                                   python                   
+typing_extensions          4.12.2                                   python                   
 tzdata                     2024a-0ubuntu0.22.04                     deb                      
 ubuntu-keyring             2021.03.26                               deb                      
 ucf                        3.0043                                   deb                      
