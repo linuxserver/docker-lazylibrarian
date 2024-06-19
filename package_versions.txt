@@ -50,7 +50,7 @@ fonts-droid-fallback       1:6.0.1r16-1.1build1                     deb
 fonts-noto-mono            20201225-1build1                         deb                      
 fonts-urw-base35           20200910-1                               deb                      
 gcc-12-base                12.3.0-1ubuntu1~22.04                    deb                      
-ghostscript                9.55.0~dfsg1-0ubuntu5.6                  deb                      
+ghostscript                9.55.0~dfsg1-0ubuntu5.7                  deb                      
 gnupg                      2.2.27-3ubuntu2.1                        deb                      
 gnupg-l10n                 2.2.27-3ubuntu2.1                        deb                      
 gnupg-utils                2.2.27-3ubuntu2.1                        deb                      
@@ -76,7 +76,7 @@ jaraco.context             5.3.0                                    python
 jaraco.functools           4.0.1                                    python                   
 jaraco.logging             3.3.0                                    python                   
 jaraco.stream              3.0.3                                    python                   
-jaraco.text                3.12.0                                   python                   
+jaraco.text                3.12.1                                   python                   
 jq                         1.6-2.1ubuntu3                           deb                      
 libacl1                    2.3.1-1                                  deb                      
 libapparmor1               3.0.4-2ubuntu2.3                         deb                      
@@ -114,8 +114,8 @@ libgcrypt20                1.9.4-3ubuntu3                           deb
 libgmp10                   2:6.2.1+dfsg-3ubuntu1                    deb                      
 libgnutls30                3.7.3-4ubuntu1.5                         deb                      
 libgpg-error0              1.43-3                                   deb                      
-libgs9                     9.55.0~dfsg1-0ubuntu5.6                  deb                      
-libgs9-common              9.55.0~dfsg1-0ubuntu5.6                  deb                      
+libgs9                     9.55.0~dfsg1-0ubuntu5.7                  deb                      
+libgs9-common              9.55.0~dfsg1-0ubuntu5.7                  deb                      
 libgssapi-krb5-2           1.19.2-2ubuntu0.3                        deb                      
 libhogweed6                3.7.3-1build2                            deb                      
 libidn12                   1.38-4ubuntu1                            deb                      
@@ -240,7 +240,7 @@ six                        1.16.0                                   python
 soupsieve                  2.5                                      python                   
 sysvinit-utils             3.01-1ubuntu1                            deb                      
 tar                        1.34+dfsg-1ubuntu0.1.22.04.2             deb                      
-tempora                    5.5.1                                    python                   
+tempora                    5.6.0                                    python                   
 thefuzz                    0.22.1                                   python                   
 tqdm                       4.66.4                                   python                   
 typeguard                  4.3.0                                    python                   
@@ -248,7 +248,7 @@ typing_extensions          4.12.2                                   python
 tzdata                     2024a-0ubuntu0.22.04                     deb                      
 ubuntu-keyring             2021.03.26                               deb                      
 ucf                        3.0043                                   deb                      
-urllib3                    2.2.1                                    python                   
+urllib3                    2.2.2                                    python                   
 usrmerge                   25ubuntu2                                deb                      
 util-linux                 2.37.2-4ubuntu3.4                        deb                      
 webencodings               0.5.1                                    python                   
