@@ -68,7 +68,7 @@ html5lib                   1.1                                      python
 httpagentparser            1.9.5                                    python                   
 httplib2                   0.22.0                                   python                   
 idna                       3.7                                      python                   
-inflect                    7.2.1                                    python                   
+inflect                    7.3.0                                    python                   
 init-system-helpers        1.62                                     deb                      
 irc                        20.4.1                                   python                   
 jaraco.collections         5.0.1                                    python                   
@@ -209,7 +209,7 @@ passwd                     1:4.8.1-2ubuntu2.2                       deb
 perl-base                  5.34.0-3ubuntu1.3                        deb                      
 pillow                     10.3.0                                   python                   
 pinentry-curses            1.1.1-1build2                            deb                      
-pip                        24.0                                     python                   
+pip                        24.1                                     python                   
 poppler-data               0.4.11-1                                 deb                      
 portend                    3.2.0                                    python                   
 procps                     2:3.3.17-6ubuntu2.1                      deb                      
