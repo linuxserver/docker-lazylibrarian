@@ -70,7 +70,7 @@ httplib2                   0.22.0                                   python
 idna                       3.7                                      python                   
 inflect                    7.3.1                                    python                   
 init-system-helpers        1.62                                     deb                      
-irc                        20.4.1                                   python                   
+irc                        20.4.3                                   python                   
 jaraco.collections         5.0.1                                    python                   
 jaraco.context             5.3.0                                    python                   
 jaraco.functools           4.0.1                                    python                   
@@ -161,8 +161,8 @@ libpng16-16                1.6.37-3build5                           deb
 libprocps8                 2:3.3.17-6ubuntu2.1                      deb                      
 libpsl5                    0.21.0-1.2build2                         deb                      
 libpython3-stdlib          3.10.6-1~22.04                           deb                      
-libpython3.10-minimal      3.10.12-1~22.04.3                        deb                      
-libpython3.10-stdlib       3.10.12-1~22.04.3                        deb                      
+libpython3.10-minimal      3.10.12-1~22.04.4                        deb                      
+libpython3.10-stdlib       3.10.12-1~22.04.4                        deb                      
 libreadline8               8.1.2-1                                  deb                      
 librtmp1                   2.4+20151223.gitfa8646d.1-2build4        deb                      
 libsasl2-2                 2.1.27+dfsg2-3ubuntu1.2                  deb                      
@@ -209,7 +209,7 @@ passwd                     1:4.8.1-2ubuntu2.2                       deb
 perl-base                  5.34.0-3ubuntu1.3                        deb                      
 pillow                     10.4.0                                   python                   
 pinentry-curses            1.1.1-1build2                            deb                      
-pip                        24.1.1                                   python                   
+pip                        24.1.2                                   python                   
 poppler-data               0.4.11-1                                 deb                      
 portend                    3.2.0                                    python                   
 procps                     2:3.3.17-6ubuntu2.1                      deb                      
@@ -225,9 +225,9 @@ python3-minimal            3.10.6-1~22.04                           deb
 python3-pip-whl            22.0.2+dfsg-1ubuntu0.4                   deb                      
 python3-setuptools-whl     59.6.0-1.2ubuntu0.22.04.1                deb                      
 python3-venv               3.10.6-1~22.04                           deb                      
-python3.10                 3.10.12-1~22.04.3                        deb                      
-python3.10-minimal         3.10.12-1~22.04.3                        deb                      
-python3.10-venv            3.10.12-1~22.04.3                        deb                      
+python3.10                 3.10.12-1~22.04.4                        deb                      
+python3.10-minimal         3.10.12-1~22.04.4                        deb                      
+python3.10-venv            3.10.12-1~22.04.4                        deb                      
 pytz                       2024.1                                   python                   
 rapidfuzz                  3.9.4                                    python                   
 readline-common            8.1.2-1                                  deb                      
@@ -245,7 +245,7 @@ thefuzz                    0.22.1                                   python
 tqdm                       4.66.4                                   python                   
 typeguard                  4.3.0                                    python                   
 typing_extensions          4.12.2                                   python                   
-tzdata                     2024a-0ubuntu0.22.04                     deb                      
+tzdata                     2024a-0ubuntu0.22.04.1                   deb                      
 ubuntu-keyring             2021.03.26                               deb                      
 ucf                        3.0043                                   deb                      
 urllib3                    2.2.2                                    python                   
