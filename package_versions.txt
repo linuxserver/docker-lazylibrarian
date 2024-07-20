@@ -32,7 +32,7 @@ cherrypy-cors              1.7.0                                    python
 click                      8.1.7                                    python                   
 coreutils                  8.32-4.1ubuntu1.2                        deb                      
 cron                       3.0pl1-137ubuntu3                        deb                      
-cryptography               42.0.8                                   python                   
+cryptography               43.0.0                                   python                   
 curl                       7.81.0-1ubuntu1.16                       deb                      
 dash                       0.5.11+git20210903+057cd650a4ed-3build1  deb                      
 dbus                       1.12.20-2ubuntu4.1                       deb                      
@@ -50,7 +50,7 @@ fonts-droid-fallback       1:6.0.1r16-1.1build1                     deb
 fonts-noto-mono            20201225-1build1                         deb                      
 fonts-urw-base35           20200910-1                               deb                      
 gcc-12-base                12.3.0-1ubuntu1~22.04                    deb                      
-ghostscript                9.55.0~dfsg1-0ubuntu5.7                  deb                      
+ghostscript                9.55.0~dfsg1-0ubuntu5.9                  deb                      
 gnupg                      2.2.27-3ubuntu2.1                        deb                      
 gnupg-l10n                 2.2.27-3ubuntu2.1                        deb                      
 gnupg-utils                2.2.27-3ubuntu2.1                        deb                      
@@ -68,15 +68,16 @@ html5lib                   1.1                                      python
 httpagentparser            1.9.5                                    python                   
 httplib2                   0.22.0                                   python                   
 idna                       3.7                                      python                   
+importlib_resources        6.4.0                                    python                   
 inflect                    7.3.1                                    python                   
 init-system-helpers        1.62                                     deb                      
-irc                        20.4.3                                   python                   
+irc                        20.5.0                                   python                   
 jaraco.collections         5.0.1                                    python                   
 jaraco.context             5.3.0                                    python                   
 jaraco.functools           4.0.1                                    python                   
 jaraco.logging             3.3.0                                    python                   
 jaraco.stream              3.0.3                                    python                   
-jaraco.text                3.12.1                                   python                   
+jaraco.text                3.14.0                                   python                   
 jq                         1.6-2.1ubuntu3                           deb                      
 libacl1                    2.3.1-1                                  deb                      
 libapparmor1               3.0.4-2ubuntu2.3                         deb                      
@@ -114,8 +115,8 @@ libgcrypt20                1.9.4-3ubuntu3                           deb
 libgmp10                   2:6.2.1+dfsg-3ubuntu1                    deb                      
 libgnutls30                3.7.3-4ubuntu1.5                         deb                      
 libgpg-error0              1.43-3                                   deb                      
-libgs9                     9.55.0~dfsg1-0ubuntu5.7                  deb                      
-libgs9-common              9.55.0~dfsg1-0ubuntu5.7                  deb                      
+libgs9                     9.55.0~dfsg1-0ubuntu5.9                  deb                      
+libgs9-common              9.55.0~dfsg1-0ubuntu5.9                  deb                      
 libgssapi-krb5-2           1.19.2-2ubuntu0.3                        deb                      
 libhogweed6                3.7.3-1build2                            deb                      
 libidn12                   1.38-4ubuntu1                            deb                      
@@ -131,8 +132,8 @@ libkeyutils1               1.6.1-2ubuntu3                           deb
 libkrb5-3                  1.19.2-2ubuntu0.3                        deb                      
 libkrb5support0            1.19.2-2ubuntu0.3                        deb                      
 libksba8                   1.6.0-2ubuntu0.2                         deb                      
-libldap-2.5-0              2.5.17+dfsg-0ubuntu0.22.04.1             deb                      
-libldap-common             2.5.17+dfsg-0ubuntu0.22.04.1             deb                      
+libldap-2.5-0              2.5.18+dfsg-0ubuntu0.22.04.1             deb                      
+libldap-common             2.5.18+dfsg-0ubuntu0.22.04.1             deb                      
 liblz4-1                   1.9.3-2build2                            deb                      
 liblzma5                   5.2.5-2ubuntu1                           deb                      
 libmagic-mgc               1:5.41-3ubuntu0.1                        deb                      
@@ -214,7 +215,7 @@ poppler-data               0.4.11-1                                 deb
 portend                    3.2.0                                    python                   
 procps                     2:3.3.17-6ubuntu2.1                      deb                      
 publicsuffix               20211207.1025-1                          deb                      
-pyOpenSSL                  24.1.0                                   python                   
+pyOpenSSL                  24.2.1                                   python                   
 pycparser                  2.22                                     python                   
 pyparsing                  3.1.2                                    python                   
 python-magic               0.4.27                                   python                   
