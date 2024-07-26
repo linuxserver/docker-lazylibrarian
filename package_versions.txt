@@ -10,7 +10,7 @@ PyYAML                     6.0.1                                    python
 RAR decompression library  3.93.0                                   dotnet  (+1 duplicate)   
 Simple Launcher            1.1.0.14                                 dotnet  (+5 duplicates)  
 adduser                    3.118ubuntu5                             deb                      
-apprise                    1.8.0                                    python                   
+apprise                    1.8.1                                    python                   
 apt                        2.4.12                                   deb                      
 apt-utils                  2.4.12                                   deb                      
 autocommand                2.2.2                                    python                   
@@ -69,7 +69,6 @@ httpagentparser            1.9.5                                    python
 httplib2                   0.22.0                                   python                   
 idna                       3.7                                      python                   
 importlib_resources        6.4.0                                    python                   
-inflect                    7.3.1                                    python                   
 init-system-helpers        1.62                                     deb                      
 irc                        20.5.0                                   python                   
 jaraco.collections         5.0.1                                    python                   
@@ -77,7 +76,7 @@ jaraco.context             5.3.0                                    python
 jaraco.functools           4.0.1                                    python                   
 jaraco.logging             3.3.0                                    python                   
 jaraco.stream              3.0.3                                    python                   
-jaraco.text                3.14.0                                   python                   
+jaraco.text                4.0.0                                    python                   
 jq                         1.6-2.1ubuntu3                           deb                      
 libacl1                    2.3.1-1                                  deb                      
 libapparmor1               3.0.4-2ubuntu2.3                         deb                      
@@ -245,8 +244,6 @@ tar                        1.34+dfsg-1ubuntu0.1.22.04.2             deb
 tempora                    5.7.0                                    python                   
 thefuzz                    0.22.1                                   python                   
 tqdm                       4.66.4                                   python                   
-typeguard                  4.3.0                                    python                   
-typing_extensions          4.12.2                                   python                   
 tzdata                     2024a-0ubuntu0.22.04.1                   deb                      
 ubuntu-keyring             2021.03.26                               deb                      
 ucf                        3.0043                                   deb                      
