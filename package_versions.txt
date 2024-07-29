@@ -209,7 +209,7 @@ passwd                     1:4.8.1-2ubuntu2.2                       deb
 perl-base                  5.34.0-3ubuntu1.3                        deb                      
 pillow                     10.4.0                                   python                   
 pinentry-curses            1.1.1-1build2                            deb                      
-pip                        24.1.2                                   python                   
+pip                        24.2                                     python                   
 poppler-data               0.4.11-1                                 deb                      
 portend                    3.2.0                                    python                   
 procps                     2:3.3.17-6ubuntu2.1                      deb                      
@@ -230,7 +230,7 @@ python3.10                 3.10.12-1~22.04.4                        deb
 python3.10-minimal         3.10.12-1~22.04.4                        deb                      
 python3.10-venv            3.10.12-1~22.04.4                        deb                      
 pytz                       2024.1                                   python                   
-rapidfuzz                  3.9.4                                    python                   
+rapidfuzz                  3.9.5                                    python                   
 readline-common            8.1.2-1                                  deb                      
 requests                   2.32.3                                   python                   
 requests-oauthlib          2.0.0                                    python                   
