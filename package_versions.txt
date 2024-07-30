@@ -1,12 +1,4 @@
 NAME                       VERSION                                  TYPE                    
-CherryPy                   18.10.0                                  python                   
-LazyLibrarian              2024.5.6                                 python  (+1 duplicate)   
-Levenshtein                0.25.1                                   python                   
-Mako                       1.3.5                                    python                   
-Markdown                   3.6                                      python                   
-MarkupSafe                 2.1.5                                    python                   
-PyPDF3                     1.0.6                                    python                   
-PyYAML                     6.0.1                                    python                   
 RAR decompression library  3.93.0                                   dotnet  (+1 duplicate)   
 Simple Launcher            1.1.0.14                                 dotnet  (+5 duplicates)  
 adduser                    3.118ubuntu5                             deb                      
@@ -14,7 +6,7 @@ apprise                    1.8.1                                    python
 apt                        2.4.12                                   deb                      
 apt-utils                  2.4.12                                   deb                      
 autocommand                2.2.2                                    python                   
-backports.tarfile          1.2.0                                    python                   
+backports-tarfile          1.2.0                                    python                   
 base-files                 12ubuntu4.6                              deb                      
 base-passwd                3.5.52build1                             deb                      
 bash                       5.1-6ubuntu1.1                           deb                      
@@ -28,6 +20,7 @@ cffi                       1.16.0                                   python
 chardet                    5.2.0                                    python                   
 charset-normalizer         3.3.2                                    python                   
 cheroot                    10.0.1                                   python                   
+cherrypy                   18.10.0                                  python                   
 cherrypy-cors              1.7.0                                    python                   
 click                      8.1.7                                    python                   
 coreutils                  8.32-4.1ubuntu1.2                        deb                      
@@ -68,16 +61,18 @@ html5lib                   1.1                                      python
 httpagentparser            1.9.5                                    python                   
 httplib2                   0.22.0                                   python                   
 idna                       3.7                                      python                   
-importlib_resources        6.4.0                                    python                   
+importlib-resources        6.4.0                                    python                   
 init-system-helpers        1.62                                     deb                      
 irc                        20.5.0                                   python                   
-jaraco.collections         5.0.1                                    python                   
-jaraco.context             5.3.0                                    python                   
-jaraco.functools           4.0.1                                    python                   
-jaraco.logging             3.3.0                                    python                   
-jaraco.stream              3.0.3                                    python                   
-jaraco.text                4.0.0                                    python                   
+jaraco-collections         5.0.1                                    python                   
+jaraco-context             5.3.0                                    python                   
+jaraco-functools           4.0.1                                    python                   
+jaraco-logging             3.3.0                                    python                   
+jaraco-stream              3.0.3                                    python                   
+jaraco-text                4.0.0                                    python                   
 jq                         1.6-2.1ubuntu3                           deb                      
+lazylibrarian              2024.5.6                                 python  (+1 duplicate)   
+levenshtein                0.25.1                                   python                   
 libacl1                    2.3.1-1                                  deb                      
 libapparmor1               3.0.4-2ubuntu2.3                         deb                      
 libapt-pkg6.0              2.4.12                                   deb                      
@@ -161,8 +156,8 @@ libpng16-16                1.6.37-3build5                           deb
 libprocps8                 2:3.3.17-6ubuntu2.1                      deb                      
 libpsl5                    0.21.0-1.2build2                         deb                      
 libpython3-stdlib          3.10.6-1~22.04                           deb                      
-libpython3.10-minimal      3.10.12-1~22.04.4                        deb                      
-libpython3.10-stdlib       3.10.12-1~22.04.4                        deb                      
+libpython3.10-minimal      3.10.12-1~22.04.5                        deb                      
+libpython3.10-stdlib       3.10.12-1~22.04.5                        deb                      
 libreadline8               8.1.2-1                                  deb                      
 librtmp1                   2.4+20151223.gitfa8646d.1-2build4        deb                      
 libsasl2-2                 2.1.27+dfsg2-3ubuntu1.2                  deb                      
@@ -195,6 +190,9 @@ locales                    2.35-0ubuntu3.8                          deb
 login                      1:4.8.1-2ubuntu2.2                       deb                      
 logsave                    1.46.5-2ubuntu1.1                        deb                      
 lsb-base                   11.1.0ubuntu4                            deb                      
+mako                       1.3.5                                    python                   
+markdown                   3.6                                      python                   
+markupsafe                 2.1.5                                    python                   
 mawk                       1.3.4.20200120-3                         deb                      
 media-types                7.0.0                                    deb                      
 more-itertools             10.3.0                                   python                   
@@ -214,9 +212,10 @@ poppler-data               0.4.11-1                                 deb
 portend                    3.2.0                                    python                   
 procps                     2:3.3.17-6ubuntu2.1                      deb                      
 publicsuffix               20211207.1025-1                          deb                      
-pyOpenSSL                  24.2.1                                   python                   
 pycparser                  2.22                                     python                   
+pyopenssl                  24.2.1                                   python                   
 pyparsing                  3.1.2                                    python                   
+pypdf3                     1.0.6                                    python                   
 python-dateutil            2.9.0.post0                              python                   
 python-magic               0.4.27                                   python                   
 python3                    3.10.6-1~22.04                           deb                      
@@ -226,10 +225,11 @@ python3-minimal            3.10.6-1~22.04                           deb
 python3-pip-whl            22.0.2+dfsg-1ubuntu0.4                   deb                      
 python3-setuptools-whl     59.6.0-1.2ubuntu0.22.04.1                deb                      
 python3-venv               3.10.6-1~22.04                           deb                      
-python3.10                 3.10.12-1~22.04.4                        deb                      
-python3.10-minimal         3.10.12-1~22.04.4                        deb                      
-python3.10-venv            3.10.12-1~22.04.4                        deb                      
+python3.10                 3.10.12-1~22.04.5                        deb                      
+python3.10-minimal         3.10.12-1~22.04.5                        deb                      
+python3.10-venv            3.10.12-1~22.04.5                        deb                      
 pytz                       2024.1                                   python                   
+pyyaml                     6.0.1                                    python                   
 rapidfuzz                  3.9.5                                    python                   
 readline-common            8.1.2-1                                  deb                      
 requests                   2.32.3                                   python                   
@@ -252,5 +252,5 @@ usrmerge                   25ubuntu2                                deb
 util-linux                 2.37.2-4ubuntu3.4                        deb                      
 webencodings               0.5.1                                    python                   
 wheel                      0.43.0                                   python                   
-zc.lockfile                3.0.post1                                python                   
+zc-lockfile                3.0.post1                                python                   
 zlib1g                     1:1.2.11.dfsg-2ubuntu9.2                 deb                      
