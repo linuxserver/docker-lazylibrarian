@@ -243,7 +243,7 @@ sysvinit-utils             3.01-1ubuntu1                            deb
 tar                        1.34+dfsg-1ubuntu0.1.22.04.2             deb                      
 tempora                    5.7.0                                    python                   
 thefuzz                    0.22.1                                   python                   
-tqdm                       4.66.4                                   python                   
+tqdm                       4.66.5                                   python                   
 tzdata                     2024a-0ubuntu0.22.04.1                   deb                      
 ubuntu-keyring             2021.03.26                               deb                      
 ucf                        3.0043                                   deb                      
@@ -251,6 +251,6 @@ urllib3                    2.2.2                                    python
 usrmerge                   25ubuntu2                                deb                      
 util-linux                 2.37.2-4ubuntu3.4                        deb                      
 webencodings               0.5.1                                    python                   
-wheel                      0.43.0                                   python                   
+wheel                      0.44.0                                   python                   
 zc-lockfile                3.0.post1                                python                   
 zlib1g                     1:1.2.11.dfsg-2ubuntu9.2                 deb                      
