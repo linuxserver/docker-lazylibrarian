@@ -63,7 +63,7 @@ Access the webui at `http://<your-ip>:5299/home`, for more information check out
 
 ### Calibredb import
 
-**64bit only** We have implemented the optional ability to pull in the dependencies to enable the Calibredb import program:, this means if you don't require this feature the container isn't uneccessarily bloated but should you require it, it is easily available.
+**64bit only** We have implemented the optional ability to pull in the dependencies to enable the Calibredb import program:, this means if you don't require this feature the container isn't unnecessarily bloated but should you require it, it is easily available.
 This optional layer will be rebuilt automatically on our CI pipeline upon new Calibre releases so you can stay up to date.
 To use this option add the optional environmental variable as detailed in the docker-mods section to pull an addition docker layer to enable ebook conversion and then in the LazyLibrarian config page (Processing:Calibredb import program:) set the path to converter tool to `/usr/bin/calibredb`
 
@@ -77,7 +77,7 @@ You can enable it in the Web UI under Settings > Processing > External Programs 
 
 We have set `/books` as ***optional path***, this is because it is the easiest way to get started. While easy to use, it has some drawbacks. Mainly losing the ability to hardlink (TL;DR a way for a file to exist in multiple places on the same file system while only consuming one file worth of space), or atomic move (TL;DR instant file moves, rather than copy+delete) files while processing content.
 
-Use the optional path if you dont understand, or dont want hardlinks/atomic moves.
+Use the optional path if you don't understand, or don't want hardlinks/atomic moves.
 
 The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/docker-guide#consistent-and-well-planned-paths) on how to get started with this.
 
@@ -99,7 +99,7 @@ services:
       - TZ=Etc/UTC
       - DOCKER_MODS=linuxserver/mods:universal-calibre|linuxserver/mods:lazylibrarian-ffmpeg #optional
     volumes:
-      - /path/to/data:/config
+      - /path/to/lazylibrarian/data:/config
       - /path/to/downloads/:/downloads
       - /path/to/data/:/books #optional
     ports:
@@ -117,7 +117,7 @@ docker run -d \
   -e TZ=Etc/UTC \
   -e DOCKER_MODS=linuxserver/mods:universal-calibre|linuxserver/mods:lazylibrarian-ffmpeg `#optional` \
   -p 5299:5299 \
-  -v /path/to/data:/config \
+  -v /path/to/lazylibrarian/data:/config \
   -v /path/to/downloads/:/downloads \
   -v /path/to/data/:/books `#optional` \
   --restart unless-stopped \
@@ -300,6 +300,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **14.08.24:** - Rebase to Ubuntu Noble.
 * **07.10.23:** - Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar). Switch to Python virtual environment. Add Levenshtein.
 * **10.08.23:** - Bump unrar to 6.2.10.
 * **01.07.23:** - Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)

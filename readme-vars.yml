@@ -12,7 +12,7 @@ available_architectures:
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - {vol_path: "/config", vol_host_path: "/path/to/data", desc: "LazyLibrarian config"}
+  - {vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/data", desc: "LazyLibrarian config"}
   - {vol_path: "/downloads", vol_host_path: "/path/to/downloads/", desc: "Download location"}
 opt_param_usage_include_vols: true
 opt_param_volumes:
@@ -20,9 +20,6 @@ opt_param_volumes:
 param_usage_include_ports: true
 param_ports:
   - {external_port: "5299", internal_port: "5299", port_desc: "The port for the LazyLibrarian webinterface"}
-param_usage_include_env: true
-param_env_vars:
-  - {env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use e.g. Europe/London"}
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
@@ -34,7 +31,7 @@ app_setup_block: |
 
   ### Calibredb import
 
-  **64bit only** We have implemented the optional ability to pull in the dependencies to enable the Calibredb import program:, this means if you don't require this feature the container isn't uneccessarily bloated but should you require it, it is easily available.
+  **64bit only** We have implemented the optional ability to pull in the dependencies to enable the Calibredb import program:, this means if you don't require this feature the container isn't unnecessarily bloated but should you require it, it is easily available.
   This optional layer will be rebuilt automatically on our CI pipeline upon new Calibre releases so you can stay up to date.
   To use this option add the optional environmental variable as detailed in the docker-mods section to pull an addition docker layer to enable ebook conversion and then in the LazyLibrarian config page (Processing:Calibredb import program:) set the path to converter tool to `/usr/bin/calibredb`
 
@@ -48,11 +45,12 @@ app_setup_block: |
 
   We have set `/books` as ***optional path***, this is because it is the easiest way to get started. While easy to use, it has some drawbacks. Mainly losing the ability to hardlink (TL;DR a way for a file to exist in multiple places on the same file system while only consuming one file worth of space), or atomic move (TL;DR instant file moves, rather than copy+delete) files while processing content.
 
-  Use the optional path if you dont understand, or dont want hardlinks/atomic moves.
+  Use the optional path if you don't understand, or don't want hardlinks/atomic moves.
 
   The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/docker-guide#consistent-and-well-planned-paths) on how to get started with this.
 # changelog
 changelogs:
+  - {date: "14.08.24:", desc: "Rebase to Ubuntu Noble."}
   - {date: "07.10.23:", desc: "Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar). Switch to Python virtual environment. Add Levenshtein."}
   - {date: "10.08.23:", desc: "Bump unrar to 6.2.10."}
   - {date: "01.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
