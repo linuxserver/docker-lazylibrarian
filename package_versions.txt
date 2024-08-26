@@ -71,7 +71,7 @@ importlib-resources          6.4.0                              python
 inflect                      7.3.1                              python                   
 init-system-helpers          1.66ubuntu1                        deb                      
 irc                          20.5.0                             python                   
-jaraco-collections           5.0.1                              python                   
+jaraco-collections           5.1.0                              python                   
 jaraco-context               5.3.0                              python                   
 jaraco-context               6.0.1                              python                   
 jaraco-functools             4.0.1                              python                   
@@ -236,7 +236,7 @@ procps                       2:4.0.4-4ubuntu3                   deb
 publicsuffix                 20231001.0357-0.1                  deb                      
 pycparser                    2.22                               python                   
 pyopenssl                    24.2.1                             python                   
-pyparsing                    3.1.2                              python                   
+pyparsing                    3.1.4                              python                   
 pypdf3                       1.0.6                              python                   
 python-dateutil              2.9.0.post0                        python                   
 python-magic                 0.4.27                             python                   
