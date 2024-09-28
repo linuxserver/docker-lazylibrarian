@@ -75,7 +75,7 @@ jaraco-collections           5.1.0                              python  (+1 dupl
 jaraco-context               5.3.0                              python                   
 jaraco-context               6.0.1                              python                   
 jaraco-functools             4.0.1                              python                   
-jaraco-functools             4.0.2                              python                   
+jaraco-functools             4.1.0                              python                   
 jaraco-logging               3.3.0                              python                   
 jaraco-stream                3.0.4                              python                   
 jaraco-text                  3.12.1                             python                   
@@ -106,7 +106,7 @@ libcap2                      1:2.66-5ubuntu2                    deb
 libcom-err2                  1.47.0-2.4~exp1ubuntu4.1           deb                      
 libcrypt-dev                 1:4.4.36-4build1                   deb                      
 libcrypt1                    1:4.4.36-4build1                   deb                      
-libcups2t64                  2.4.7-1.2ubuntu7.2                 deb                      
+libcups2t64                  2.4.7-1.2ubuntu7.3                 deb                      
 libcurl4t64                  8.5.0-2ubuntu10.4                  deb                      
 libdb5.3t64                  5.3.28+dfsg2-7                     deb                      
 libdbus-1-3                  1.14.10-4ubuntu4.1                 deb                      
@@ -156,7 +156,7 @@ libnettle8t64                3.9.1-2.2build1.1                  deb
 libnghttp2-14                1.59.0-1ubuntu0.1                  deb                      
 libnpth0t64                  1.6-3.1build1                      deb                      
 libonig5                     6.9.9-1build1                      deb                      
-libopenjp2-7                 2.5.0-2build3                      deb                      
+libopenjp2-7                 2.5.0-2ubuntu0.1                   deb                      
 libp11-kit0                  0.25.3-4ubuntu2.1                  deb                      
 libpam-modules               1.5.3-5ubuntu5.1                   deb                      
 libpam-modules-bin           1.5.3-5ubuntu5.1                   deb                      
@@ -166,7 +166,7 @@ libpaper-utils               1.1.29build1                       deb
 libpaper1                    1.1.29build1                       deb                      
 libpcre2-8-0                 10.42-4ubuntu2                     deb                      
 libpng16-16t64               1.6.43-5build1                     deb                      
-libproc2-0                   2:4.0.4-4ubuntu3                   deb                      
+libproc2-0                   2:4.0.4-4ubuntu3.1                 deb                      
 libpsl5t64                   0.21.2-1.1build1                   deb                      
 libpython3-stdlib            3.12.3-0ubuntu2                    deb                      
 libpython3.12-minimal        3.12.3-1ubuntu0.2                  deb                      
@@ -232,7 +232,7 @@ pip                          24.2                               python
 platformdirs                 4.2.2                              python                   
 poppler-data                 0.4.12-1                           deb                      
 portend                      3.2.0                              python                   
-procps                       2:4.0.4-4ubuntu3                   deb                      
+procps                       2:4.0.4-4ubuntu3.1                 deb                      
 publicsuffix                 20231001.0357-0.1                  deb                      
 pycparser                    2.22                               python                   
 pyopenssl                    24.2.1                             python                   
@@ -250,7 +250,7 @@ python3.12-minimal           3.12.3-1ubuntu0.2                  deb
 python3.12-venv              3.12.3-1ubuntu0.2                  deb                      
 pytz                         2024.2                             python                   
 pyyaml                       6.0.2                              python                   
-rapidfuzz                    3.9.7                              python                   
+rapidfuzz                    3.10.0                             python                   
 readline-common              8.2-4build1                        deb                      
 requests                     2.32.3                             python                   
 requests-oauthlib            2.0.0                              python                   
