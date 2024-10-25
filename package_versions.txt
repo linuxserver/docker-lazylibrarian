@@ -48,7 +48,7 @@ fonts-dejavu-mono            2.37-8                             deb
 fonts-droid-fallback         1:6.0.1r16-1.1build1               deb                      
 fonts-noto-mono              20201225-2                         deb                      
 fonts-urw-base35             20200910-8                         deb                      
-gcc-14-base                  14-20240412-0ubuntu1               deb                      
+gcc-14-base                  14.2.0-4ubuntu2~24.04              deb                      
 ghostscript                  10.02.1~dfsg1-0ubuntu7.3           deb                      
 gnupg                        2.4.4-2ubuntu17                    deb                      
 gnupg-l10n                   2.4.4-2ubuntu17                    deb                      
@@ -118,7 +118,7 @@ libffi8                      3.4.6-1build1                      deb
 libfontconfig1               2.15.0-1.1ubuntu2                  deb                      
 libfontenc1                  1:1.1.8-1build1                    deb                      
 libfreetype6                 2.13.2+dfsg-1build3                deb                      
-libgcc-s1                    14-20240412-0ubuntu1               deb                      
+libgcc-s1                    14.2.0-4ubuntu2~24.04              deb                      
 libgcrypt20                  1.10.3-2build1                     deb                      
 libgmp10                     2:6.3.0+dfsg-2ubuntu6              deb                      
 libgnutls30t64               3.8.3-1.1ubuntu3.2                 deb                      
@@ -166,7 +166,7 @@ libpaper-utils               1.1.29build1                       deb
 libpaper1                    1.1.29build1                       deb                      
 libpcre2-8-0                 10.42-4ubuntu2                     deb                      
 libpng16-16t64               1.6.43-5build1                     deb                      
-libproc2-0                   2:4.0.4-4ubuntu3.1                 deb                      
+libproc2-0                   2:4.0.4-4ubuntu3.2                 deb                      
 libpsl5t64                   0.21.2-1.1build1                   deb                      
 libpython3-stdlib            3.12.3-0ubuntu2                    deb                      
 libpython3.12-minimal        3.12.3-1ubuntu0.2                  deb                      
@@ -188,7 +188,7 @@ libsqlite3-0                 3.45.1-1ubuntu2                    deb
 libss2                       1.47.0-2.4~exp1ubuntu4.1           deb                      
 libssh-4                     0.10.6-2build2                     deb                      
 libssl3t64                   3.0.13-0ubuntu3.4                  deb                      
-libstdc++6                   14-20240412-0ubuntu1               deb                      
+libstdc++6                   14.2.0-4ubuntu2~24.04              deb                      
 libsystemd0                  255.4-1ubuntu8.4                   deb                      
 libtasn1-6                   4.19.0-3build1                     deb                      
 libtiff6                     4.5.1+git230720-4ubuntu2.2         deb                      
@@ -206,9 +206,9 @@ libxt6t64                    1:1.2.1-1.2build1                  deb
 libxxhash0                   0.8.2-2build1                      deb                      
 libzstd1                     1.5.5+dfsg2-2build1.1              deb                      
 locales                      2.39-0ubuntu8.3                    deb                      
-login                        1:4.13+dfsg1-4ubuntu3              deb                      
+login                        1:4.13+dfsg1-4ubuntu3.2            deb                      
 logsave                      1.47.0-2.4~exp1ubuntu4.1           deb                      
-mako                         1.3.5                              python                   
+mako                         1.3.6                              python                   
 markdown                     3.7                                python                   
 markupsafe                   3.0.2                              python                   
 mawk                         1.3.4.20240123-1build1             deb                      
@@ -224,7 +224,7 @@ netcat-openbsd               1.226-1ubuntu2                     deb
 oauthlib                     3.2.2                              python                   
 openssl                      3.0.13-0ubuntu3.4                  deb                      
 packaging                    24.1                               python                   
-passwd                       1:4.13+dfsg1-4ubuntu3              deb                      
+passwd                       1:4.13+dfsg1-4ubuntu3.2            deb                      
 perl-base                    5.38.2-3.2build2                   deb                      
 pillow                       11.0.0                             python                   
 pinentry-curses              1.2.1-3ubuntu5                     deb                      
@@ -232,7 +232,7 @@ pip                          24.2                               python
 platformdirs                 4.2.2                              python                   
 poppler-data                 0.4.12-1                           deb                      
 portend                      3.2.0                              python                   
-procps                       2:4.0.4-4ubuntu3.1                 deb                      
+procps                       2:4.0.4-4ubuntu3.2                 deb                      
 publicsuffix                 20231001.0357-0.1                  deb                      
 pycparser                    2.22                               python                   
 pyopenssl                    24.2.1                             python                   
@@ -250,7 +250,7 @@ python3.12-minimal           3.12.3-1ubuntu0.2                  deb
 python3.12-venv              3.12.3-1ubuntu0.2                  deb                      
 pytz                         2024.2                             python                   
 pyyaml                       6.0.2                              python                   
-rapidfuzz                    3.10.0                             python                   
+rapidfuzz                    3.10.1                             python                   
 readline-common              8.2-4build1                        deb                      
 requests                     2.32.3                             python                   
 requests-oauthlib            2.0.0                              python                   
