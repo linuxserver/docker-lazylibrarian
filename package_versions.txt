@@ -156,7 +156,7 @@ libnettle8t64                3.9.1-2.2build1.1                  deb
 libnghttp2-14                1.59.0-1ubuntu0.1                  deb                      
 libnpth0t64                  1.6-3.1build1                      deb                      
 libonig5                     6.9.9-1build1                      deb                      
-libopenjp2-7                 2.5.0-2ubuntu0.1                   deb                      
+libopenjp2-7                 2.5.0-2ubuntu0.2                   deb                      
 libp11-kit0                  0.25.3-4ubuntu2.1                  deb                      
 libpam-modules               1.5.3-5ubuntu5.1                   deb                      
 libpam-modules-bin           1.5.3-5ubuntu5.1                   deb                      
@@ -265,7 +265,7 @@ tar                          1.35+dfsg-3build1                  deb
 tempora                      5.7.0                              python                   
 thefuzz                      0.22.1                             python                   
 tomli                        2.0.1                              python                   
-tqdm                         4.66.6                             python                   
+tqdm                         4.67.0                             python                   
 typeguard                    4.3.0                              python                   
 typing-extensions            4.12.2                             python                   
 tzdata                       2024a-3ubuntu1.1                   deb                      
