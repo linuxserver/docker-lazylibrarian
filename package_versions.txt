@@ -274,7 +274,7 @@ urllib3                      2.2.3                              python
 util-linux                   2.39.3-9ubuntu6.1                  deb                      
 webencodings                 0.5.1                              python                   
 wheel                        0.43.0                             python                   
-wheel                        0.45.0                             python                   
+wheel                        0.45.1                             python                   
 x11-common                   1:7.7+23ubuntu3                    deb                      
 xfonts-encodings             1:1.0.5-0ubuntu2                   deb                      
 xfonts-utils                 1:7.7+6build3                      deb                      
