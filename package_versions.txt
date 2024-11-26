@@ -264,7 +264,7 @@ tar                          1.35+dfsg-3build1                  deb
 tempora                      5.7.0                              python                   
 thefuzz                      0.22.1                             python                   
 tomli                        2.0.1                              python                   
-tqdm                         4.67.0                             python                   
+tqdm                         4.67.1                             python                   
 typeguard                    4.3.0                              python                   
 typing-extensions            4.12.2                             python                   
 tzdata                       2024a-3ubuntu1.1                   deb                      
