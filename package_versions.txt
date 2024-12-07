@@ -27,7 +27,7 @@ coreutils                    9.4-3ubuntu6                       deb
 cron                         3.0pl1-184ubuntu2                  deb                      
 cron-daemon-common           3.0pl1-184ubuntu2                  deb                      
 cryptography                 44.0.0                             python                   
-curl                         8.5.0-2ubuntu10.4                  deb                      
+curl                         8.5.0-2ubuntu10.5                  deb                      
 dash                         0.5.12-6ubuntu5                    deb                      
 dbus                         1.14.10-4ubuntu4.1                 deb                      
 dbus-bin                     1.14.10-4ubuntu4.1                 deb                      
@@ -81,16 +81,16 @@ jaraco-text                  3.12.1                             python
 jaraco-text                  4.0.0                              python                   
 jq                           1.7.1-3build1                      deb                      
 keyboxd                      2.4.4-2ubuntu17                    deb                      
-krb5-locales                 1.20.1-6ubuntu2.1                  deb                      
+krb5-locales                 1.20.1-6ubuntu2.2                  deb                      
 lazylibrarian                2024.5.6                           python  (+1 duplicate)   
 levenshtein                  0.26.1                             python                   
-libacl1                      2.3.2-1build1                      deb                      
+libacl1                      2.3.2-1build1.1                    deb                      
 libapparmor1                 4.0.1really4.0.1-0ubuntu0.24.04.3  deb                      
 libapt-pkg6.0t64             2.7.14build2                       deb                      
 libassuan0                   2.5.6-1build1                      deb                      
 libattr1                     1:2.5.2-1build1                    deb                      
-libaudit-common              1:3.1.2-2.1build1                  deb                      
-libaudit1                    1:3.1.2-2.1build1                  deb                      
+libaudit-common              1:3.1.2-2.1build1.1                deb                      
+libaudit1                    1:3.1.2-2.1build1.1                deb                      
 libavahi-client3             0.8-13ubuntu6                      deb                      
 libavahi-common-data         0.8-13ubuntu6                      deb                      
 libavahi-common3             0.8-13ubuntu6                      deb                      
@@ -106,7 +106,7 @@ libcom-err2                  1.47.0-2.4~exp1ubuntu4.1           deb
 libcrypt-dev                 1:4.4.36-4build1                   deb                      
 libcrypt1                    1:4.4.36-4build1                   deb                      
 libcups2t64                  2.4.7-1.2ubuntu7.3                 deb                      
-libcurl4t64                  8.5.0-2ubuntu10.4                  deb                      
+libcurl4t64                  8.5.0-2ubuntu10.5                  deb                      
 libdb5.3t64                  5.3.28+dfsg2-7                     deb                      
 libdbus-1-3                  1.14.10-4ubuntu4.1                 deb                      
 libdebconfclient0            0.271ubuntu3                       deb                      
@@ -125,7 +125,7 @@ libgpg-error0                1.47-3build2                       deb
 libgs-common                 10.02.1~dfsg1-0ubuntu7.4           deb                      
 libgs10                      10.02.1~dfsg1-0ubuntu7.4           deb                      
 libgs10-common               10.02.1~dfsg1-0ubuntu7.4           deb                      
-libgssapi-krb5-2             1.20.1-6ubuntu2.1                  deb                      
+libgssapi-krb5-2             1.20.1-6ubuntu2.2                  deb                      
 libhogweed6t64               3.9.1-2.2build1.1                  deb                      
 libice6                      2:1.0.10-1build3                   deb                      
 libidn12                     1.42-1build1                       deb                      
@@ -136,13 +136,13 @@ libjbig2dec0                 0.20-1build3                       deb
 libjpeg-turbo8               2.1.5-2ubuntu2                     deb                      
 libjpeg8                     8c-2ubuntu11                       deb                      
 libjq1                       1.7.1-3build1                      deb                      
-libk5crypto3                 1.20.1-6ubuntu2.1                  deb                      
+libk5crypto3                 1.20.1-6ubuntu2.2                  deb                      
 libkeyutils1                 1.6.3-3build1                      deb                      
-libkrb5-3                    1.20.1-6ubuntu2.1                  deb                      
-libkrb5support0              1.20.1-6ubuntu2.1                  deb                      
+libkrb5-3                    1.20.1-6ubuntu2.2                  deb                      
+libkrb5support0              1.20.1-6ubuntu2.2                  deb                      
 libksba8                     1.6.6-1build1                      deb                      
-libldap-common               2.6.7+dfsg-1~exp1ubuntu8           deb                      
-libldap2                     2.6.7+dfsg-1~exp1ubuntu8           deb                      
+libldap-common               2.6.7+dfsg-1~exp1ubuntu8.1         deb                      
+libldap2                     2.6.7+dfsg-1~exp1ubuntu8.1         deb                      
 liblerc4                     4.0.0+ds-4ubuntu2                  deb                      
 liblz4-1                     1.9.4-1build1.1                    deb                      
 liblzma5                     5.6.1+really5.4.5-1build0.1        deb                      
@@ -207,7 +207,7 @@ libzstd1                     1.5.5+dfsg2-2build1.1              deb
 locales                      2.39-0ubuntu8.3                    deb                      
 login                        1:4.13+dfsg1-4ubuntu3.2            deb                      
 logsave                      1.47.0-2.4~exp1ubuntu4.1           deb                      
-mako                         1.3.6                              python                   
+mako                         1.3.8                              python                   
 markdown                     3.7                                python                   
 markupsafe                   3.0.2                              python                   
 mawk                         1.3.4.20240123-1build1             deb                      
@@ -256,7 +256,7 @@ requests-oauthlib            2.0.0                              python
 sed                          4.9-2build1                        deb                      
 sensible-utils               0.0.22                             deb                      
 setuptools                   75.6.0                             python                   
-six                          1.16.0                             python                   
+six                          1.17.0                             python                   
 soupsieve                    2.6                                python                   
 systemd-standalone-sysusers  255.4-1ubuntu8.4                   deb                      
 sysvinit-utils               3.08-6ubuntu3                      deb                      
