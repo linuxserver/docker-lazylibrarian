@@ -2,7 +2,7 @@ NAME                         VERSION                            TYPE
 RAR decompression library    3.93.0                             dotnet  (+1 duplicate)   
 Simple Launcher              1.1.0.14                           dotnet  (+5 duplicates)  
 adduser                      3.137ubuntu1                       deb                      
-apprise                      1.9.0                              python                   
+apprise                      1.9.1                              python                   
 apt                          2.7.14build2                       deb                      
 apt-utils                    2.7.14build2                       deb                      
 autocommand                  2.2.2                              python  (+1 duplicate)   
@@ -27,7 +27,7 @@ coreutils                    9.4-3ubuntu6                       deb
 cron                         3.0pl1-184ubuntu2                  deb                      
 cron-daemon-common           3.0pl1-184ubuntu2                  deb                      
 cryptography                 44.0.0                             python                   
-curl                         8.5.0-2ubuntu10.5                  deb                      
+curl                         8.5.0-2ubuntu10.6                  deb                      
 dash                         0.5.12-6ubuntu5                    deb                      
 dbus                         1.14.10-4ubuntu4.1                 deb                      
 dbus-bin                     1.14.10-4ubuntu4.1                 deb                      
@@ -106,7 +106,7 @@ libcom-err2                  1.47.0-2.4~exp1ubuntu4.1           deb
 libcrypt-dev                 1:4.4.36-4build1                   deb                      
 libcrypt1                    1:4.4.36-4build1                   deb                      
 libcups2t64                  2.4.7-1.2ubuntu7.3                 deb                      
-libcurl4t64                  8.5.0-2ubuntu10.5                  deb                      
+libcurl4t64                  8.5.0-2ubuntu10.6                  deb                      
 libdb5.3t64                  5.3.28+dfsg2-7                     deb                      
 libdbus-1-3                  1.14.10-4ubuntu4.1                 deb                      
 libdebconfclient0            0.271ubuntu3                       deb                      
@@ -249,7 +249,7 @@ python3.12-minimal           3.12.3-1ubuntu0.3                  deb
 python3.12-venv              3.12.3-1ubuntu0.3                  deb                      
 pytz                         2024.2                             python                   
 pyyaml                       6.0.2                              python                   
-rapidfuzz                    3.10.1                             python                   
+rapidfuzz                    3.11.0                             python                   
 readline-common              8.2-4build1                        deb                      
 requests                     2.32.3                             python                   
 requests-oauthlib            2.0.0                              python                   
