@@ -22,7 +22,7 @@ charset-normalizer           3.4.0                              python
 cheroot                      10.0.1                             python                   
 cherrypy                     18.10.0                            python                   
 cherrypy-cors                1.7.0                              python                   
-click                        8.1.7                              python                   
+click                        8.1.8                              python                   
 coreutils                    9.4-3ubuntu6                       deb                      
 cron                         3.0pl1-184ubuntu2                  deb                      
 cron-daemon-common           3.0pl1-184ubuntu2                  deb                      
