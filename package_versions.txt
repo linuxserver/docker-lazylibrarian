@@ -18,7 +18,7 @@ catatonit                    0.1.7-1                            deb
 certifi                      2024.12.14                         python                   
 cffi                         1.17.1                             python                   
 chardet                      5.2.0                              python                   
-charset-normalizer           3.4.0                              python                   
+charset-normalizer           3.4.1                              python                   
 cheroot                      10.0.1                             python                   
 cherrypy                     18.10.0                            python                   
 cherrypy-cors                1.7.0                              python                   
@@ -270,7 +270,7 @@ typing-extensions            4.12.2                             python
 tzdata                       2024a-3ubuntu1.1                   deb                      
 ubuntu-keyring               2023.11.28.1                       deb                      
 ucf                          3.0043+nmu1                        deb                      
-urllib3                      2.2.3                              python                   
+urllib3                      2.3.0                              python                   
 util-linux                   2.39.3-9ubuntu6.1                  deb                      
 webencodings                 0.5.1                              python                   
 wheel                        0.43.0                             python                   
