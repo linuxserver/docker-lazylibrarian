@@ -82,7 +82,7 @@ jaraco-text                  4.0.0                              python
 jq                           1.7.1-3build1                      deb                      
 keyboxd                      2.4.4-2ubuntu17                    deb                      
 krb5-locales                 1.20.1-6ubuntu2.2                  deb                      
-lazylibrarian                2024.5.6                           python  (+1 duplicate)   
+lazylibrarian                2024.12.28                         python  (+1 duplicate)   
 levenshtein                  0.26.1                             python                   
 libacl1                      2.3.2-1build1.1                    deb                      
 libapparmor1                 4.0.1really4.0.1-0ubuntu0.24.04.3  deb                      
@@ -262,7 +262,6 @@ systemd-standalone-sysusers  255.4-1ubuntu8.4                   deb
 sysvinit-utils               3.08-6ubuntu3                      deb                      
 tar                          1.35+dfsg-3build1                  deb                      
 tempora                      5.7.0                              python                   
-thefuzz                      0.22.1                             python                   
 tomli                        2.0.1                              python                   
 tqdm                         4.67.1                             python                   
 typeguard                    4.3.0                              python                   
