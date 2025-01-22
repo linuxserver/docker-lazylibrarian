@@ -266,8 +266,8 @@ tempora                      5.8.0                              python
 tomli                        2.0.1                              python                   
 typeguard                    4.3.0                              python                   
 typing-extensions            4.12.2                             python  (+1 duplicate)   
-tzdata                       2024.2                             python                   
 tzdata                       2024a-3ubuntu1.1                   deb                      
+tzdata                       2025.1                             python                   
 tzlocal                      5.2                                python                   
 ubuntu-keyring               2023.11.28.1                       deb                      
 ucf                          3.0043+nmu1                        deb                      
