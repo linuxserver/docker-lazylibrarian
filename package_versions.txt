@@ -16,7 +16,7 @@ bs4                          0.0.2                              python
 bsdutils                     1:2.39.3-9ubuntu6.2                deb                      
 ca-certificates              20240203                           deb                      
 catatonit                    0.1.7-1                            deb                      
-certifi                      2024.12.14                         python                   
+certifi                      2025.1.31                          python                   
 cffi                         1.17.1                             python                   
 chardet                      5.2.0                              python                   
 charset-normalizer           3.4.1                              python                   
@@ -248,9 +248,9 @@ python3-venv                 3.12.3-0ubuntu2                    deb
 python3.12                   3.12.3-1ubuntu0.4                  deb                      
 python3.12-minimal           3.12.3-1ubuntu0.4                  deb                      
 python3.12-venv              3.12.3-1ubuntu0.4                  deb                      
-pytz                         2024.2                             python                   
+pytz                         2025.1                             python                   
 pyyaml                       6.0.2                              python                   
-rapidfuzz                    3.11.0                             python                   
+rapidfuzz                    3.12.1                             python                   
 readline-common              8.2-4build1                        deb                      
 requests                     2.32.3                             python                   
 requests-oauthlib            2.0.0                              python                   
