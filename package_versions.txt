@@ -228,7 +228,7 @@ passwd                       1:4.13+dfsg1-4ubuntu3.2            deb
 perl-base                    5.38.2-3.2build2.1                 deb                      
 pillow                       11.1.0                             python                   
 pinentry-curses              1.2.1-3ubuntu5                     deb                      
-pip                          25.0                               python                   
+pip                          25.0.1                             python                   
 platformdirs                 4.2.2                              python                   
 poppler-data                 0.4.12-1                           deb                      
 portend                      3.2.0                              python                   
@@ -237,7 +237,7 @@ publicsuffix                 20231001.0357-0.1                  deb
 pycparser                    2.22                               python                   
 pyopenssl                    25.0.0                             python                   
 pyparsing                    3.2.1                              python                   
-pypdf                        5.2.0                              python                   
+pypdf                        5.3.0                              python                   
 python-dateutil              2.9.0.post0                        python                   
 python-magic                 0.4.27                             python                   
 python3                      3.12.3-0ubuntu2                    deb                      
