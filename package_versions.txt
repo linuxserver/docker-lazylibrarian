@@ -27,7 +27,7 @@ click                        8.1.8                              python
 coreutils                    9.4-3ubuntu6                       deb                      
 cron                         3.0pl1-184ubuntu2                  deb                      
 cron-daemon-common           3.0pl1-184ubuntu2                  deb                      
-cryptography                 44.0.0                             python                   
+cryptography                 44.0.1                             python                   
 curl                         8.5.0-2ubuntu10.6                  deb                      
 dash                         0.5.12-6ubuntu5                    deb                      
 dbus                         1.14.10-4ubuntu4.1                 deb                      
