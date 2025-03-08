@@ -27,7 +27,7 @@ click                        8.1.8                              python
 coreutils                    9.4-3ubuntu6                       deb                      
 cron                         3.0pl1-184ubuntu2                  deb                      
 cron-daemon-common           3.0pl1-184ubuntu2                  deb                      
-cryptography                 44.0.1                             python                   
+cryptography                 44.0.2                             python                   
 curl                         8.5.0-2ubuntu10.6                  deb                      
 dash                         0.5.12-6ubuntu5                    deb                      
 dbus                         1.14.10-4ubuntu4.1                 deb                      
@@ -82,9 +82,9 @@ jaraco-text                  3.12.1                             python
 jaraco-text                  4.0.0                              python                   
 jq                           1.7.1-3build1                      deb                      
 keyboxd                      2.4.4-2ubuntu17                    deb                      
-krb5-locales                 1.20.1-6ubuntu2.4                  deb                      
+krb5-locales                 1.20.1-6ubuntu2.5                  deb                      
 lazylibrarian                2025.1.9                           python  (+1 duplicate)   
-levenshtein                  0.26.1                             python                   
+levenshtein                  0.27.1                             python                   
 libacl1                      2.3.2-1build1.1                    deb                      
 libapparmor1                 4.0.1really4.0.1-0ubuntu0.24.04.3  deb                      
 libapt-pkg6.0t64             2.7.14build2                       deb                      
@@ -126,7 +126,7 @@ libgpg-error0                1.47-3build2.1                     deb
 libgs-common                 10.02.1~dfsg1-0ubuntu7.4           deb                      
 libgs10                      10.02.1~dfsg1-0ubuntu7.4           deb                      
 libgs10-common               10.02.1~dfsg1-0ubuntu7.4           deb                      
-libgssapi-krb5-2             1.20.1-6ubuntu2.4                  deb                      
+libgssapi-krb5-2             1.20.1-6ubuntu2.5                  deb                      
 libhogweed6t64               3.9.1-2.2build1.1                  deb                      
 libice6                      2:1.0.10-1build3                   deb                      
 libidn12                     1.42-1build1                       deb                      
@@ -137,10 +137,10 @@ libjbig2dec0                 0.20-1build3                       deb
 libjpeg-turbo8               2.1.5-2ubuntu2                     deb                      
 libjpeg8                     8c-2ubuntu11                       deb                      
 libjq1                       1.7.1-3build1                      deb                      
-libk5crypto3                 1.20.1-6ubuntu2.4                  deb                      
+libk5crypto3                 1.20.1-6ubuntu2.5                  deb                      
 libkeyutils1                 1.6.3-3build1                      deb                      
-libkrb5-3                    1.20.1-6ubuntu2.4                  deb                      
-libkrb5support0              1.20.1-6ubuntu2.4                  deb                      
+libkrb5-3                    1.20.1-6ubuntu2.5                  deb                      
+libkrb5support0              1.20.1-6ubuntu2.5                  deb                      
 libksba8                     1.6.6-1build1                      deb                      
 libldap-common               2.6.7+dfsg-1~exp1ubuntu8.2         deb                      
 libldap2                     2.6.7+dfsg-1~exp1ubuntu8.2         deb                      
@@ -237,7 +237,7 @@ publicsuffix                 20231001.0357-0.1                  deb
 pycparser                    2.22                               python                   
 pyopenssl                    25.0.0                             python                   
 pyparsing                    3.2.1                              python                   
-pypdf                        5.3.0                              python                   
+pypdf                        5.3.1                              python                   
 python-dateutil              2.9.0.post0                        python                   
 python-magic                 0.4.27                             python                   
 python3                      3.12.3-0ubuntu2                    deb                      
@@ -250,7 +250,7 @@ python3.12-minimal           3.12.3-1ubuntu0.5                  deb
 python3.12-venv              3.12.3-1ubuntu0.5                  deb                      
 pytz                         2025.1                             python                   
 pyyaml                       6.0.2                              python                   
-rapidfuzz                    3.12.1                             python                   
+rapidfuzz                    3.12.2                             python                   
 readline-common              8.2-4build1                        deb                      
 requests                     2.32.3                             python                   
 requests-oauthlib            2.0.0                              python                   
@@ -268,7 +268,7 @@ typeguard                    4.3.0                              python
 typing-extensions            4.12.2                             python  (+1 duplicate)   
 tzdata                       2024b-0ubuntu0.24.04.1             deb                      
 tzdata                       2025.1                             python                   
-tzlocal                      5.3                                python                   
+tzlocal                      5.3.1                              python                   
 ubuntu-keyring               2023.11.28.1                       deb                      
 ucf                          3.0043+nmu1                        deb                      
 unminimize                   0.2.1                              deb                      
