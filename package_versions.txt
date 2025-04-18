@@ -9,7 +9,7 @@ backports-tarfile            1.2.0                              python
 base-files                   13ubuntu10.2                       deb                     
 base-passwd                  3.6.3build1                        deb                     
 bash                         5.2.21-2ubuntu4                    deb                     
-beautifulsoup4               4.13.3                             python                  
+beautifulsoup4               4.13.4                             python                  
 bs4                          0.0.2                              python                  
 bsdutils                     1:2.39.3-9ubuntu6.2                deb                     
 ca-certificates              20240203                           deb                     
@@ -223,7 +223,7 @@ oauthlib                     3.2.2                              python
 openssl                      3.0.13-0ubuntu3.5                  deb                     
 packaging                    24.2                               python                  
 passwd                       1:4.13+dfsg1-4ubuntu3.2            deb                     
-perl-base                    5.38.2-3.2build2.1                 deb                     
+perl-base                    5.38.2-3.2ubuntu0.1                deb                     
 pillow                       11.2.1                             python                  
 pinentry-curses              1.2.1-3ubuntu5                     deb                     
 pip                          25.0.1                             python                  
