@@ -14,7 +14,7 @@ bs4                          0.0.2                              python
 bsdutils                     1:2.39.3-9ubuntu6.2                deb                     
 ca-certificates              20240203                           deb                     
 catatonit                    0.1.7-1                            deb                     
-certifi                      2025.1.31                          python                  
+certifi                      2025.4.26                          python                  
 cffi                         1.17.1                             python                  
 chardet                      5.2.0                              python                  
 charset-normalizer           3.4.1                              python                  
@@ -226,7 +226,7 @@ passwd                       1:4.13+dfsg1-4ubuntu3.2            deb
 perl-base                    5.38.2-3.2ubuntu0.1                deb                     
 pillow                       11.2.1                             python                  
 pinentry-curses              1.2.1-3ubuntu5                     deb                     
-pip                          25.0.1                             python                  
+pip                          25.1                               python                  
 platformdirs                 4.2.2                              python                  
 poppler-data                 0.4.12-1                           deb                     
 portend                      3.2.0                              python                  
@@ -254,7 +254,7 @@ requests                     2.32.3                             python
 requests-oauthlib            2.0.0                              python                  
 sed                          4.9-2build1                        deb                     
 sensible-utils               0.0.22                             deb                     
-setuptools                   79.0.0                             python                  
+setuptools                   79.0.1                             python                  
 six                          1.17.0                             python                  
 soupsieve                    2.7                                python                  
 systemd-standalone-sysusers  255.4-1ubuntu8.6                   deb                     
