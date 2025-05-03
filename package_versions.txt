@@ -17,7 +17,7 @@ catatonit                    0.1.7-1                            deb
 certifi                      2025.4.26                          python                  
 cffi                         1.17.1                             python                  
 chardet                      5.2.0                              python                  
-charset-normalizer           3.4.1                              python                  
+charset-normalizer           3.4.2                              python                  
 cheroot                      10.0.1                             python                  
 cherrypy                     18.10.0                            python                  
 cherrypy-cors                1.7.0                              python                  
@@ -25,7 +25,7 @@ click                        8.1.8                              python
 coreutils                    9.4-3ubuntu6                       deb                     
 cron                         3.0pl1-184ubuntu2                  deb                     
 cron-daemon-common           3.0pl1-184ubuntu2                  deb                     
-cryptography                 44.0.2                             python                  
+cryptography                 44.0.3                             python                  
 curl                         8.5.0-2ubuntu10.6                  deb                     
 dash                         0.5.12-6ubuntu5                    deb                     
 dbus                         1.14.10-4ubuntu4.1                 deb                     
@@ -226,7 +226,7 @@ passwd                       1:4.13+dfsg1-4ubuntu3.2            deb
 perl-base                    5.38.2-3.2ubuntu0.1                deb                     
 pillow                       11.2.1                             python                  
 pinentry-curses              1.2.1-3ubuntu5                     deb                     
-pip                          25.1                               python                  
+pip                          25.1.1                             python                  
 platformdirs                 4.2.2                              python                  
 poppler-data                 0.4.12-1                           deb                     
 portend                      3.2.0                              python                  
@@ -254,7 +254,7 @@ requests                     2.32.3                             python
 requests-oauthlib            2.0.0                              python                  
 sed                          4.9-2build1                        deb                     
 sensible-utils               0.0.22                             deb                     
-setuptools                   80.1.0                             python                  
+setuptools                   80.3.0                             python                  
 six                          1.17.0                             python                  
 slskd-api                    0.1.5                              python                  
 soupsieve                    2.7                                python                  
