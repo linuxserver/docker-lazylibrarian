@@ -21,7 +21,7 @@ charset-normalizer           3.4.2                              python
 cheroot                      10.0.1                             python                  
 cherrypy                     18.10.0                            python                  
 cherrypy-cors                1.7.0                              python                  
-click                        8.1.8                              python                  
+click                        8.2.0                              python                  
 coreutils                    9.4-3ubuntu6                       deb                     
 cron                         3.0pl1-184ubuntu2                  deb                     
 cron-daemon-common           3.0pl1-184ubuntu2                  deb                     
@@ -235,7 +235,7 @@ publicsuffix                 20231001.0357-0.1                  deb
 pycparser                    2.22                               python                  
 pyopenssl                    25.0.0                             python                  
 pyparsing                    3.2.3                              python                  
-pypdf                        5.4.0                              python                  
+pypdf                        5.5.0                              python                  
 python-dateutil              2.9.0.post0                        python                  
 python-magic                 0.4.27                             python                  
 python3                      3.12.3-0ubuntu2                    deb                     
