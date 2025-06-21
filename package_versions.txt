@@ -271,7 +271,7 @@ soupsieve                    2.7                                python
 systemd-standalone-sysusers  255.4-1ubuntu8.8                   deb                      
 sysvinit-utils               3.08-6ubuntu3                      deb                      
 tar                          1.35+dfsg-3build1                  deb                      
-tempora                      5.8.0                              python                   
+tempora                      5.8.1                              python                   
 tomli                        2.0.1                              python                   
 typeguard                    4.3.0                              python                   
 typing-extensions            4.12.2                             python                   
