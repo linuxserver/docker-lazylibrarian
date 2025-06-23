@@ -79,11 +79,12 @@ importlib-metadata           8.0.0                              python
 inflect                      7.3.1                              python                   
 init-system-helpers          1.66ubuntu1                        deb                      
 irc                          20.5.0                             python                   
-jaraco-collections           5.1.0                              python  (+1 duplicate)   
+jaraco-collections           5.1.0                              python                   
+jaraco-collections           5.2.1                              python                   
 jaraco-context               5.3.0                              python                   
 jaraco-context               6.0.1                              python                   
 jaraco-functools             4.0.1                              python                   
-jaraco-functools             4.1.0                              python                   
+jaraco-functools             4.2.1                              python                   
 jaraco-logging               3.4.0                              python                   
 jaraco-stream                3.0.4                              python                   
 jaraco-text                  3.12.1                             python                   
@@ -245,7 +246,7 @@ publicsuffix                 20231001.0357-0.1                  deb
 pycparser                    2.22                               python                   
 pyopenssl                    25.1.0                             python                   
 pyparsing                    3.2.3                              python                   
-pypdf                        5.6.0                              python                   
+pypdf                        5.6.1                              python                   
 python-dateutil              2.9.0.post0                        python                   
 python-magic                 0.4.27                             python                   
 python3                      3.12.3-0ubuntu2                    deb                      
