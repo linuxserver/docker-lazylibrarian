@@ -251,7 +251,7 @@ python-dateutil              2.9.0.post0                        python
 python-magic                 0.4.27                             python                   
 python3                      3.12.3-0ubuntu2                    deb                      
 python3-minimal              3.12.3-0ubuntu2                    deb                      
-python3-pip-whl              24.0+dfsg-1ubuntu1.1               deb                      
+python3-pip-whl              24.0+dfsg-1ubuntu1.2               deb                      
 python3-setuptools-whl       68.1.2-2ubuntu1.2                  deb                      
 python3-venv                 3.12.3-0ubuntu2                    deb                      
 python3.12                   3.12.3-1ubuntu0.7                  deb                      
