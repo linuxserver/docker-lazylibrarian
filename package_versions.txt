@@ -235,7 +235,7 @@ openssl                      3.0.13-0ubuntu3.5                  deb
 packaging                    24.2                               python                   
 passwd                       1:4.13+dfsg1-4ubuntu3.2            deb                      
 perl-base                    5.38.2-3.2ubuntu0.1                deb                      
-pillow                       11.2.1                             python                   
+pillow                       11.3.0                             python                   
 pinentry-curses              1.2.1-3ubuntu5                     deb                      
 pip                          25.1.1                             python                   
 platformdirs                 4.2.2                              python                   
