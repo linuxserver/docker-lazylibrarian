@@ -89,7 +89,7 @@ jaraco-logging               3.4.0                              python
 jaraco-stream                3.0.4                              python                   
 jaraco-text                  3.12.1                             python                   
 jaraco-text                  4.0.0                              python                   
-jq                           1.7.1-3build1                      deb                      
+jq                           1.7.1-3ubuntu0.24.04.1             deb                      
 keyboxd                      2.4.4-2ubuntu17.3                  deb                      
 krb5-locales                 1.20.1-6ubuntu2.6                  deb                      
 lazylibrarian                2025.1.9                           python  (+1 duplicate)   
@@ -145,7 +145,7 @@ libjbig0                     2.1-6.1ubuntu2                     deb
 libjbig2dec0                 0.20-1build3                       deb                      
 libjpeg-turbo8               2.1.5-2ubuntu2                     deb                      
 libjpeg8                     8c-2ubuntu11                       deb                      
-libjq1                       1.7.1-3build1                      deb                      
+libjq1                       1.7.1-3ubuntu0.24.04.1             deb                      
 libk5crypto3                 1.20.1-6ubuntu2.6                  deb                      
 libkeyutils1                 1.6.3-3build1                      deb                      
 libkrb5-3                    1.20.1-6ubuntu2.6                  deb                      
