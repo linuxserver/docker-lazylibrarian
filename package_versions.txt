@@ -16,7 +16,7 @@ bs4                          0.0.2                              python
 bsdutils                     1:2.39.3-9ubuntu6.3                deb                      
 ca-certificates              20240203                           deb                      
 catatonit                    0.1.7-1                            deb                      
-certifi                      2025.7.14                          python                   
+certifi                      2025.8.3                           python                   
 cffi                         1.17.1                             python                   
 chardet                      5.2.0                              python                   
 charset-normalizer           3.4.2                              python                   
@@ -27,7 +27,7 @@ cli                          UNKNOWN                            binary
 cli-32                       UNKNOWN                            binary                   
 cli-64                       UNKNOWN                            binary                   
 cli-arm64                    UNKNOWN                            binary                   
-click                        8.2.2                              python                   
+click                        8.2.1                              python                   
 coreutils                    9.4-3ubuntu6                       deb                      
 cron                         3.0pl1-184ubuntu2                  deb                      
 cron-daemon-common           3.0pl1-184ubuntu2                  deb                      
