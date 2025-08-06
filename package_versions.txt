@@ -8,7 +8,7 @@ apt                          2.8.3                              deb
 apt-utils                    2.8.3                              deb                      
 autocommand                  2.2.2                              python  (+1 duplicate)   
 backports-tarfile            1.2.0                              python                   
-base-files                   13ubuntu10.2                       deb                      
+base-files                   13ubuntu10.3                       deb                      
 base-passwd                  3.6.3build1                        deb                      
 bash                         5.2.21-2ubuntu4                    deb                      
 beautifulsoup4               4.13.4                             python                   
@@ -31,7 +31,7 @@ click                        8.2.1                              python
 coreutils                    9.4-3ubuntu6                       deb                      
 cron                         3.0pl1-184ubuntu2                  deb                      
 cron-daemon-common           3.0pl1-184ubuntu2                  deb                      
-cryptography                 45.0.5                             python                   
+cryptography                 45.0.6                             python                   
 curl                         8.5.0-2ubuntu10.6                  deb                      
 dash                         0.5.12-6ubuntu5                    deb                      
 dbus                         1.14.10-4ubuntu4.1                 deb                      
