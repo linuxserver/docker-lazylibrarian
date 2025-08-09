@@ -19,7 +19,7 @@ catatonit                    0.1.7-1                            deb
 certifi                      2025.8.3                           python                   
 cffi                         1.17.1                             python                   
 chardet                      5.2.0                              python                   
-charset-normalizer           3.4.2                              python                   
+charset-normalizer           3.4.3                              python                   
 cheroot                      10.0.1                             python                   
 cherrypy                     18.10.0                            python                   
 cherrypy-cors                1.7.0                              python                   
