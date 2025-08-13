@@ -246,7 +246,7 @@ publicsuffix                 20231001.0357-0.1                  deb
 pycparser                    2.22                               python                   
 pyopenssl                    25.1.0                             python                   
 pyparsing                    3.2.3                              python                   
-pypdf                        5.9.0                              python                   
+pypdf                        6.0.0                              python                   
 python-dateutil              2.9.0.post0                        python                   
 python-magic                 0.4.27                             python                   
 python3                      3.12.3-0ubuntu2                    deb                      
