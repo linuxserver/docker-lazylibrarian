@@ -218,7 +218,7 @@ locales                      2.39-0ubuntu8.5                    deb
 login                        1:4.13+dfsg1-4ubuntu3.2            deb                      
 logsave                      1.47.0-2.4~exp1ubuntu4.1           deb                      
 mako                         1.3.10                             python                   
-markdown                     3.8.2                              python                   
+markdown                     3.9                                python                   
 markupsafe                   3.0.2                              python                   
 mawk                         1.3.4.20240123-1build1             deb                      
 media-types                  10.1.0                             deb                      
