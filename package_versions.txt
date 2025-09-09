@@ -17,7 +17,7 @@ bsdutils                     1:2.39.3-9ubuntu6.3                deb
 ca-certificates              20240203                           deb                      
 catatonit                    0.1.7-1                            deb                      
 certifi                      2025.8.3                           python                   
-cffi                         1.17.1                             python                   
+cffi                         2.0.0                              python                   
 chardet                      5.2.0                              python                   
 charset-normalizer           3.4.3                              python                   
 cheroot                      10.0.1                             python                   
@@ -243,7 +243,7 @@ poppler-data                 0.4.12-1                           deb
 portend                      3.2.1                              python                   
 procps                       2:4.0.4-4ubuntu3.2                 deb                      
 publicsuffix                 20231001.0357-0.1                  deb                      
-pycparser                    2.22                               python                   
+pycparser                    2.23                               python                   
 pyopenssl                    25.1.0                             python                   
 pyparsing                    3.2.3                              python                   
 pypdf                        6.0.0                              python                   
@@ -259,7 +259,7 @@ python3.12-minimal           3.12.3-1ubuntu0.8                  deb
 python3.12-venv              3.12.3-1ubuntu0.8                  deb                      
 pytz                         2025.2                             python                   
 pyyaml                       6.0.2                              python                   
-rapidfuzz                    3.14.0                             python                   
+rapidfuzz                    3.14.1                             python                   
 readline-common              8.2-4build1                        deb                      
 requests                     2.32.5                             python                   
 requests-oauthlib            2.0.0                              python                   
