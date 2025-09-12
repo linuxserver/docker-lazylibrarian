@@ -28,7 +28,7 @@ cli-32                       UNKNOWN                            binary
 cli-64                       UNKNOWN                            binary                   
 cli-arm64                    UNKNOWN                            binary                   
 click                        8.2.1                              python                   
-coreutils                    9.4-3ubuntu6                       deb                      
+coreutils                    9.4-3ubuntu6.1                     deb                      
 cron                         3.0pl1-184ubuntu2                  deb                      
 cron-daemon-common           3.0pl1-184ubuntu2                  deb                      
 cryptography                 45.0.7                             python                   
@@ -73,7 +73,7 @@ gzip                         1.12-1ubuntu3.1                    deb
 hostname                     3.23+nmu2ubuntu2                   deb                      
 html5lib                     1.1                                python                   
 httpagentparser              1.9.5                              python                   
-httplib2                     0.30.0                             python                   
+httplib2                     0.31.0                             python                   
 idna                         3.10                               python                   
 importlib-metadata           8.0.0                              python                   
 inflect                      7.3.1                              python                   
@@ -115,7 +115,7 @@ libcap2                      1:2.66-5ubuntu2.2                  deb
 libcom-err2                  1.47.0-2.4~exp1ubuntu4.1           deb                      
 libcrypt-dev                 1:4.4.36-4build1                   deb                      
 libcrypt1                    1:4.4.36-4build1                   deb                      
-libcups2t64                  2.4.7-1.2ubuntu7.3                 deb                      
+libcups2t64                  2.4.7-1.2ubuntu7.4                 deb                      
 libcurl4t64                  8.5.0-2ubuntu10.6                  deb                      
 libdb5.3t64                  5.3.28+dfsg2-7                     deb                      
 libdbus-1-3                  1.14.10-4ubuntu4.1                 deb                      
