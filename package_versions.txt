@@ -247,7 +247,7 @@ procps                       2:4.0.4-4ubuntu3.2                 deb
 publicsuffix                 20231001.0357-0.1                  deb                      
 pycparser                    2.23                               python                   
 pyopenssl                    25.3.0                             python                   
-pyparsing                    3.2.4                              python                   
+pyparsing                    3.2.5                              python                   
 pypdf                        6.0.0                              python                   
 python-dateutil              2.9.0.post0                        python                   
 python-magic                 0.4.27                             python                   
