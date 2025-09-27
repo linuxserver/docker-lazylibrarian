@@ -260,7 +260,7 @@ python3.12                   3.12.3-1ubuntu0.8                  deb
 python3.12-minimal           3.12.3-1ubuntu0.8                  deb                      
 python3.12-venv              3.12.3-1ubuntu0.8                  deb                      
 pytz                         2025.2                             python                   
-pyyaml                       6.0.2                              python                   
+pyyaml                       6.0.3                              python                   
 rapidfuzz                    3.14.1                             python                   
 readline-common              8.2-4build1                        deb                      
 requests                     2.32.5                             python                   
