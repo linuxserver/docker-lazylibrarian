@@ -11,7 +11,7 @@ backports-tarfile            1.2.0                              python
 base-files                   13ubuntu10.3                       deb                      
 base-passwd                  3.6.3build1                        deb                      
 bash                         5.2.21-2ubuntu4                    deb                      
-beautifulsoup4               4.14.0                             python                   
+beautifulsoup4               4.14.2                             python                   
 bs4                          0.0.2                              python                   
 bsdutils                     1:2.39.3-9ubuntu6.3                deb                      
 ca-certificates              20240203                           deb                      
