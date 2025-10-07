@@ -16,7 +16,7 @@ bs4                          0.0.2                              python
 bsdutils                     1:2.39.3-9ubuntu6.3                deb                      
 ca-certificates              20240203                           deb                      
 catatonit                    0.1.7-1                            deb                      
-certifi                      2025.8.3                           python                   
+certifi                      2025.10.5                          python                   
 cffi                         2.0.0                              python                   
 chardet                      5.2.0                              python                   
 charset-normalizer           3.4.3                              python                   
