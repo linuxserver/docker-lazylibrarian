@@ -3,7 +3,7 @@ RAR decompression library    3.93.0                             binary  (+1 dupl
 Simple Launcher              1.1.0.14                           binary  (+5 duplicates)  
 adduser                      3.137ubuntu1                       deb                      
 apprise                      1.9.5                              python                   
-apscheduler                  3.11.0                             python                   
+apscheduler                  3.11.1                             python                   
 apt                          2.8.3                              deb                      
 apt-utils                    2.8.3                              deb                      
 autocommand                  2.2.2                              python  (+1 duplicate)   
@@ -94,7 +94,7 @@ jq                           1.7.1-3ubuntu0.24.04.1             deb
 keyboxd                      2.4.4-2ubuntu17.3                  deb                      
 krb5-locales                 1.20.1-6ubuntu2.6                  deb                      
 lazylibrarian                2025.9.16                          python  (+1 duplicate)   
-levenshtein                  0.27.1                             python                   
+levenshtein                  0.27.3                             python                   
 libacl1                      2.3.2-1build1.1                    deb                      
 libapparmor1                 4.0.1really4.0.1-0ubuntu0.24.04.4  deb                      
 libapt-pkg6.0t64             2.8.3                              deb                      
@@ -261,7 +261,7 @@ python3.12-minimal           3.12.3-1ubuntu0.8                  deb
 python3.12-venv              3.12.3-1ubuntu0.8                  deb                      
 pytz                         2025.2                             python                   
 pyyaml                       6.0.3                              python                   
-rapidfuzz                    3.14.1                             python                   
+rapidfuzz                    3.14.3                             python                   
 readline-common              8.2-4build1                        deb                      
 requests                     2.32.5                             python                   
 requests-oauthlib            2.0.0                              python                   
