@@ -269,7 +269,7 @@ sed                          4.9-2build1                        deb
 sensible-utils               0.0.22                             deb                      
 setuptools                   80.9.0                             python                   
 six                          1.17.0                             python                   
-slskd-api                    0.1.6                              python                   
+slskd-api                    0.1.7                              python                   
 soupsieve                    2.8                                python                   
 systemd-standalone-sysusers  255.4-1ubuntu8.11                  deb                      
 sysvinit-utils               3.08-6ubuntu3                      deb                      
