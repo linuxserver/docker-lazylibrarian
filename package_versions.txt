@@ -20,7 +20,7 @@ certifi                      2025.10.5                          python
 cffi                         2.0.0                              python                   
 chardet                      5.2.0                              python                   
 charset-normalizer           3.4.4                              python                   
-cheroot                      11.1.1                             python                   
+cheroot                      11.1.2                             python                   
 cherrypy                     18.10.0                            python                   
 cherrypy-cors                1.7.0                              python                   
 cli                          UNKNOWN                            binary                   
@@ -269,7 +269,7 @@ sed                          4.9-2build1                        deb
 sensible-utils               0.0.22                             deb                      
 setuptools                   80.9.0                             python                   
 six                          1.17.0                             python                   
-slskd-api                    0.1.7                              python                   
+slskd-api                    0.2.1                              python                   
 soupsieve                    2.8                                python                   
 systemd-standalone-sysusers  255.4-1ubuntu8.11                  deb                      
 sysvinit-utils               3.08-6ubuntu3                      deb                      
