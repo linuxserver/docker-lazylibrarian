@@ -27,7 +27,7 @@ cli                          UNKNOWN                            binary
 cli-32                       UNKNOWN                            binary                   
 cli-64                       UNKNOWN                            binary                   
 cli-arm64                    UNKNOWN                            binary                   
-click                        8.3.0                              python                   
+click                        8.3.1                              python                   
 coreutils                    9.4-3ubuntu6.1                     deb                      
 cron                         3.0pl1-184ubuntu2                  deb                      
 cron-daemon-common           3.0pl1-184ubuntu2                  deb                      
