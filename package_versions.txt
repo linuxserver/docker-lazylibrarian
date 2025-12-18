@@ -270,7 +270,7 @@ sensible-utils               0.0.22                             deb
 setuptools                   80.9.0                             python                   
 six                          1.17.0                             python                   
 slskd-api                    0.2.1                              python                   
-soupsieve                    2.8                                python                   
+soupsieve                    2.8.1                              python                   
 systemd-standalone-sysusers  255.4-1ubuntu8.11                  deb                      
 sysvinit-utils               3.08-6ubuntu3                      deb                      
 tar                          1.35+dfsg-3build1                  deb                      
