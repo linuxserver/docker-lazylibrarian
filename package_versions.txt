@@ -285,7 +285,7 @@ tzlocal                      5.3.1                              python
 ubuntu-keyring               2023.11.28.1                       deb                      
 ucf                          3.0043+nmu1                        deb                      
 unminimize                   0.2.1                              deb                      
-urllib3                      2.6.2                              python                   
+urllib3                      2.6.3                              python                   
 util-linux                   2.39.3-9ubuntu6.4                  deb                      
 webencodings                 0.5.1                              python                   
 wheel                        0.45.1                             python  (+1 duplicate)   
