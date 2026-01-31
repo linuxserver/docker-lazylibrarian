@@ -233,7 +233,7 @@ passwd                       1:4.13+dfsg1-4ubuntu3.2            deb
 perl-base                    5.38.2-3.2ubuntu0.2                deb                      
 pillow                       12.1.0                             python                   
 pinentry-curses              1.2.1-3ubuntu5                     deb                      
-pip                          25.3                               python                   
+pip                          26.0                               python                   
 platformdirs                 4.4.0                              python                   
 poppler-data                 0.4.12-1                           deb                      
 portend                      3.2.1                              python                   
