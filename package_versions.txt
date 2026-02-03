@@ -243,6 +243,7 @@ pycparser                    3.0                                python
 pyopenssl                    25.3.0                             python                   
 pyparsing                    3.3.2                              python                   
 pypdf                        6.6.2                              python                   
+pysocks                      1.7.1                              python                   
 python-dateutil              2.9.0.post0                        python                   
 python-magic                 0.4.27                             python                   
 python3                      3.12.3-0ubuntu2.1                  deb                      
