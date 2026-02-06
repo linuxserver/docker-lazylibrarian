@@ -174,8 +174,8 @@ libpng16-16t64               1.6.43-5ubuntu0.4                  deb
 libproc2-0                   2:4.0.4-4ubuntu3.2                 deb                      
 libpsl5t64                   0.21.2-1.1build1                   deb                      
 libpython3-stdlib            3.12.3-0ubuntu2.1                  deb                      
-libpython3.12-minimal        3.12.3-1ubuntu0.10                 deb                      
-libpython3.12-stdlib         3.12.3-1ubuntu0.10                 deb                      
+libpython3.12-minimal        3.12.3-1ubuntu0.11                 deb                      
+libpython3.12-stdlib         3.12.3-1ubuntu0.11                 deb                      
 libreadline8t64              8.2-4build1                        deb                      
 librtmp1                     2.4+20151223.gitfa8646d.1-2build7  deb                      
 libsasl2-2                   2.1.28+dfsg1-5ubuntu3.1            deb                      
@@ -251,9 +251,9 @@ python3-minimal              3.12.3-0ubuntu2.1                  deb
 python3-pip-whl              24.0+dfsg-1ubuntu1.3               deb                      
 python3-setuptools-whl       68.1.2-2ubuntu1.2                  deb                      
 python3-venv                 3.12.3-0ubuntu2.1                  deb                      
-python3.12                   3.12.3-1ubuntu0.10                 deb                      
-python3.12-minimal           3.12.3-1ubuntu0.10                 deb                      
-python3.12-venv              3.12.3-1ubuntu0.10                 deb                      
+python3.12                   3.12.3-1ubuntu0.11                 deb                      
+python3.12-minimal           3.12.3-1ubuntu0.11                 deb                      
+python3.12-venv              3.12.3-1ubuntu0.11                 deb                      
 pytz                         2025.2                             python                   
 pyyaml                       6.0.3                              python                   
 rapidfuzz                    3.14.3                             python                   
