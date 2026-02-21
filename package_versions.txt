@@ -264,7 +264,7 @@ rapidfuzz                    3.14.3                             python
 readline-common              8.2-4build1                        deb                      
 requests                     2.32.5                             python                   
 requests-oauthlib            2.0.0                              python                   
-rich                         14.3.2                             python                   
+rich                         14.3.3                             python                   
 sed                          4.9-2build1                        deb                      
 sensible-utils               0.0.22                             deb                      
 setuptools                   82.0.0                             python                   
@@ -277,7 +277,7 @@ sysvinit-utils               3.08-6ubuntu3                      deb
 tar                          1.35+dfsg-3build1                  deb                      
 tempora                      5.8.1                              python                   
 tomli                        2.4.0                              python                   
-typer                        0.24.0                             python                   
+typer                        0.24.1                             python                   
 typer-slim                   0.24.0                             python                   
 typing-extensions            4.15.0                             python                   
 tzdata                       2025.3                             python                   
