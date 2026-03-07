@@ -20,7 +20,7 @@ catatonit                    0.1.7-1                            deb
 certifi                      2026.2.25                          python                   
 cffi                         2.0.0                              python                   
 chardet                      5.2.0                              python                   
-charset-normalizer           3.4.4                              python                   
+charset-normalizer           3.4.5                              python                   
 cheroot                      11.1.2                             python                   
 cherrypy                     18.10.0                            python                   
 cherrypy-cors                1.7.0                              python                   
@@ -81,7 +81,8 @@ init-system-helpers          1.66ubuntu1                        deb
 irc                          20.5.0                             python                   
 iso-639                      0.4.5                              python                   
 jaraco-collections           5.2.1                              python                   
-jaraco-context               6.1.0                              python  (+1 duplicate)   
+jaraco-context               6.1.0                              python                   
+jaraco-context               6.1.1                              python                   
 jaraco-functools             4.4.0                              python  (+1 duplicate)   
 jaraco-logging               3.4.0                              python                   
 jaraco-stream                3.0.4                              python                   
@@ -246,7 +247,7 @@ pycparser                    3.0                                python
 pygments                     2.19.2                             python                   
 pyopenssl                    25.3.0                             python                   
 pyparsing                    3.3.2                              python                   
-pypdf                        6.7.4                              python                   
+pypdf                        6.7.5                              python                   
 pysocks                      1.7.1                              python                   
 python-dateutil              2.9.0.post0                        python                   
 python-magic                 0.4.27                             python                   
@@ -258,7 +259,7 @@ python3-venv                 3.12.3-0ubuntu2.1                  deb
 python3.12                   3.12.3-1ubuntu0.11                 deb                      
 python3.12-minimal           3.12.3-1ubuntu0.11                 deb                      
 python3.12-venv              3.12.3-1ubuntu0.11                 deb                      
-pytz                         2025.2                             python                   
+pytz                         2026.1.post1                       python                   
 pyyaml                       6.0.3                              python                   
 rapidfuzz                    3.14.3                             python                   
 readline-common              8.2-4build1                        deb                      
