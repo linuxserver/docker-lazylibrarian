@@ -3,7 +3,7 @@ RAR decompression library    3.93.0                             binary  (+1 dupl
 Simple Launcher              1.1.0.14                           binary  (+5 duplicates)  
 adduser                      3.137ubuntu1                       deb                      
 annotated-doc                0.0.4                              python                   
-apprise                      1.9.7                              python                   
+apprise                      1.9.8                              python                   
 apscheduler                  3.11.2                             python                   
 apt                          2.8.3                              deb                      
 apt-utils                    2.8.3                              deb                      
@@ -73,7 +73,7 @@ gui-arm64                    UNKNOWN                            binary
 gzip                         1.12-1ubuntu3.1                    deb                      
 hostname                     3.23+nmu2ubuntu2                   deb                      
 html5lib                     1.1                                python                   
-httpagentparser              1.9.5                              python                   
+httpagentparser              1.9.9                              python                   
 httplib2                     0.31.2                             python                   
 idna                         3.11                               python                   
 importlib-metadata           8.7.1                              python                   
@@ -125,7 +125,7 @@ libext2fs2t64                1.47.0-2.4~exp1ubuntu4.1           deb
 libffi8                      3.4.6-1build1                      deb                      
 libfontconfig1               2.15.0-1.1ubuntu2                  deb                      
 libfontenc1                  1:1.1.8-1build1                    deb                      
-libfreetype6                 2.13.2+dfsg-1build3                deb                      
+libfreetype6                 2.13.2+dfsg-1ubuntu0.1             deb                      
 libgcc-s1                    14.2.0-4ubuntu2~24.04.1            deb                      
 libgcrypt20                  1.10.3-2build1                     deb                      
 libgmp10                     2:6.3.0+dfsg-2ubuntu6.1            deb                      
@@ -177,8 +177,8 @@ libpng16-16t64               1.6.43-5ubuntu0.5                  deb
 libproc2-0                   2:4.0.4-4ubuntu3.2                 deb                      
 libpsl5t64                   0.21.2-1.1build1                   deb                      
 libpython3-stdlib            3.12.3-0ubuntu2.1                  deb                      
-libpython3.12-minimal        3.12.3-1ubuntu0.11                 deb                      
-libpython3.12-stdlib         3.12.3-1ubuntu0.11                 deb                      
+libpython3.12-minimal        3.12.3-1ubuntu0.12                 deb                      
+libpython3.12-stdlib         3.12.3-1ubuntu0.12                 deb                      
 libreadline8t64              8.2-4build1                        deb                      
 librtmp1                     2.4+20151223.gitfa8646d.1-2build7  deb                      
 libsasl2-2                   2.1.28+dfsg1-5ubuntu3.1            deb                      
@@ -247,7 +247,7 @@ pycparser                    3.0                                python
 pygments                     2.19.2                             python                   
 pyopenssl                    25.3.0                             python                   
 pyparsing                    3.3.2                              python                   
-pypdf                        6.7.5                              python                   
+pypdf                        6.8.0                              python                   
 pysocks                      1.7.1                              python                   
 python-dateutil              2.9.0.post0                        python                   
 python-magic                 0.4.27                             python                   
@@ -256,9 +256,9 @@ python3-minimal              3.12.3-0ubuntu2.1                  deb
 python3-pip-whl              24.0+dfsg-1ubuntu1.3               deb                      
 python3-setuptools-whl       68.1.2-2ubuntu1.2                  deb                      
 python3-venv                 3.12.3-0ubuntu2.1                  deb                      
-python3.12                   3.12.3-1ubuntu0.11                 deb                      
-python3.12-minimal           3.12.3-1ubuntu0.11                 deb                      
-python3.12-venv              3.12.3-1ubuntu0.11                 deb                      
+python3.12                   3.12.3-1ubuntu0.12                 deb                      
+python3.12-minimal           3.12.3-1ubuntu0.12                 deb                      
+python3.12-venv              3.12.3-1ubuntu0.12                 deb                      
 pytz                         2026.1.post1                       python                   
 pyyaml                       6.0.3                              python                   
 rapidfuzz                    3.14.3                             python                   
@@ -268,7 +268,7 @@ requests-oauthlib            2.0.0                              python
 rich                         14.3.3                             python                   
 sed                          4.9-2build1                        deb                      
 sensible-utils               0.0.22                             deb                      
-setuptools                   82.0.0                             python                   
+setuptools                   82.0.1                             python                   
 shellingham                  1.5.4                              python                   
 six                          1.17.0                             python                   
 slskd-api                    0.2.1                              python                   
