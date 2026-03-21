@@ -3,7 +3,7 @@ RAR decompression library    3.93.0                             binary  (+1 dupl
 Simple Launcher              1.1.0.14                           binary  (+5 duplicates)  
 adduser                      3.137ubuntu1                       deb                      
 annotated-doc                0.0.4                              python                   
-apprise                      1.9.8                              python                   
+apprise                      1.9.9                              python                   
 apscheduler                  3.11.2                             python                   
 apt                          2.8.3                              deb                      
 apt-utils                    2.8.3                              deb                      
@@ -82,7 +82,7 @@ irc                          20.5.0                             python
 iso-639                      0.4.5                              python                   
 jaraco-collections           5.2.1                              python                   
 jaraco-context               6.1.0                              python                   
-jaraco-context               6.1.1                              python                   
+jaraco-context               6.1.2                              python                   
 jaraco-functools             4.4.0                              python  (+1 duplicate)   
 jaraco-logging               3.4.0                              python                   
 jaraco-stream                3.0.4                              python                   
@@ -271,7 +271,7 @@ sensible-utils               0.0.22                             deb
 setuptools                   82.0.1                             python                   
 shellingham                  1.5.4                              python                   
 six                          1.17.0                             python                   
-slskd-api                    0.2.2                              python                   
+slskd-api                    0.2.3                              python                   
 soupsieve                    2.8.3                              python                   
 systemd-standalone-sysusers  255.4-1ubuntu8.12                  deb                      
 sysvinit-utils               3.08-6ubuntu3                      deb                      
