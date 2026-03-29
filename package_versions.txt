@@ -19,7 +19,7 @@ ca-certificates              20240203                           deb
 catatonit                    0.1.7-1                            deb                      
 certifi                      2026.2.25                          python                   
 cffi                         2.0.0                              python                   
-chardet                      7.4.0.post1                        python                   
+chardet                      7.4.0.post2                        python                   
 charset-normalizer           3.4.6                              python                   
 cheroot                      11.1.2                             python                   
 cherrypy                     18.10.0                            python                   
