@@ -244,7 +244,7 @@ portend                      3.2.1                              python
 procps                       2:4.0.4-4ubuntu3.2                 deb                      
 publicsuffix                 20231001.0357-0.1                  deb                      
 pycparser                    3.0                                python                   
-pygments                     2.19.2                             python                   
+pygments                     2.20.0                             python                   
 pyopenssl                    26.0.0                             python                   
 pyparsing                    3.3.2                              python                   
 pypdf                        6.9.2                              python                   
