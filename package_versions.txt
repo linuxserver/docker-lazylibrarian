@@ -3,7 +3,7 @@ RAR decompression library    3.93.0                             binary  (+1 dupl
 Simple Launcher              1.1.0.14                           binary  (+5 duplicates)  
 adduser                      3.137ubuntu1                       deb                      
 annotated-doc                0.0.4                              python                   
-apprise                      1.9.9                              python                   
+apprise                      1.10.0                             python                   
 apscheduler                  3.11.2                             python                   
 apt                          2.8.3                              deb                      
 apt-utils                    2.8.3                              deb                      
@@ -88,7 +88,7 @@ jaraco-logging               3.4.0                              python
 jaraco-stream                3.0.4                              python                   
 jaraco-text                  4.0.0                              python                   
 jaraco-text                  4.2.0                              python                   
-jq                           1.7.1-3ubuntu0.24.04.1             deb                      
+jq                           1.7.1-3ubuntu0.24.04.2             deb                      
 keyboxd                      2.4.4-2ubuntu17.4                  deb                      
 krb5-locales                 1.20.1-6ubuntu2.6                  deb                      
 lazylibrarian                2025.9.16                          python  (+1 duplicate)   
@@ -144,7 +144,7 @@ libjbig0                     2.1-6.1ubuntu2                     deb
 libjbig2dec0                 0.20-1build3                       deb                      
 libjpeg-turbo8               2.1.5-2ubuntu2                     deb                      
 libjpeg8                     8c-2ubuntu11                       deb                      
-libjq1                       1.7.1-3ubuntu0.24.04.1             deb                      
+libjq1                       1.7.1-3ubuntu0.24.04.2             deb                      
 libk5crypto3                 1.20.1-6ubuntu2.6                  deb                      
 libkeyutils1                 1.6.3-3build1                      deb                      
 libkrb5-3                    1.20.1-6ubuntu2.6                  deb                      
@@ -217,7 +217,7 @@ locales                      2.39-0ubuntu8.7                    deb
 login                        1:4.13+dfsg1-4ubuntu3.2            deb                      
 logsave                      1.47.0-2.4~exp1ubuntu4.1           deb                      
 lxml                         6.1.0                              python                   
-mako                         1.3.11                             python                   
+mako                         1.3.12                             python                   
 markdown                     3.10.2                             python                   
 markdown-it-py               4.0.0                              python                   
 markupsafe                   3.0.3                              python                   
@@ -239,7 +239,7 @@ passwd                       1:4.13+dfsg1-4ubuntu3.2            deb
 perl-base                    5.38.2-3.2ubuntu0.2                deb                      
 pillow                       12.2.0                             python                   
 pinentry-curses              1.2.1-3ubuntu5                     deb                      
-pip                          26.0.1                             python                   
+pip                          26.1                               python                   
 platformdirs                 4.4.0                              python                   
 poppler-data                 0.4.12-1                           deb                      
 portend                      3.2.1                              python                   
@@ -280,7 +280,7 @@ sysvinit-utils               3.08-6ubuntu3                      deb
 tar                          1.35+dfsg-3build1                  deb                      
 tempora                      5.8.1                              python                   
 tomli                        2.4.0                              python                   
-typer                        0.24.2                             python                   
+typer                        0.25.0                             python                   
 typer-slim                   0.24.0                             python                   
 typing-extensions            4.15.0                             python                   
 tzdata                       2026.2                             python                   
