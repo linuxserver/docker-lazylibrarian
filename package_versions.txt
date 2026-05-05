@@ -32,7 +32,7 @@ click                        8.3.3                              python
 coreutils                    9.4-3ubuntu6.2                     deb                      
 cron                         3.0pl1-184ubuntu2                  deb                      
 cron-daemon-common           3.0pl1-184ubuntu2                  deb                      
-cryptography                 47.0.0                             python                   
+cryptography                 48.0.0                             python                   
 curl                         8.5.0-2ubuntu10.8                  deb                      
 dash                         0.5.12-6ubuntu5                    deb                      
 dbus                         1.14.10-4ubuntu4.1                 deb                      
@@ -239,7 +239,7 @@ passwd                       1:4.13+dfsg1-4ubuntu3.2            deb
 perl-base                    5.38.2-3.2ubuntu0.2                deb                      
 pillow                       12.2.0                             python                   
 pinentry-curses              1.2.1-3ubuntu5                     deb                      
-pip                          26.1                               python                   
+pip                          26.1.1                             python                   
 platformdirs                 4.4.0                              python                   
 poppler-data                 0.4.12-1                           deb                      
 portend                      3.2.1                              python                   
@@ -247,7 +247,7 @@ procps                       2:4.0.4-4ubuntu3.2                 deb
 publicsuffix                 20231001.0357-0.1                  deb                      
 pycparser                    3.0                                python                   
 pygments                     2.20.0                             python                   
-pyopenssl                    26.1.0                             python                   
+pyopenssl                    26.2.0                             python                   
 pyparsing                    3.3.2                              python                   
 pypdf                        6.10.2                             python                   
 pysocks                      1.7.1                              python                   
@@ -261,7 +261,7 @@ python3-venv                 3.12.3-0ubuntu2.1                  deb
 python3.12                   3.12.3-1ubuntu0.13                 deb                      
 python3.12-minimal           3.12.3-1ubuntu0.13                 deb                      
 python3.12-venv              3.12.3-1ubuntu0.13                 deb                      
-pytz                         2026.1.post1                       python                   
+pytz                         2026.2                             python                   
 pyyaml                       6.0.3                              python                   
 rapidfuzz                    3.14.5                             python                   
 readline-common              8.2-4build1                        deb                      
