@@ -265,7 +265,7 @@ pytz                         2026.2                             python
 pyyaml                       6.0.3                              python                   
 rapidfuzz                    3.14.5                             python                   
 readline-common              8.2-4build1                        deb                      
-requests                     2.34.1                             python                   
+requests                     2.34.2                             python                   
 requests-oauthlib            2.0.0                              python                   
 rich                         15.0.0                             python                   
 sed                          4.9-2ubuntu0.24.04.1               deb                      
