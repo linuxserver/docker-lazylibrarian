@@ -83,7 +83,8 @@ iso639-lang                  2.6.3                              python
 jaraco-collections           5.2.1                              python                   
 jaraco-context               6.1.0                              python                   
 jaraco-context               6.1.2                              python                   
-jaraco-functools             4.4.0                              python  (+1 duplicate)   
+jaraco-functools             4.4.0                              python                   
+jaraco-functools             4.5.0                              python                   
 jaraco-logging               3.4.0                              python                   
 jaraco-stream                3.0.4                              python                   
 jaraco-text                  4.0.0                              python                   
