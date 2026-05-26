@@ -258,7 +258,7 @@ pycparser                    3.0                                python
 pygments                     2.20.0                             python                   
 pyopenssl                    26.2.0                             python                   
 pyparsing                    3.3.2                              python                   
-pypdf                        6.12.1                             python                   
+pypdf                        6.12.2                             python                   
 pysocks                      1.7.1                              python                   
 python-dateutil              2.9.0.post0                        python                   
 python-magic                 0.4.27                             python                   
@@ -289,7 +289,7 @@ sysvinit-utils               3.08-6ubuntu3                      deb
 tar                          1.35+dfsg-3build1                  deb                      
 tempora                      5.9.0                              python                   
 tomli                        2.4.0                              python                   
-typer                        0.25.1                             python                   
+typer                        0.26.1                             python                   
 typer-slim                   0.24.0                             python                   
 typing-extensions            4.15.0                             python                   
 tzdata                       2026.2                             python                   
