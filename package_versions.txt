@@ -3,6 +3,7 @@ RAR decompression library    3.93.0                             binary  (+1 dupl
 Simple Launcher              1.1.0.14                           binary  (+5 duplicates)  
 adduser                      3.137ubuntu1                       deb                      
 annotated-doc                0.0.4                              python                   
+anyio                        4.13.0                             python                   
 apprise                      1.10.0                             python                   
 apscheduler                  3.11.2                             python                   
 apt                          2.8.3                              deb                      
@@ -59,6 +60,7 @@ ghostscript                  10.02.1~dfsg1-0ubuntu7.8           deb
 gnupg                        2.4.4-2ubuntu17.4                  deb                      
 gnupg-l10n                   2.4.4-2ubuntu17.4                  deb                      
 gnupg-utils                  2.4.4-2ubuntu17.4                  deb                      
+googletrans                  4.0.2                              python                   
 gpg                          2.4.4-2ubuntu17.4                  deb                      
 gpg-agent                    2.4.4-2ubuntu17.4                  deb                      
 gpg-wks-client               2.4.4-2ubuntu17.4                  deb                      
@@ -71,10 +73,16 @@ gui-32                       UNKNOWN                            binary
 gui-64                       UNKNOWN                            binary                   
 gui-arm64                    UNKNOWN                            binary                   
 gzip                         1.12-1ubuntu3.1                    deb                      
+h11                          0.16.0                             python                   
+h2                           4.3.0                              python                   
 hostname                     3.23+nmu2ubuntu2                   deb                      
+hpack                        4.1.0                              python                   
 html5lib                     1.1                                python                   
 httpagentparser              1.9.9                              python                   
+httpcore                     1.0.9                              python                   
 httplib2                     0.31.2                             python                   
+httpx                        0.28.1                             python                   
+hyperframe                   6.1.0                              python                   
 idna                         3.16                               python                   
 importlib-metadata           8.7.1                              python                   
 init-system-helpers          1.66ubuntu1                        deb                      
@@ -92,7 +100,7 @@ jaraco-text                  4.2.0                              python
 jq                           1.7.1-3ubuntu0.24.04.2             deb                      
 keyboxd                      2.4.4-2ubuntu17.4                  deb                      
 krb5-locales                 1.20.1-6ubuntu2.6                  deb                      
-lazylibrarian                2025.9.16                          python  (+1 duplicate)   
+lazylibrarian                2026.5.25                          python  (+1 duplicate)   
 levenshtein                  0.27.3                             python                   
 libacl1                      2.3.2-1build1.1                    deb                      
 libapparmor1                 4.0.1really4.0.1-0ubuntu0.24.04.6  deb                      
@@ -275,7 +283,7 @@ setuptools                   82.0.1                             python
 shellingham                  1.5.4                              python                   
 six                          1.17.0                             python                   
 slskd-api                    0.2.4                              python                   
-soupsieve                    2.8.3                              python                   
+soupsieve                    2.8.4                              python                   
 systemd-standalone-sysusers  255.4-1ubuntu8.15                  deb                      
 sysvinit-utils               3.08-6ubuntu3                      deb                      
 tar                          1.35+dfsg-3build1                  deb                      
