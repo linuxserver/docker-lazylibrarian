@@ -4,7 +4,7 @@ Simple Launcher              1.1.0.14                           binary  (+5 dupl
 adduser                      3.137ubuntu1                       deb                      
 annotated-doc                0.0.4                              python                   
 anyio                        4.13.0                             python                   
-apprise                      1.10.0                             python                   
+apprise                      1.11.0                             python                   
 apscheduler                  3.11.2                             python                   
 apt                          2.8.3                              deb                      
 apt-utils                    2.8.3                              deb                      
