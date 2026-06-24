@@ -29,7 +29,7 @@ cli                          UNKNOWN                            binary
 cli-32                       UNKNOWN                            binary                   
 cli-64                       UNKNOWN                            binary                   
 cli-arm64                    UNKNOWN                            binary                   
-click                        8.4.1                              python                   
+click                        8.4.2                              python                   
 coreutils                    9.4-3ubuntu6.2                     deb                      
 cron                         3.0pl1-184ubuntu2                  deb                      
 cron-daemon-common           3.0pl1-184ubuntu2                  deb                      
@@ -76,7 +76,7 @@ gzip                         1.12-1ubuntu3.1                    deb
 h11                          0.16.0                             python                   
 h2                           4.3.0                              python                   
 hostname                     3.23+nmu2ubuntu2                   deb                      
-hpack                        4.1.0                              python                   
+hpack                        4.2.0                              python                   
 html5lib                     1.1                                python                   
 httpagentparser              1.9.9                              python                   
 httpcore                     1.0.9                              python                   
