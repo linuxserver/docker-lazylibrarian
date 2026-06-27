@@ -245,7 +245,7 @@ openssl                      3.0.13-0ubuntu3.11                 deb
 packaging                    26.0                               python                   
 packaging                    26.2                               python                   
 passwd                       1:4.13+dfsg1-4ubuntu3.2            deb                      
-perl-base                    5.38.2-3.2ubuntu0.2                deb                      
+perl-base                    5.38.2-3.2ubuntu0.3                deb                      
 pillow                       12.2.0                             python                   
 pinentry-curses              1.2.1-3ubuntu5                     deb                      
 pip                          26.1.2                             python                   
@@ -286,7 +286,7 @@ slskd-api                    0.2.4                              python
 soupsieve                    2.8.4                              python                   
 systemd-standalone-sysusers  255.4-1ubuntu8.16                  deb                      
 sysvinit-utils               3.08-6ubuntu3                      deb                      
-tar                          1.35+dfsg-3build1                  deb                      
+tar                          1.35+dfsg-3ubuntu0.1               deb                      
 tempora                      5.9.0                              python                   
 tomli                        2.4.0                              python                   
 typer                        0.26.8                             python                   
