@@ -74,7 +74,7 @@ gui-64                       UNKNOWN                            binary
 gui-arm64                    UNKNOWN                            binary                   
 gzip                         1.12-1ubuntu3.2                    deb                      
 h11                          0.16.0                             python                   
-h2                           4.3.0                              python                   
+h2                           4.4.0                              python                   
 hostname                     3.23+nmu2ubuntu2                   deb                      
 hpack                        4.2.0                              python                   
 html5lib                     1.1                                python                   
