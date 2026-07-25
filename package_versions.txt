@@ -270,7 +270,7 @@ python3-venv                 3.12.3-0ubuntu2.1                  deb
 python3.12                   3.12.3-1ubuntu0.15                 deb                      
 python3.12-minimal           3.12.3-1ubuntu0.15                 deb                      
 python3.12-venv              3.12.3-1ubuntu0.15                 deb                      
-pytz                         2026.2                             python                   
+pytz                         2026.3                             python                   
 pyyaml                       6.0.3                              python                   
 rapidfuzz                    3.14.5                             python                   
 readline-common              8.2-4build1                        deb                      
