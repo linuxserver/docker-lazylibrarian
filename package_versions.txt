@@ -2,7 +2,7 @@ NAME                         VERSION                            TYPE
 RAR decompression library    3.93.0                             binary  (+1 duplicate)   
 Simple Launcher              1.1.0.14                           binary  (+5 duplicates)  
 adduser                      3.137ubuntu1                       deb                      
-annotated-doc                0.0.4                              python                   
+annotated-doc                0.0.5                              python                   
 anyio                        4.14.2                             python                   
 apprise                      1.12.0                             python                   
 apscheduler                  3.11.3                             python                   
