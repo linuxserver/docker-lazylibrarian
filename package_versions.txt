@@ -33,7 +33,7 @@ click                        8.4.2                              python
 coreutils                    9.4-3ubuntu6.2                     deb                      
 cron                         3.0pl1-184ubuntu2                  deb                      
 cron-daemon-common           3.0pl1-184ubuntu2                  deb                      
-cryptography                 49.0.0                             python                   
+cryptography                 50.0.0                             python                   
 curl                         8.5.0-2ubuntu10.11                 deb                      
 dash                         0.5.12-6ubuntu5                    deb                      
 dbus                         1.14.10-4ubuntu4.1                 deb                      
@@ -256,7 +256,7 @@ procps                       2:4.0.4-4ubuntu3.2                 deb
 publicsuffix                 20231001.0357-0.1                  deb                      
 pycparser                    3.0                                python                   
 pygments                     2.20.0                             python                   
-pyopenssl                    26.3.0                             python                   
+pyopenssl                    26.4.0                             python                   
 pyparsing                    3.3.2                              python                   
 pypdf                        6.14.2                             python                   
 pysocks                      1.7.1                              python                   
