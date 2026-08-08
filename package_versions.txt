@@ -279,7 +279,7 @@ requests-oauthlib            2.0.0                              python
 rich                         15.0.0                             python                   
 sed                          4.9-2ubuntu0.24.04.1               deb                      
 sensible-utils               0.0.22                             deb                      
-setuptools                   83.0.0                             python                   
+setuptools                   84.0.0                             python                   
 shellingham                  1.5.4                              python                   
 six                          1.17.0                             python                   
 slskd-api                    0.2.4                              python                   
