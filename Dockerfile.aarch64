@@ -29,7 +29,7 @@ RUN \
     /app/lazylibrarian && \
   if [ -z ${LAZYLIBRARIAN_COMMIT+x} ]; then \
     LAZYLIBRARIAN_COMMIT=$(curl -sX GET "https://gitlab.com/api/v4/projects/9317860/repository/commits/master" \
-      | awk '/id/{print $4;exit}' FS='[""]'); \
+      | jq -r '.id'); \
   fi && \
   echo "Installing from commit ${LAZYLIBRARIAN_COMMIT}" && \
   echo "${LAZYLIBRARIAN_COMMIT}" > /defaults/version.txt && \
