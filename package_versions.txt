@@ -116,8 +116,8 @@ libblkid1                    2.39.3-9ubuntu6.6                  deb
 libbrotli1                   1.1.0-2build2                      deb                      
 libbsd0                      0.12.1-1build1.1                   deb                      
 libbz2-1.0                   1.0.8-5.1ubuntu0.1                 deb                      
-libc-bin                     2.39-0ubuntu8.8                    deb                      
-libc6                        2.39-0ubuntu8.8                    deb                      
+libc-bin                     2.39-0ubuntu8.9                    deb                      
+libc6                        2.39-0ubuntu8.9                    deb                      
 libcap-ng0                   0.8.4-2build2                      deb                      
 libcap2                      1:2.66-5ubuntu2.4                  deb                      
 libcom-err2                  1.47.0-2.4~exp1ubuntu4.1           deb                      
@@ -186,8 +186,8 @@ libpng16-16t64               1.6.43-5ubuntu0.6                  deb
 libproc2-0                   2:4.0.4-4ubuntu3.3                 deb                      
 libpsl5t64                   0.21.2-1.1build1                   deb                      
 libpython3-stdlib            3.12.3-0ubuntu2.1                  deb                      
-libpython3.12-minimal        3.12.3-1ubuntu0.16                 deb                      
-libpython3.12-stdlib         3.12.3-1ubuntu0.16                 deb                      
+libpython3.12-minimal        3.12.3-1ubuntu0.17                 deb                      
+libpython3.12-stdlib         3.12.3-1ubuntu0.17                 deb                      
 libreadline8t64              8.2-4build1                        deb                      
 librtmp1                     2.4+20151223.gitfa8646d.1-2build7  deb                      
 libsasl2-2                   2.1.28+dfsg1-5ubuntu3.1            deb                      
@@ -222,7 +222,7 @@ libxdmcp6                    1:1.1.3-0ubuntu6                   deb
 libxt6t64                    1:1.2.1-1.2build1                  deb                      
 libxxhash0                   0.8.2-2build1                      deb                      
 libzstd1                     1.5.5+dfsg2-2build1.1              deb                      
-locales                      2.39-0ubuntu8.8                    deb                      
+locales                      2.39-0ubuntu8.9                    deb                      
 login                        1:4.13+dfsg1-4ubuntu3.2            deb                      
 logsave                      1.47.0-2.4~exp1ubuntu4.1           deb                      
 lxml                         6.1.3                              python                   
@@ -267,9 +267,9 @@ python3-minimal              3.12.3-0ubuntu2.1                  deb
 python3-pip-whl              24.0+dfsg-1ubuntu1.3               deb                      
 python3-setuptools-whl       68.1.2-2ubuntu1.2                  deb                      
 python3-venv                 3.12.3-0ubuntu2.1                  deb                      
-python3.12                   3.12.3-1ubuntu0.16                 deb                      
-python3.12-minimal           3.12.3-1ubuntu0.16                 deb                      
-python3.12-venv              3.12.3-1ubuntu0.16                 deb                      
+python3.12                   3.12.3-1ubuntu0.17                 deb                      
+python3.12-minimal           3.12.3-1ubuntu0.17                 deb                      
+python3.12-venv              3.12.3-1ubuntu0.17                 deb                      
 pytz                         2026.3.post1                       python                   
 pyyaml                       6.0.3                              python                   
 rapidfuzz                    3.14.6                             python                   
