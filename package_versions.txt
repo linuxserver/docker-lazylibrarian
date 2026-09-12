@@ -258,7 +258,7 @@ pycparser                    3.0                                python
 pygments                     2.21.0                             python                   
 pyopenssl                    26.4.0                             python                   
 pyparsing                    3.3.2                              python                   
-pypdf                        6.18.0                             python                   
+pypdf                        6.18.1                             python                   
 pysocks                      1.7.1                              python                   
 python-dateutil              2.9.0.post0                        python                   
 python-magic                 0.4.27                             python                   
