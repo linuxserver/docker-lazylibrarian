@@ -83,7 +83,7 @@ httpcore                     1.0.9                              python
 httplib2                     0.32.0                             python                   
 httpx                        0.28.1                             python                   
 hyperframe                   6.1.0                              python                   
-idna                         3.19                               python                   
+idna                         3.20                               python                   
 importlib-metadata           8.7.1                              python                   
 init-system-helpers          1.66ubuntu1                        deb                      
 irc                          20.5.0                             python                   
