@@ -100,7 +100,8 @@ jaraco-text                  4.3.0                              python
 jq                           1.7.1-3ubuntu0.24.04.2             deb                      
 keyboxd                      2.4.4-2ubuntu17.6                  deb                      
 krb5-locales                 1.20.1-6ubuntu2.10                 deb                      
-lazylibrarian                2026.5.25                          python  (+1 duplicate)   
+langid                       1.1.6                              python                   
+lazylibrarian                2026.9.19                          python  (+1 duplicate)   
 levenshtein                  0.27.5                             python                   
 libacl1                      2.3.2-1build1.1                    deb                      
 libapparmor1                 4.0.1really4.0.1-0ubuntu0.24.04.7  deb                      
@@ -240,6 +241,7 @@ ncurses-base                 6.4+20240113-1ubuntu2.2            deb
 ncurses-bin                  6.4+20240113-1ubuntu2.2            deb                      
 netbase                      6.4                                deb                      
 netcat-openbsd               1.226-1ubuntu2                     deb                      
+numpy                        2.5.3                              python                   
 oauthlib                     3.3.1                              python                   
 openssl                      3.0.13-0ubuntu3.15                 deb                      
 packaging                    26.0                               python                   
