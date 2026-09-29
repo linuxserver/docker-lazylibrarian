@@ -242,7 +242,7 @@ ncurses-bin                  6.4+20240113-1ubuntu2.2            deb
 netbase                      6.4                                deb                      
 netcat-openbsd               1.226-1ubuntu2                     deb                      
 numpy                        2.5.3                              python                   
-oauthlib                     3.3.1                              python                   
+oauthlib                     4.0.0                              python                   
 openssl                      3.0.13-0ubuntu3.15                 deb                      
 packaging                    26.0                               python                   
 packaging                    26.3                               python                   
