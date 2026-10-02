@@ -290,7 +290,7 @@ soupsieve                    2.10                               python
 systemd-standalone-sysusers  255.4-1ubuntu8.17                  deb                      
 sysvinit-utils               3.08-6ubuntu3                      deb                      
 tar                          1.35+dfsg-3ubuntu0.4               deb                      
-tempora                      5.12.0                             python                   
+tempora                      5.13.0                             python                   
 tomli                        2.4.0                              python                   
 typer                        0.27.2                             python                   
 typer-slim                   0.24.0                             python                   
