@@ -136,7 +136,7 @@ libext2fs2t64                1.47.0-2.4~exp1ubuntu4.1           deb
 libffi8                      3.4.6-1build1                      deb                      
 libfontconfig1               2.15.0-1.1ubuntu2                  deb                      
 libfontenc1                  1:1.1.8-1build1                    deb                      
-libfreetype6                 2.13.2+dfsg-1ubuntu0.1             deb                      
+libfreetype6                 2.13.2+dfsg-1ubuntu0.2             deb                      
 libgcc-s1                    14.2.0-4ubuntu2~24.04.1            deb                      
 libgcrypt20                  1.10.3-2ubuntu0.2                  deb                      
 libgmp10                     2:6.3.0+dfsg-2ubuntu6.1            deb                      
@@ -292,7 +292,7 @@ sysvinit-utils               3.08-6ubuntu3                      deb
 tar                          1.35+dfsg-3ubuntu0.4               deb                      
 tempora                      5.13.0                             python                   
 tomli                        2.4.0                              python                   
-typer                        0.27.2                             python                   
+typer                        0.27.3                             python                   
 typer-slim                   0.24.0                             python                   
 typing-extensions            4.16.0                             python                   
 tzdata                       2026.5                             python                   
