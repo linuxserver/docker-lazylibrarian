@@ -242,7 +242,7 @@ ncurses-base                 6.4+20240113-1ubuntu2.2            deb
 ncurses-bin                  6.4+20240113-1ubuntu2.2            deb                      
 netbase                      6.4                                deb                      
 netcat-openbsd               1.226-1ubuntu2                     deb                      
-numpy                        2.5.3                              python                   
+numpy                        2.5.4                              python                   
 oauthlib                     4.0.0                              python                   
 openssl                      3.0.13-0ubuntu3.16                 deb                      
 packaging                    26.0                               python                   
@@ -286,7 +286,7 @@ setuptools                   84.0.0                             python
 shellingham                  1.5.4                              python                   
 six                          1.17.0                             python                   
 slskd-api                    0.2.4                              python                   
-soupsieve                    3.0                                python                   
+soupsieve                    3.0.1                              python                   
 systemd-standalone-sysusers  255.4-1ubuntu8.17                  deb                      
 sysvinit-utils               3.08-6ubuntu3                      deb                      
 tar                          1.35+dfsg-3ubuntu0.4               deb                      
