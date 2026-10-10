@@ -257,11 +257,11 @@ poppler-data                 0.4.12-1                           deb
 portend                      3.2.1                              python                   
 procps                       2:4.0.4-4ubuntu3.3                 deb                      
 publicsuffix                 20231001.0357-0.1                  deb                      
-pycparser                    3.1                                python                   
+pycparser                    3.11                               python                   
 pygments                     2.21.0                             python                   
 pyopenssl                    26.4.0                             python                   
 pyparsing                    3.3.3                              python                   
-pypdf                        6.19.0                             python                   
+pypdf                        6.20.0                             python                   
 pysocks                      1.7.1                              python                   
 python-dateutil              2.9.0.post0                        python                   
 python-magic                 0.4.27                             python                   
