@@ -249,7 +249,7 @@ packaging                    26.0                               python
 packaging                    26.3                               python                   
 passwd                       1:4.13+dfsg1-4ubuntu3.2            deb                      
 perl-base                    5.38.2-3.2ubuntu0.6                deb                      
-pillow                       12.3.0                             python                   
+pillow                       13.0.0                             python                   
 pinentry-curses              1.2.1-3ubuntu5                     deb                      
 pip                          26.2.1                             python                   
 platformdirs                 4.4.0                              python                   
@@ -261,7 +261,7 @@ pycparser                    3.11                               python
 pygments                     2.21.0                             python                   
 pyopenssl                    26.4.0                             python                   
 pyparsing                    3.3.3                              python                   
-pypdf                        6.21.0                             python                   
+pypdf                        6.21.1                             python                   
 pysocks                      1.7.1                              python                   
 python-dateutil              2.9.0.post0                        python                   
 python-magic                 0.4.27                             python                   
