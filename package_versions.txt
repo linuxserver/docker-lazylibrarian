@@ -18,7 +18,7 @@ bs4                          0.0.2                              python
 bsdutils                     1:2.39.3-9ubuntu6.6                deb                      
 ca-certificates              20260601~24.04.1                   deb                      
 catatonit                    0.1.7-1                            deb                      
-certifi                      2026.10.18                         python                   
+certifi                      2026.10.19                         python                   
 cffi                         2.1.1                              python                   
 chardet                      7.7.0                              python                   
 charset-normalizer           3.5.2                              python                   
@@ -250,7 +250,7 @@ passwd                       1:4.13+dfsg1-4ubuntu3.2            deb
 perl-base                    5.38.2-3.2ubuntu0.6                deb                      
 pillow                       13.0.0                             python                   
 pinentry-curses              1.2.1-3ubuntu5                     deb                      
-pip                          26.2.1                             python                   
+pip                          26.2.2                             python                   
 platformdirs                 4.4.0                              python                   
 poppler-data                 0.4.12-1                           deb                      
 portend                      3.2.1                              python                   
@@ -281,7 +281,7 @@ requests-oauthlib            2.0.0                              python
 rich                         15.0.0                             python                   
 sed                          4.9-2ubuntu0.24.04.1               deb                      
 sensible-utils               0.0.22                             deb                      
-setuptools                   84.2.0                             python                   
+setuptools                   84.2.1                             python                   
 shellingham                  1.5.4                              python                   
 six                          1.17.0                             python                   
 slskd-api                    0.2.4                              python                   
