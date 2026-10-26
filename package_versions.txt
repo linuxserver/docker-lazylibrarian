@@ -35,7 +35,7 @@ cron                         3.0pl1-184ubuntu2                  deb
 cron-daemon-common           3.0pl1-184ubuntu2                  deb                      
 cryptography                 50.0.2                             python                   
 curl                         8.5.0-2ubuntu10.16                 deb                      
-curl-cffi                    0.16.3                             python                   
+curl-cffi                    0.17.0                             python                   
 dash                         0.5.12-6ubuntu5                    deb                      
 dbus                         1.14.10-4ubuntu4.1                 deb                      
 dbus-bin                     1.14.10-4ubuntu4.1                 deb                      
