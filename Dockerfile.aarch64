@@ -2,14 +2,14 @@
 
 FROM ghcr.io/linuxserver/unrar:arm64v8-latest AS unrar
 
-FROM ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-noble
+FROM ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-resolute
 
 # set version label
 ARG BUILD_DATE
 ARG VERSION
 ARG LAZYLIBRARIAN_COMMIT
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="chbmb"
+LABEL maintainer="aptalca"
 
 RUN \
   echo "**** install build packages ****" && \
@@ -20,6 +20,7 @@ RUN \
   echo "**** install runtime packages ****" && \
   apt-get install -y \
     ghostscript \
+    git \
     libjpeg-turbo8 \
     libmagic1 \
     python3-venv \
