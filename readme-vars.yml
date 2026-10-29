@@ -81,7 +81,7 @@ init_diagram: |
     svc-lazylibrarian -> legacy-services
   }
   Base Images: {
-    "baseimage-ubuntu:noble"
+    "baseimage-ubuntu:resolute"
   }
   "lazylibrarian:latest" <- Base Images
 # changelog
