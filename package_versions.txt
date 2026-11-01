@@ -3,7 +3,7 @@ RAR decompression library      3.93.0                                 binary    
 Simple Launcher                1.1.0.14                               binary     (+5 duplicates)  
 adduser                        3.153ubuntu1                           deb                         
 annotated-doc                  0.0.5                                  python                      
-anyio                          4.15.1                                 python                      
+anyio                          4.16.0                                 python                      
 apprise                        2.1.0                                  python                      
 apscheduler                    3.11.3                                 python                      
 apt                            3.2.0                                  deb                         
@@ -290,7 +290,7 @@ pyopenssl                      26.4.0                                 python
 pyparsing                      3.3.3                                  python                      
 pypdf                          6.21.4                                 python                      
 pysocks                        1.7.1                                  python                      
-python-dateutil                3.0.0                                  python                      
+python-dateutil                4.0.0                                  python                      
 python-magic                   0.4.27                                 python                      
 python3                        3.14.3-0ubuntu2                        deb                         
 python3-minimal                3.14.3-0ubuntu2                        deb                         
