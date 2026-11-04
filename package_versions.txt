@@ -202,7 +202,7 @@ libpam-runtime                 1.7.0-5ubuntu3.2                       deb
 libpam0g                       1.7.0-5ubuntu3.2                       deb                         
 libpaper-utils                 2.2.5-0.3maysync1                      deb                         
 libpaper2                      2.2.5-0.3maysync1                      deb                         
-libpcre2-8-0                   10.46-1build1                          deb                         
+libpcre2-8-0                   10.46-1ubuntu0.1                       deb                         
 libperl5.40                    5.40.1-7ubuntu0.3                      deb                         
 libpng16-16t64                 1.6.57-1ubuntu0.1                      deb                         
 libproc2-0                     2:4.0.4-9ubuntu1                       deb                         
@@ -314,7 +314,7 @@ setuptools                     84.2.1                                 python
 shellingham                    1.5.4                                  python                      
 six                            1.17.0                                 python                      
 slskd-api                      0.2.4                                  python                      
-soupsieve                      4.0                                    python                      
+soupsieve                      4.0.1                                  python                      
 stdlib                         go1.27.3                               go-module                   
 systemd-standalone-sysusers    259.9-0ubuntu0.1                       deb                         
 sysvinit-utils                 3.15-5ubuntu1                          deb                         
