@@ -8,8 +8,6 @@ apprise                        2.1.0                                  python
 apscheduler                    3.11.3                                 python                      
 apt                            3.2.0                                  deb                         
 apt-utils                      3.2.0                                  deb                         
-autocommand                    2.2.2                                  python                      
-backports-tarfile              1.2.0                                  python                      
 base-files                     14ubuntu6.2                            deb                         
 base-passwd                    3.6.8                                  deb                         
 bash                           5.3-2ubuntu1                           deb                         
@@ -26,10 +24,6 @@ charset-normalizer             3.5.2                                  python
 cheroot                        11.1.2                                 python                      
 cherrypy                       18.10.0                                python                      
 cherrypy-cors                  1.7.0                                  python                      
-cli                            UNKNOWN                                binary                      
-cli-32                         UNKNOWN                                binary                      
-cli-64                         UNKNOWN                                binary                      
-cli-arm64                      UNKNOWN                                binary                      
 click                          8.5.0                                  python                      
 coreutils                      9.5-1ubuntu2+0.0.0~ubuntu25            deb                         
 coreutils-from-uutils          0.0.0~ubuntu25                         deb                         
@@ -82,10 +76,6 @@ gpgconf                        2.4.8-4ubuntu3.1                       deb
 gpgsm                          2.4.8-4ubuntu3.1                       deb                         
 gpgv                           2.4.8-4ubuntu3.1                       deb                         
 grep                           3.12-1                                 deb                         
-gui                            UNKNOWN                                binary                      
-gui-32                         UNKNOWN                                binary                      
-gui-64                         UNKNOWN                                binary                      
-gui-arm64                      UNKNOWN                                binary                      
 gzip                           1.14-1~exp2ubuntu1.1                   deb                         
 h11                            0.16.0                                 python                      
 h2                             4.4.1                                  python                      
@@ -98,18 +88,14 @@ httplib2                       0.32.1                                 python
 httpx                          0.28.1                                 python                      
 hyperframe                     6.1.0                                  python                      
 idna                           3.20                                   python                      
-importlib-metadata             8.7.1                                  python                      
 init-system-helpers            1.69                                   deb                         
 irc                            20.5.0                                 python                      
 iso639-lang                    2.6.3                                  python                      
 jaraco-collections             5.2.1                                  python                      
-jaraco-context                 6.1.0                                  python                      
 jaraco-context                 6.1.2                                  python                      
-jaraco-functools               4.4.0                                  python                      
 jaraco-functools               4.6.0                                  python                      
 jaraco-logging                 3.4.0                                  python                      
 jaraco-stream                  3.0.4                                  python                      
-jaraco-text                    4.0.0                                  python                      
 jaraco-text                    4.3.0                                  python                      
 jq                             1.8.1-4ubuntu2                         deb                         
 krb5-locales                   1.22.1-2ubuntu4.1                      deb                         
@@ -258,7 +244,6 @@ markupsafe                     3.0.4                                  python
 mawk                           1.3.4.20260129-1                       deb                         
 mdurl                          0.1.2                                  python                      
 media-types                    14.0.0build1                           deb                         
-more-itertools                 10.8.0                                 python                      
 more-itertools                 11.2.1                                 python                      
 mount                          2.41.3-3ubuntu2.2                      deb                         
 ncurses-base                   6.6+20251231-1                         deb                         
@@ -270,7 +255,7 @@ oauthlib                       4.0.1                                  python
 openssh-client                 1:10.2p1-2ubuntu3.8                    deb                         
 openssl                        3.5.5-1ubuntu3.7                       deb                         
 openssl-provider-legacy        3.5.5-1ubuntu3.7                       deb                         
-packaging                      26.3                                   python     (+1 duplicate)   
+packaging                      26.3                                   python                      
 passwd                         1:4.17.4-2ubuntu3                      deb                         
 patch                          2.8-2build1                            deb                         
 perl                           5.40.1-7ubuntu0.3                      deb                         
@@ -279,7 +264,6 @@ perl-modules-5.40              5.40.1-7ubuntu0.3                      deb
 pillow                         13.0.0                                 python                      
 pinentry-curses                1.3.2-3ubuntu1                         deb                         
 pip                            26.3                                   python                      
-platformdirs                   4.4.0                                  python                      
 poppler-data                   0.4.12-1build1                         deb                         
 portend                        3.2.1                                  python                      
 procps                         2:4.0.4-9ubuntu1                       deb                         
@@ -310,7 +294,6 @@ rich                           15.0.0                                 python
 rust-coreutils                 0.10.0-1ubuntu2~26.04.1                deb                         
 sed                            4.9-2ubuntu1                           deb                         
 sensible-utils                 0.0.26build1                           deb                         
-setuptools                     84.2.1                                 python                      
 shellingham                    1.5.4                                  python                      
 six                            1.17.0                                 python                      
 slskd-api                      0.2.4                                  python                      
@@ -320,7 +303,6 @@ systemd-standalone-sysusers    259.9-0ubuntu0.1                       deb
 sysvinit-utils                 3.15-5ubuntu1                          deb                         
 tar                            1.35+dfsg-4ubuntu0.4                   deb                         
 tempora                        5.13.0                                 python                      
-tomli                          2.4.0                                  python                      
 typer                          0.27.3                                 python                      
 typer-slim                     0.24.0                                 python                      
 typing-extensions              4.16.0                                 python                      
@@ -331,13 +313,11 @@ ubuntu-keyring                 2023.11.28.1build1                     deb
 urllib3                        2.8.0                                  python                      
 util-linux                     2.41.3-3ubuntu2.2                      deb                         
 webencodings                   0.6.1                                  python                      
-wheel                          0.46.3                                 python                      
 wheel                          0.48.0                                 python                      
 x11-common                     1:7.7+26ubuntu1                        deb                         
 xauth                          1:1.1.2-1.1build1                      deb                         
 xfonts-encodings               1:1.0.5-0ubuntu3                       deb                         
 xfonts-utils                   1:7.7+7build1                          deb                         
 xmltodict                      1.0.4                                  python                      
-zc-lockfile                    4.0                                    python                      
-zipp                           3.23.0                                 python                      
+zc-lockfile                    4.1                                    python                      
 zlib1g                         1:1.3.dfsg+really1.3.1-1ubuntu3.2      deb                         
