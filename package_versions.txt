@@ -275,7 +275,7 @@ pydantic-core                  2.50.4                                 python
 pygments                       2.21.0                                 python                      
 pyopenssl                      26.4.0                                 python                      
 pyparsing                      3.3.3                                  python                      
-pypdf                          7.0.1                                  python                      
+pypdf                          7.1.0                                  python                      
 pysocks                        1.7.1                                  python                      
 python-dateutil                4.0.0                                  python                      
 python-magic                   0.4.27                                 python                      
