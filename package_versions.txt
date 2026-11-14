@@ -300,7 +300,7 @@ sensible-utils                 0.0.26build1                           deb
 shellingham                    1.5.4                                  python                      
 six                            1.17.0                                 python                      
 slskd-api                      0.2.4                                  python                      
-soupsieve                      4.1                                    python                      
+soupsieve                      4.1.1                                  python                      
 stdlib                         go1.27.3                               go-module                   
 systemd-standalone-sysusers    259.9-0ubuntu0.1                       deb                         
 sysvinit-utils                 3.15-5ubuntu1                          deb                         
