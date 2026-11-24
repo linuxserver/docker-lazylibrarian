@@ -256,7 +256,7 @@ oauthlib                       4.0.1                                  python
 openssh-client                 1:10.2p1-2ubuntu3.8                    deb                         
 openssl                        3.5.5-1ubuntu3.7                       deb                         
 openssl-provider-legacy        3.5.5-1ubuntu3.7                       deb                         
-packaging                      26.3                                   python                      
+packaging                      26.4                                   python                      
 passwd                         1:4.17.4-2ubuntu3                      deb                         
 patch                          2.8-2build1                            deb                         
 perl                           5.40.1-7ubuntu0.4                      deb                         
