@@ -210,7 +210,7 @@ libsepol2                      3.9-2                                  deb
 libsharpyuv0                   1.5.0-0.1build1                        deb                         
 libsm6                         2:1.2.6-1build1                        deb                         
 libsmartcols1                  2.41.3-3ubuntu2.2                      deb                         
-libsqlite3-0                   3.46.1-9ubuntu0.3                      deb                         
+libsqlite3-0                   3.46.1-9ubuntu0.4                      deb                         
 libss2                         1.47.2-3ubuntu4                        deb                         
 libssh2-1t64                   1.11.1-1ubuntu0.26.04.4                deb                         
 libssl3t64                     3.5.5-1ubuntu3.7                       deb                         
@@ -311,7 +311,7 @@ typer-slim                     0.24.0                                 python
 typing-extensions              4.16.0                                 python                      
 typing-inspection              0.4.5                                  python                      
 tzdata                         2026.6                                 python                      
-tzdata                         2026e-0ubuntu0.26.04.1                 deb                         
+tzdata                         2026f-0ubuntu0.26.04.1                 deb                         
 tzlocal                        5.4.5                                  python                      
 ubuntu-keyring                 2023.11.28.1build1                     deb                         
 urllib3                        2.8.0                                  python                      
